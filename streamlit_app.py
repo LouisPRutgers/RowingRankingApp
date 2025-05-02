@@ -163,7 +163,7 @@ for _, team, series in plottables:
         races_with_team = races_today[races_today["school"] == team]
 
         if races_with_team.empty:
-            hover_labels.append(f"{team}<br>Did not race on this date")
+            hover_labels.append(f"{team}<br>No recorded race on this date")
             continue
 
         all_race_texts = []
