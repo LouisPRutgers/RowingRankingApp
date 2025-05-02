@@ -187,7 +187,9 @@ for _, team, series in plottables:
             race_text = f"Race {i}:<br>" + "<br>".join(result_lines)
             all_race_texts.append(race_text)
 
-        hover_text = f"{team}<br>" + "<br><br>".join(all_race_texts)
+        formatted_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%B %d, %Y")
+        hover_text = f"{team} ({formatted_date})<br>" + "<br><br>".join(all_race_texts)
+
         hover_labels.append(hover_text)
 
     fig.add_trace(
