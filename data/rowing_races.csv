@@ -1,0 +1,226 @@
+race_id,date,position,school,time
+1,2025-03-22,1,Yale University,440
+1,2025-03-22,2,Rutgers,446
+1,2025-03-22,3,Ohio,453
+2,2025-03-22,1,Yale University,426
+2,2025-03-22,2,Michigan,430
+3,2025-03-22,1,Michigan,442
+3,2025-03-22,2,Syracuse,445
+3,2025-03-22,3,University of Pennsylvania,458
+4,2025-03-22,1,Syracuse,435
+4,2025-03-22,2,Ohio,439
+5,2025-03-29,1,Stanford,434
+5,2025-03-29,2,Tennessee,437
+6,2025-03-29,1,Oregon State - OSU,459
+6,2025-03-29,2,Gonzaga,470
+6,2025-03-29,3,Portland,488
+7,2025-03-29,1,Boston University - BU,477
+7,2025-03-29,2,Cornell University,498
+8,2025-03-29,1,Cornell University,512
+8,2025-03-29,2,Colgate,556
+9,2025-03-29,1,Brown University,428
+9,2025-03-29,2,Princeton University,432
+10,2025-03-29,1,UCF,438
+10,2025-03-29,2,North Carolina Chapel Hill - UNC,441
+10,2025-03-29,3,Kansas State,443
+10,2025-03-29,4,Miami,448
+10,2025-03-29,5,Dartmouth College,450
+10,2025-03-29,6,Iowa,455
+11,2025-04-05,1,Tennessee,462
+11,2025-04-05,2,North Carolina Chapel Hill - UNC,466
+11,2025-04-05,3,University of Minnesota,468
+12,2025-04-05,1,Duke,450
+12,2025-04-05,2,UCF,457
+12,2025-04-05,3,Clemson,471
+13,2025-04-05,1,Yale University,458
+13,2025-04-05,2,Syracuse,467
+13,2025-04-05,3,Cornell University,515
+14,2025-04-05,1,Washington State - WSU,438
+14,2025-04-05,2,Oregon State - OSU,442
+15,2025-04-05,1,Tennessee,445
+15,2025-04-05,2,Duke,448
+15,2025-04-05,3,UCF,451
+16,2025-04-05,1,Brown University,442
+16,2025-04-05,2,University of Pennsylvania,457
+17,2025-04-05,1,Boston University - BU,449
+17,2025-04-05,2,Dartmouth College,456
+17,2025-04-05,3,Northeastern,466
+18,2025-04-05,1,Tennessee,446
+18,2025-04-05,2,Duke,449
+18,2025-04-05,3,UCF,451
+19,2025-04-05,1,North Carolina Chapel Hill - UNC,454
+19,2025-04-05,2,University of Minnesota,456
+19,2025-04-05,3,Clemson,461
+20,2025-04-05,1,Boston University - BU,449
+20,2025-04-05,2,Dartmouth College,456
+20,2025-04-05,3,Northeastern,466
+21,2025-04-12,1,Yale University,415
+21,2025-04-12,2,Dartmouth College,436
+22,2025-04-12,1,Princeton University,429
+22,2025-04-12,2,Harvard University,439
+22,2025-04-12,3,Cornell University,461
+23,2025-04-12,1,Columbia University,458
+23,2025-04-12,2,Boston University - BU,464
+23,2025-04-12,3,Northeastern,465
+24,2025-04-12,1,Texas,424
+24,2025-04-12,2,Michigan,432
+25,2025-04-12,1,Kansas State,446
+25,2025-04-12,2,Iowa,452
+26,2025-04-12,1,University of Minnesota,457
+26,2025-04-12,2,Kansas State,492
+27,2025-04-18,1,1. Washington,434
+27,2025-04-18,2,University of Pennsylvania,443
+27,2025-04-18,3,Indiana,445
+27,2025-04-18,4,Clemson,446
+27,2025-04-18,5,Notre Dame,460
+27,2025-04-18,6,Iowa,475
+28,2025-04-18,1,Tennessee,432
+28,2025-04-18,2,Ohio,437
+28,2025-04-18,3,SMU,440
+28,2025-04-18,4,Michigan State,455
+28,2025-04-18,5,Oregon State - OSU,457
+29,2025-04-18,1,Michigan,429
+29,2025-04-18,2,Harvard University,431
+29,2025-04-18,3,Duke,433
+29,2025-04-18,4,USC,437
+29,2025-04-18,5,Miami,442
+29,2025-04-18,6,Wisconsin,473
+30,2025-04-18,1,Rutgers,427
+30,2025-04-18,2,Brown University,429
+30,2025-04-18,3,University of Minnesota,431
+30,2025-04-18,4,Oklahoma,444
+31,2025-04-18,1,1. Washington,426
+31,2025-04-18,2,Brown University,434
+31,2025-04-18,3,Duke,440
+31,2025-04-18,4,Ohio,444
+31,2025-04-18,5,Miami,458
+31,2025-04-18,6,Wisconsin,465
+32,2025-04-18,1,Tennessee,436
+32,2025-04-18,2,Michigan,440
+32,2025-04-18,3,Rutgers,443
+32,2025-04-18,4,University of Pennsylvania,447
+32,2025-04-18,5,SMU,448
+33,2025-04-18,1,Harvard University,436
+33,2025-04-18,2,UCLA,448
+33,2025-04-18,3,Indiana,449
+33,2025-04-18,4,Oklahoma,452
+33,2025-04-18,5,Iowa,468
+34,2025-04-18,1,University of Minnesota,440
+34,2025-04-18,2,USC,445
+34,2025-04-18,3,Clemson,448
+34,2025-04-18,4,Oregon State - OSU,451
+34,2025-04-18,5,Notre Dame,458
+34,2025-04-18,6,Michigan State,467
+35,2025-04-19,1,Yale University,417
+35,2025-04-19,2,Princeton University,428
+36,2025-04-19,1,Dartmouth College,478
+36,2025-04-19,2,Rhode Island (RIU),504
+37,2025-04-19,1,Northeastern,499
+37,2025-04-19,2,Cornell University,510
+38,2025-04-19,1,Northeastern,496
+38,2025-04-19,2,Rhode Island (RIU),510
+39,2025-04-19,1,Dartmouth College,488
+39,2025-04-19,2,Cornell University,510
+40,2025-04-19,1,Gonzaga,455
+40,2025-04-19,2,Washington State - WSU,462
+41,2025-04-19,1,1. Washington,433
+41,2025-04-19,2,University of Pennsylvania,443
+41,2025-04-19,3,Indiana,445
+41,2025-04-19,4,Clemson,446
+41,2025-04-19,5,Notre Dame,460
+41,2025-04-19,6,Iowa,475
+42,2025-04-19,1,Tennessee,432
+42,2025-04-19,2,Ohio,437
+42,2025-04-19,3,SMU,440
+42,2025-04-19,4,UCLA,447
+42,2025-04-19,5,Michigan State,455
+42,2025-04-19,6,Oregon State - OSU,457
+43,2025-04-19,1,Michigan,429
+43,2025-04-19,2,Harvard University,431
+43,2025-04-19,3,Duke,433
+43,2025-04-19,4,USC,437
+43,2025-04-19,5,Miami,442
+43,2025-04-19,6,Wisconsin,473
+44,2025-04-19,1,Rutgers,427
+44,2025-04-19,2,Brown University,429
+44,2025-04-19,3,University of Minnesota,431
+44,2025-04-19,4,Oklahoma,444
+45,2025-04-19,1,1. Washington,426
+45,2025-04-19,2,Brown University,434
+45,2025-04-19,3,Duke,440
+45,2025-04-19,4,Ohio,444
+45,2025-04-19,5,Miami,458
+45,2025-04-19,6,Wisconsin,465
+46,2025-04-19,1,Tennessee,436
+46,2025-04-19,2,Michigan,440
+46,2025-04-19,3,Rutgers,443
+46,2025-04-19,4,University of Pennsylvania,447
+46,2025-04-19,5,SMU,448
+47,2025-04-19,1,Harvard University,436
+47,2025-04-19,2,UCLA,448
+47,2025-04-19,3,Indiana,449
+47,2025-04-19,4,Oklahoma,452
+47,2025-04-19,5,Iowa,469
+48,2025-04-19,1,University of Minnesota,440
+48,2025-04-19,2,USC,445
+48,2025-04-19,3,Clemson,448
+48,2025-04-19,4,Oregon State - OSU,451
+48,2025-04-19,5,Notre Dame,459
+48,2025-04-19,6,Michigan State,467
+49,2025-04-25,1,Brown University,476
+49,2025-04-25,2,Cornell University,516
+50,2025-04-26,1,1. Washington,439
+50,2025-04-26,2,California,451
+51,2025-04-26,1,Yale University,458
+51,2025-04-26,2,Harvard University,474
+52,2025-04-26,1,Tennessee,422
+52,2025-04-26,2,Princeton University,424
+52,2025-04-26,3,Ohio,425
+52,2025-04-26,4,Syracuse,462
+53,2025-04-26,1,Indiana,501
+53,2025-04-26,2,Notre Dame,506
+53,2025-04-26,3,Michigan State,510
+54,2025-04-26,1,Texas,442
+54,2025-04-26,2,SMU,473
+55,2025-04-26,1,Stanford,450
+55,2025-04-26,2,UCF,463
+56,2025-04-26,1,Duke,439
+56,2025-04-26,2,North Carolina Chapel Hill - UNC,446
+56,2025-04-26,3,Clemson,449
+56,2025-04-26,4,Washington State - WSU,455
+56,2025-04-26,5,Jacksonville,469
+57,2025-04-26,1,Columbia University,441
+57,2025-04-26,2,Virginia - UVA,442
+57,2025-04-26,3,Gonzaga,450
+57,2025-04-26,4,Miami,456
+57,2025-04-26,5,Kansas State,465
+58,2025-04-26,1,Boston University - BU,453
+58,2025-04-26,2,Boston College,462
+58,2025-04-26,3,Louisville,463
+58,2025-04-26,4,Rhode Island (RIU),466
+59,2025-04-26,1,Clemson,443
+59,2025-04-26,2,Gonzaga,454
+59,2025-04-26,3,Louisville,458
+59,2025-04-26,4,Boston College,463
+60,2025-04-26,1,Virginia - UVA,443
+60,2025-04-26,2,North Carolina Chapel Hill - UNC,448
+60,2025-04-26,3,Boston University - BU,454
+60,2025-04-26,4,Washington State - WSU,455
+60,2025-04-26,5,Miami,457
+60,2025-04-26,6,Kansas State,465
+61,2025-04-26,1,Duke,444
+61,2025-04-26,2,Columbia University,448
+61,2025-04-26,3,Rhode Island (RIU),468
+62,2025-04-26,1,Columbia University,438
+62,2025-04-26,2,Washington State - WSU,442
+62,2025-04-26,3,Clemson,446
+62,2025-04-26,4,Miami,451
+63,2025-04-26,1,North Carolina Chapel Hill - UNC,442
+63,2025-04-26,2,Boston College,463
+63,2025-04-26,3,Kansas State,465
+64,2025-04-26,1,Virginia - UVA,440
+64,2025-04-26,2,Duke,445
+64,2025-04-26,3,Gonzaga,449
+64,2025-04-26,4,Boston University - BU,449
+65,2025-04-26,1,Stanford,454.000
+65,2025-04-26,2,Texas,460.000
