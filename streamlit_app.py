@@ -61,7 +61,7 @@ chosen = st.sidebar.multiselect(
 
 mode = st.sidebar.radio(
     "Metric to plot",
-    ["Rank", "Percentile", "Rating"],
+    ["Rank", "Percentile", "Rating"],index=2
 )
 
 # =======================================================================
