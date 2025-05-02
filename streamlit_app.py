@@ -87,12 +87,6 @@ if df_filtered.empty:
 
 
 
-# Filter to selected boat class
-df_filtered = df[df["Boat Class"] == boat_class]
-if df_filtered.empty:
-    st.warning(f"No races available for boat class: {boat_class}")
-    st.stop()
-
 dates, rank_rel, pct, rating = timeline(df_filtered)
 
 teams_all = sorted(rank_rel)              # every team ever seen
