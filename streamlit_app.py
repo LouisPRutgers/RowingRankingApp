@@ -101,14 +101,50 @@ for team in chosen:
 # Sort: lower is better for rank, higher is better otherwise
 plottables.sort(key=lambda x: x[0], reverse=(mode != "Rank"))
 
-# Add traces in sorted order → controls hover legend order
+
+def ordinal_suffix(n: int) -> str:
+    if 10 <= n % 100 <= 20:
+        return "th"
+    return {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+
+
+# Pre-group races for quick access
+df_by_date_race = df.groupby(["date", "race_id"])
+
 for _, team, series in plottables:
+    hover_labels = []
+
+    for date_str in [d.strftime("%Y-%m-%d") for d in dates]:
+        races_today = df[(df["date"] == date_str)]
+        races_with_team = races_today[races_today["school"] == team]
+
+        if races_with_team.empty:
+            hover_labels.append(f"{team}<br>Did not race on this date")
+            continue
+
+        all_race_texts = []
+        for i, (_, row) in enumerate(races_with_team.iterrows(), start=1):
+            race_id = row["race_id"]
+            race_df = df_by_date_race.get_group((date_str, race_id)).sort_values("position")
+
+            result_lines = [
+                f"{int(r['position'])}{ordinal_suffix(int(r['position']))} — {r['school']}"
+                for _, r in race_df.iterrows()
+            ]
+            race_text = f"Race {i}:<br>" + "<br>".join(result_lines)
+            all_race_texts.append(race_text)
+
+        hover_text = f"{team}<br>" + "<br><br>".join(all_race_texts)
+        hover_labels.append(hover_text)
+
     fig.add_trace(
         go.Scatter(
             x=dates,
             y=series,
             mode="lines+markers",
             name=team,
+            text=hover_labels,
+            hoverinfo="text+name",
             line=dict(color=ivy_color.get(team)),
         )
     )
@@ -118,7 +154,7 @@ fig.update_layout(
     xaxis_title="Date",
     yaxis_title=y_label,
     yaxis_autorange="reversed" if invert_y else True,
-    hovermode="x unified",
+    hovermode="closest",
     template="plotly_white",
     legend=dict(font=dict(size=10)),
 )
@@ -131,7 +167,7 @@ with st.expander("ℹ️  What do Rank, Percentile, and Rating mean?"):
     st.markdown("""
 **• Rank**  
 Each team's position relative to all others seen so far.  
-Rank 1 means the top-performing team based on all past races. Lower is better.
+Rank 1 means the top-performing team based on all past races.
 
 **• Percentile**  
 Translates a team's rank into a 0–100 scale.  
