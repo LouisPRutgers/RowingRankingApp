@@ -67,7 +67,7 @@ mode = st.sidebar.radio(
 # =======================================================================
 # 4 · MAIN – TITLE + CHART
 # =======================================================================
-st.title("Rowing Race Ranker – Trends")
+st.title("NCAA Women's Collegiate Rowing Ranker")
 st.caption(
     f"Data last updated: {datetime.now():%Y‑%m‑%d %H:%M} ET &nbsp;•&nbsp; "
     "CSV path: `data/rowing_races.csv`"
@@ -87,19 +87,32 @@ y_label = {
 
 fig = go.Figure()
 
+# Get all selected series with their latest available value
+plottables = []
 for team in chosen:
     series = metric_map[mode][team]
     if not any(pd.notna(series)):
-        continue           # skip teams unseen so far
+        continue
+    # get latest non-None value
+    latest_val = next((v for v in reversed(series) if v is not None), None)
+    if latest_val is not None:
+        plottables.append((latest_val, team, series))
+
+# Sort: lower is better for rank, higher is better otherwise
+plottables.sort(key=lambda x: x[0], reverse=(mode != "Rank"))
+
+# Add traces in sorted order → controls hover legend order
+for _, team, series in plottables:
     fig.add_trace(
         go.Scatter(
             x=dates,
             y=series,
             mode="lines+markers",
             name=team,
-            line=dict(color=ivy_color.get(team)),   # default Plotly palette if None
+            line=dict(color=ivy_color.get(team)),
         )
     )
+
 
 fig.update_layout(
     xaxis_title="Date",
