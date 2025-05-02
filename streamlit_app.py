@@ -152,8 +152,8 @@ def ordinal_suffix(n: int) -> str:
     return {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
 
 
-# Pre-group races for quick access
-df_by_date_race = df.groupby(["date", "race_id"])
+# Pre-group races for quick access — using only the filtered data
+df_by_date_race = df_filtered.groupby(["date", "race_id"])
 
 for _, team, series in plottables:
     hover_labels = []
@@ -191,8 +191,6 @@ for _, team, series in plottables:
         metric_value = series[dates.index(datetime.strptime(date_str, "%Y-%m-%d"))]
         metric_label = f"{mode}: {metric_value:.2f}" if isinstance(metric_value, (float, int)) else f"{mode}: N/A"
         hover_text = f"{team} ({formatted_date})<br>{metric_label}<br>" + "<br>".join(all_race_texts)
-
-
 
         hover_labels.append(hover_text)
 
