@@ -59,14 +59,16 @@ def _pairwise(rows: pd.DataFrame) -> List[Dict[str, str]]:
     pairs: List[Dict[str, str]] = []
     for race_id, boats in rows.groupby("race_id"):
         boats_sorted = boats.sort_values("position")
-        for i, a in boats_sorted.iterrows():
-            for _, b in boats_sorted.iloc[i + 1 :].iterrows():
-                margin = b["time"] - a["time"]
+        boats_list = list(boats_sorted.itertuples(index=False))
+
+        for i, a in enumerate(boats_list):
+            for b in boats_list[i + 1:]:
+                margin = b.time - a.time
                 pairs.append(
                     {
-                        "school_a": a["school"],
-                        "school_b": b["school"],
-                        "winner":   a["school"],      # first is winner
+                        "school_a": a.school,
+                        "school_b": b.school,
+                        "winner":   a.school,
                         "margin":   f"{margin:.3f}",
                     }
                 )
