@@ -50,10 +50,41 @@ if not boat_classes:
     st.warning("No boat classes found in the dataset.")
     st.stop()
 
-# Sidebar: Select boat class
+# Define custom priority order
+priority_order = [
+    "1st Varsity 8+",
+    "2nd Varsity 8+",
+    "1st Varsity 4+",
+    "2nd Varsity 4+",
+    "3rd Varsity 8+"
+]
+
+# Get all boat classes from the dataset
+available_classes = sorted(df["Boat Class"].unique())
+
+# Custom sort: priority classes first, others follow alphabetically
+sorted_boats = (
+    [b for b in priority_order if b in available_classes] +
+    sorted([b for b in available_classes if b not in priority_order])
+)
+
+# Default selection logic
+default_boat = "1st Varsity 8+" if "1st Varsity 8+" in sorted_boats else sorted_boats[0]
+
+# Sidebar dropdown (uneditable style)
 st.sidebar.header("Filters")
-default_boat = "Varsity Four" if "Varsity Four" in boat_classes else boat_classes[0]
-boat_class = st.sidebar.selectbox("Boat Class", options=boat_classes, index=boat_classes.index(default_boat))
+boat_class = st.sidebar.selectbox(
+    "Boat Class",
+    options=sorted_boats,
+    index=sorted_boats.index(default_boat)
+)
+
+# Filter dataset by selected boat class
+df_filtered = df[df["Boat Class"] == boat_class]
+if df_filtered.empty:
+    st.warning(f"No races found for {boat_class}")
+    st.stop()
+
 
 
 # Filter to selected boat class
