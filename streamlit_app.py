@@ -40,11 +40,30 @@ if not CSV_PATH.exists():
     st.stop()
 
 df = pd.read_csv(CSV_PATH)
-if df.empty:
-    st.warning("No races yet – add some via the desktop app.")
+if df.empty or "Boat Class" not in df.columns:
+    st.warning("CSV is missing or malformed (must include 'Boat Class').")
     st.stop()
 
-dates, rank_rel, pct, rating = timeline(df)
+# Get list of boat classes
+boat_classes = sorted(df["Boat Class"].unique())
+if not boat_classes:
+    st.warning("No boat classes found in the dataset.")
+    st.stop()
+
+# Sidebar: Select boat class
+st.sidebar.header("Filters")
+default_boat = "Varsity Four" if "Varsity Four" in boat_classes else boat_classes[0]
+boat_class = st.sidebar.selectbox("Boat Class", options=boat_classes, index=boat_classes.index(default_boat))
+
+
+# Filter to selected boat class
+df_filtered = df[df["Boat Class"] == boat_class]
+if df_filtered.empty:
+    st.warning(f"No races available for boat class: {boat_class}")
+    st.stop()
+
+dates, rank_rel, pct, rating = timeline(df_filtered)
+
 teams_all = sorted(rank_rel)              # every team ever seen
 ivy_color = ivy_colors()                  # hard‑coded palette
 default_sel = [t for t in teams_all if t in ivy_color]
@@ -67,7 +86,7 @@ mode = st.sidebar.radio(
 # =======================================================================
 # 4 · MAIN – TITLE + CHART
 # =======================================================================
-st.title("NCAA Women's Collegiate Rowing Ranker")
+st.title(f"NCAA Women's Collegiate Rowing Ranker – {boat_class}")
 st.caption(
     f"Data last updated: {datetime.now():%Y‑%m‑%d %H:%M} ET &nbsp;•&nbsp; "
     "CSV path: `data/rowing_races.csv`"
