@@ -124,6 +124,30 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig, use_container_width=True)
+# =======================================================================
+# 4.5 · EXPLANATION – METHOD DESCRIPTION
+# =======================================================================
+with st.expander("ℹ️  What do Rank, Percentile, and Rating mean?"):
+    st.markdown("""
+**• Rank**  
+Each team's position relative to all others seen so far.  
+Rank 1 means the top-performing team based on all past races. Lower is better.
+
+**• Percentile**  
+Translates a team's rank into a 0–100 scale.  
+100 = best, 50 = middle of the pack, 0 = lowest.  
+Example: a team in the 90th percentile is outperforming 90% of teams.
+
+**• Massey Rating**  
+A score based on **who you raced, who you beat, and by how much**.  
+The rating system builds equations from each matchup (e.g., *Team A beat Team B by 5 seconds*)  
+and solves them to find the most consistent set of scores across all teams.
+
+- A higher rating means stronger performance across multiple races.
+- Ratings are centered around 0 — average teams score near 0, strong teams rise above.
+
+All calculations use only the results **up to each date** in the season.
+""")
 
 # =======================================================================
 # 5 · FOOTER – DOWNLOAD BUTTON
