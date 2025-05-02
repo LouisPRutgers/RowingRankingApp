@@ -127,10 +127,19 @@ for _, team, series in plottables:
             race_id = row["race_id"]
             race_df = df_by_date_race.get_group((date_str, race_id)).sort_values("position")
 
-            result_lines = [
-                f"{int(r['position'])}{ordinal_suffix(int(r['position']))} — {r['school']}"
-                for _, r in race_df.iterrows()
-            ]
+            first_time = race_df.iloc[0]["time"]
+
+            result_lines = []
+            for _, r in race_df.iterrows():
+                pos = int(r["position"])
+                suffix = ordinal_suffix(pos)
+                school = r["school"]
+                secs = r["time"]
+                time_fmt = f"{int(secs)//60}:{int(secs)%60:02d}"
+                margin = secs - first_time
+                margin_str = f", +{int(margin)}s" if margin > 0 else ""
+                result_lines.append(f"{pos}{suffix} — {school} ({time_fmt}{margin_str})")
+
             race_text = f"Race {i}:<br>" + "<br>".join(result_lines)
             all_race_texts.append(race_text)
 
