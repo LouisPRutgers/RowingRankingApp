@@ -159,7 +159,7 @@ for _, team, series in plottables:
     hover_labels = []
 
     for date_str in [d.strftime("%Y-%m-%d") for d in dates]:
-        races_today = df[(df["date"] == date_str)]
+        races_today = df_filtered[df_filtered["date"] == date_str]
         races_with_team = races_today[races_today["school"] == team]
 
         if races_with_team.empty:
