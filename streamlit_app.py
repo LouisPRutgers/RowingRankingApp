@@ -190,7 +190,8 @@ for _, team, series in plottables:
         formatted_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%m/%d/%y")
         metric_value = series[dates.index(datetime.strptime(date_str, "%Y-%m-%d"))]
         metric_label = f"{mode}: {metric_value:.2f}" if isinstance(metric_value, (float, int)) else f"{mode}: N/A"
-        hover_text = f"{team} ({formatted_date})<br>{metric_label}<br><br>" + "<br><br>".join(all_race_texts)
+        hover_text = f"{team} ({formatted_date})<br>{metric_label}<br>" + "<br>".join(all_race_texts)
+
 
 
         hover_labels.append(hover_text)
