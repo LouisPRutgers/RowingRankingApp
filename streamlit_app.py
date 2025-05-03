@@ -190,7 +190,7 @@ for _, team, series in plottables:
                 margin_str = f", +{int(margin)}s" if margin > 0 else ""
                 result_lines.append(f"{pos}{suffix} — {school} ({time_fmt}{margin_str})")
 
-            race_text = f"Race {i}:<br>" + "<br>".join(result_lines)
+            race_text = f"Race {i}:<br>" + "<br>".join(result_lines) + "<br>"
             all_race_texts.append(race_text)
 
         formatted_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%m/%d/%y")
