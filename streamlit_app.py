@@ -162,8 +162,11 @@ for _, team, series in plottables:
         races_today = df_filtered[df_filtered["date"] == date_str]
         races_with_team = races_today[races_today["school"] == team]
 
+        metric_value = series[dates.index(datetime.strptime(date_str, "%Y-%m-%d"))]
+        metric_label = f"{mode}: {metric_value:.2f}" if isinstance(metric_value, (float, int)) else f"{mode}: N/A"
+
         if races_with_team.empty:
-            hover_labels.append(f"{team}<br>No recorded race on this date")
+            hover_labels.append(f"{team}<br>{metric_label}<br>No recorded race on this date")
             continue
 
         all_race_texts = []
@@ -188,8 +191,6 @@ for _, team, series in plottables:
             all_race_texts.append(race_text)
 
         formatted_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%m/%d/%y")
-        metric_value = series[dates.index(datetime.strptime(date_str, "%Y-%m-%d"))]
-        metric_label = f"{mode}: {metric_value:.2f}" if isinstance(metric_value, (float, int)) else f"{mode}: N/A"
         hover_text = f"{team} ({formatted_date})<br>{metric_label}<br>" + "<br>".join(all_race_texts)
 
         hover_labels.append(hover_text)
