@@ -9,7 +9,7 @@ desktop GUI.  Built for Streamlit Community Cloud.
 
 from datetime import datetime
 from pathlib import Path
-
+from pytz import timezone
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
@@ -113,7 +113,9 @@ mode = st.sidebar.radio(
 # =======================================================================
 st.title(f"NCAA Women's Collegiate Rowing Ranker – {boat_class}")
 st.caption(
-    f"Data last updated: {datetime.now():%Y‑%m‑%d %H:%M} ET &nbsp;•&nbsp; "
+    eastern = timezone('US/Eastern')
+    now_et = datetime.now(eastern)
+    st.caption(f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET &nbsp;•&nbsp; ")
     "CSV path: `data/rowing_races.csv`"
 )
 
