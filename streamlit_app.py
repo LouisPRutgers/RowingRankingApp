@@ -246,6 +246,17 @@ and solves them to find the most consistent set of scores across all teams.
 All calculations use only the results **up to each date** in the season.
 """)
 
+with st.expander("ℹ️  Errors? Contact me!"):
+    st.markdown("""
+**Methods:**  
+The database for these rankings sources data from Row2k.com Results.
+Data is acquired manually - so mistakes can happen!
+If you notice something wrong, or an important race is missing, let me know!
+
+**Contact:**  
+louis.c.petitjean@gmail.com
+""")
+
 # =======================================================================
 # 5 · FOOTER – DOWNLOAD BUTTON
 # =======================================================================
