@@ -112,12 +112,13 @@ mode = st.sidebar.radio(
 # 4 · MAIN – TITLE + CHART
 # =======================================================================
 st.title(f"NCAA Women's Collegiate Rowing Ranker – {boat_class}")
+eastern = timezone('US/Eastern')
+now_et = datetime.now(eastern)
 st.caption(
-    eastern = timezone('US/Eastern')
-    now_et = datetime.now(eastern)
-    st.caption(f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET &nbsp;•&nbsp; ")
+    f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET &nbsp;•&nbsp; "
     "CSV path: `data/rowing_races.csv`"
 )
+
 
 metric_map = {
     "Rank":       rank_rel,
