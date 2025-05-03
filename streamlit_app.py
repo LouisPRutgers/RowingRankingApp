@@ -166,7 +166,15 @@ for _, team, series in plottables:
         races_with_team = races_today[races_today["school"] == team]
 
         metric_value = series[dates.index(datetime.strptime(date_str, "%Y-%m-%d"))]
-        metric_label = f"{mode}: {metric_value:.2f}" if isinstance(metric_value, (float, int)) else f"{mode}: N/A"
+        if isinstance(metric_value, (float, int)):
+            if mode == "Rank":
+                metric_label = f"{mode}: {int(round(metric_value))}"
+            else:
+                metric_label = f"{mode}: {metric_value:.2f}"
+        else:
+            metric_label = f"{mode}: N/A"
+
+
 
         if races_with_team.empty:
             hover_labels.append(f"{team}<br>{metric_label}<br>No recorded race on this date")
