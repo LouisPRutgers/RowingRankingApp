@@ -14,43 +14,23 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-# ----- repo‑local modules ------------------------------------------------------
-# `rank_math.py` must expose two helpers:
-#   timeline(dframe)  -> (dates, rank_rel, pct, rating)
-#   ivy_colors()      -> dict{school: hex}
-from rank_math import timeline, ivy_colors
+from rank_math import timeline, ivy_colors, rolling_rating
 
-
-# =======================================================================
-# 1 · CONFIG
-# =======================================================================
+# Config
 CSV_PATH = Path("data/rowing_races.csv")
+st.set_page_config(page_title="Rowing Race Ranker", page_icon="🚣", layout="wide")
 
-st.set_page_config(
-    page_title="Rowing Race Ranker",
-    page_icon="🚣",
-    layout="wide",
-)
-
-# =======================================================================
-# 2 · DATA LOAD + PRE‑CALC
-# =======================================================================
+# Load CSV
 if not CSV_PATH.exists():
-    st.error(f"CSV not found at {CSV_PATH}.  Push data and redeploy.")
+    st.error(f"CSV not found at {CSV_PATH}. Push data and redeploy.")
     st.stop()
 
 df = pd.read_csv(CSV_PATH)
 if df.empty or "Boat Class" not in df.columns:
-    st.warning("CSV is missing or malformed (must include 'Boat Class').")
+    st.warning("CSV missing or malformed. Must include 'Boat Class'.")
     st.stop()
 
-# Get list of boat classes
-boat_classes = sorted(df["Boat Class"].unique())
-if not boat_classes:
-    st.warning("No boat classes found in the dataset.")
-    st.stop()
-
-# Define custom priority order
+# Boat class dropdown
 priority_order = [
     "1st Varsity 8+",
     "2nd Varsity 8+",
@@ -58,166 +38,114 @@ priority_order = [
     "2nd Varsity 4+",
     "3rd Varsity 8+"
 ]
-
-# Get all boat classes from the dataset
 available_classes = sorted(df["Boat Class"].unique())
-
-# Custom sort: priority classes first, others follow alphabetically
-sorted_boats = (
-    [b for b in priority_order if b in available_classes] +
-    sorted([b for b in available_classes if b not in priority_order])
-)
-
-# Default selection logic
+sorted_boats = [b for b in priority_order if b in available_classes] + \
+               sorted([b for b in available_classes if b not in priority_order])
 default_boat = "1st Varsity 8+" if "1st Varsity 8+" in sorted_boats else sorted_boats[0]
 
-# Sidebar dropdown (uneditable style)
 st.sidebar.header("Filters")
-boat_class = st.sidebar.selectbox(
-    "Boat Class",
-    options=sorted_boats,
-    index=sorted_boats.index(default_boat)
-)
-
-# Filter dataset by selected boat class
+boat_class = st.sidebar.selectbox("Boat Class", options=sorted_boats, index=sorted_boats.index(default_boat))
 df_filtered = df[df["Boat Class"] == boat_class]
 if df_filtered.empty:
     st.warning(f"No races found for {boat_class}")
     st.stop()
 
+# All teams (for filtering and plotting)
+teams_all = sorted(df_filtered["school"].unique())
 
-
-dates, rank_rel, pct, rating = timeline(df_filtered)
-
-teams_all = sorted(rank_rel)              # every team ever seen
-ivy_color = ivy_colors()                  # hard‑coded palette
+# School filter (must be before applying timeline logic)
+ivy_color = ivy_colors()
 default_sel = [t for t in teams_all if t in ivy_color]
+chosen = st.sidebar.multiselect("Schools on chart", options=teams_all, default=default_sel)
 
-# =======================================================================
-# 3 · SIDEBAR – CONTROLS
-# =======================================================================
-st.sidebar.header("Filters")
-chosen = st.sidebar.multiselect(
-    "Schools on chart",
-    options=teams_all,
-    default=default_sel,
-)
+# Metric selection
+mode = st.sidebar.radio("Metric to plot", ["Rank", "Percentile", "Rating"], index=2)
 
-mode = st.sidebar.radio(
-    "Metric to plot",
-    ["Rank", "Percentile", "Rating"],index=2
-)
+# Rolling toggle + settings
+st.sidebar.markdown("### Rolling")
+use_rolling = st.sidebar.toggle("Apply rolling window", value=False)
 
-# =======================================================================
-# 4 · MAIN – TITLE + CHART
-# =======================================================================
+if use_rolling:
+    days_window = st.sidebar.number_input("Rolling window (days)", 1, 180, value=40)
+    dropoff = st.sidebar.selectbox("Drop-off", ["Sudden Decay", "Lindear Decay", "Exponential Decay"], index=0)
+    decay_rate = st.sidebar.slider("Decay rate (r)", 0.01, 1.0, 0.1, step=0.01) if dropoff == "Exponential Decay" else None
+
+# Apply timeline logic after rolling toggle + settings
+if use_rolling:
+    dates, rolling = rolling_rating(df_filtered, window_days=days_window, dropoff=dropoff, decay_rate=decay_rate)
+    rating = rolling
+    pct = {t: [] for t in teams_all}
+    rank_rel = {t: [] for t in teams_all}
+    for i in range(len(dates)):
+        scores_today = {t: rating[t][i] for t in teams_all if rating[t][i] is not None}
+        ranked = sorted(scores_today.items(), key=lambda x: x[1], reverse=True)
+        n = len(ranked)
+        ranks_today = {team: j + 1 for j, (team, _) in enumerate(ranked)}
+        for t in teams_all:
+            score = rating[t][i]
+            rank_rel[t].append(ranks_today.get(t))
+            pct[t].append(100 * (n - ranks_today[t] + 1) / n if t in ranks_today else None)
+else:
+    dates, rank_rel, pct, rating = timeline(df_filtered)
+
+
+# Chart logic
 st.title(f"NCAA Women's Collegiate Rowing Ranker – {boat_class}")
-eastern = timezone('US/Eastern')
-now_et = datetime.now(eastern)
-st.caption(
-    f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET &nbsp;•&nbsp; "
-    "CSV path: `data/rowing_races.csv`"
-)
+now_et = datetime.now(timezone("US/Eastern"))
+st.caption(f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET • CSV path: `data/rowing_races.csv`")
 
-
-metric_map = {
-    "Rank":       rank_rel,
-    "Percentile": pct,
-    "Rating":     rating,
-}
-invert_y = mode == "Rank"
-y_label = {
-    "Rank":       "Rank (1 = best)",
-    "Percentile": "Percentile (100 = best)",
-    "Rating":     "Massey rating (higher = better)",
+metric_map = {"Rank": rank_rel, "Percentile": pct, "Rating": rating}
+invert_y = (mode == "Rank")
+y_label = f"{mode} (Rolling, {days_window}d, drop-off: {dropoff})" if use_rolling else {
+    "Rank": "Rank (1 = best)",
+    "Percentile": "Percentile (100 = best)",
+    "Rating": "Massey rating (higher = better)",
 }[mode]
-
-fig = go.Figure()
-
-# Get all selected series with their latest available value
-plottables = []
-for team in chosen:
-    series = metric_map[mode][team]
-    if not any(pd.notna(series)):
-        continue
-    # get latest non-None value
-    latest_val = next((v for v in reversed(series) if v is not None), None)
-    if latest_val is not None:
-        plottables.append((latest_val, team, series))
-
-# Sort: lower is better for rank, higher is better otherwise
-plottables.sort(key=lambda x: x[0], reverse=(mode != "Rank"))
-
 
 def ordinal_suffix(n: int) -> str:
     if 10 <= n % 100 <= 20:
         return "th"
     return {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
 
-
-# Pre-group races for quick access — using only the filtered data
-df_by_date_race = df_filtered.groupby(["date", "race_id"])
-
-for _, team, series in plottables:
+fig = go.Figure()
+for team in chosen:
+    series = metric_map[mode][team]
+    if not any(pd.notna(series)):
+        continue
+    latest_val = next((v for v in reversed(series) if v is not None), None)
+    if latest_val is None:
+        continue
     hover_labels = []
-
-    for date_str in [d.strftime("%Y-%m-%d") for d in dates]:
+    for d in dates:
+        date_str = d.strftime("%Y-%m-%d")
         races_today = df_filtered[df_filtered["date"] == date_str]
         races_with_team = races_today[races_today["school"] == team]
-
-        metric_value = series[dates.index(datetime.strptime(date_str, "%Y-%m-%d"))]
-        if isinstance(metric_value, (float, int)):
-            if mode == "Rank":
-                metric_label = f"{mode}: {int(round(metric_value))}"
-            else:
-                metric_label = f"{mode}: {metric_value:.2f}"
-        else:
-            metric_label = f"{mode}: N/A"
-
-
-
+        val = series[dates.index(d)]
+        label_val = f"{mode}: {int(round(val))}" if mode == "Rank" and val is not None else f"{mode}: {val:.2f}" if val is not None else f"{mode}: N/A"
         if races_with_team.empty:
-            hover_labels.append(f"{team}<br>{metric_label}<br>No recorded race on this date")
+            hover_labels.append(f"{team}<br>{label_val}<br>No race on this date")
             continue
-
         all_race_texts = []
         for i, (_, row) in enumerate(races_with_team.iterrows(), start=1):
             race_id = row["race_id"]
-            race_df = df_by_date_race.get_group((date_str, race_id)).sort_values("position")
-
+            race_df = df_filtered[df_filtered["race_id"] == race_id].sort_values("position")
             first_time = race_df.iloc[0]["time"]
-
             result_lines = []
             for _, r in race_df.iterrows():
-                pos = int(r["position"])
-                suffix = ordinal_suffix(pos)
-                school = r["school"]
-                secs = r["time"]
-                time_fmt = f"{int(secs)//60}:{int(secs)%60:02d}"
-                margin = secs - first_time
-                margin_str = f", +{int(margin)}s" if margin > 0 else ""
-                result_lines.append(f"{pos}{suffix} — {school} ({time_fmt}{margin_str})")
-
-            race_text = f"Race {i}:<br>" + "<br>".join(result_lines) + "<br>"
-            all_race_texts.append(race_text)
-
-        formatted_date = datetime.strptime(date_str, "%Y-%m-%d").strftime("%m/%d/%y")
-        hover_text = f"{team} ({formatted_date})<br>{metric_label}<br>" + "<br>".join(all_race_texts)
-
-        hover_labels.append(hover_text)
-
-    fig.add_trace(
-        go.Scatter(
-            x=dates,
-            y=series,
-            mode="lines+markers",
-            name=team,
-            text=hover_labels,
-            hoverinfo="text+name",
-            line=dict(color=ivy_color.get(team)),
-        )
-    )
-
+                pos, secs = int(r["position"]), r["time"]
+                margin_str = f", +{int(secs - first_time)}s" if secs > first_time else ""
+                result_lines.append(f"{pos}{ordinal_suffix(pos)} — {r['school']} ({int(secs)//60}:{int(secs)%60:02d}{margin_str})")
+            all_race_texts.append(f"Race {i}:<br>" + "<br>".join(result_lines))
+        hover_labels.append(f"{team} ({d.strftime('%m/%d/%y')})<br>{label_val}<br>" + "<br>".join(all_race_texts))
+    fig.add_trace(go.Scatter(
+        x=dates,
+        y=series,
+        mode="lines+markers",
+        name=team,
+        text=hover_labels,
+        hoverinfo="text+name",
+        line=dict(color=ivy_color.get(team)),
+    ))
 
 fig.update_layout(
     xaxis_title="Date",
@@ -227,51 +155,22 @@ fig.update_layout(
     template="plotly_white",
     legend=dict(font=dict(size=10)),
 )
-
 st.plotly_chart(fig, use_container_width=True)
-# =======================================================================
-# 4.5 · EXPLANATION – METHOD DESCRIPTION
-# =======================================================================
+
+# Explanation
 with st.expander("ℹ️  What do Rank, Percentile, and Rating mean?"):
     st.markdown("""
-**• Rank**  
-Each team's position relative to all others seen so far.  
-Rank 1 means the top-performing team based on all past races.
-
-**• Percentile**  
-Translates a team's rank into a 0–100 scale.  
-100 = best, 50 = middle of the pack, 0 = lowest.  
-Example: a team in the 90th percentile is outperforming 90% of teams.
-
-**• Massey Rating**  
-A score based on **who you raced, who you beat, and by how much**.  
-The rating system builds equations from each matchup (e.g., *Team A beat Team B by 5 seconds*)  
-and solves them to find the most consistent set of scores across all teams.
-
-- A higher rating means stronger performance across multiple races.
-- Ratings are centered around 0 — average teams score near 0, strong teams rise above.
-
-All calculations use only the results **up to each date** in the season.
+**• Rank** – Position relative to all teams seen so far.  
+**• Percentile** – A 0–100 scaled interpretation of rank.  
+**• Rating** – Massey score based on opponent strength and margin.
 """)
 
 with st.expander("ℹ️  Errors? Contact me!"):
-    st.markdown("""
-**Methods:**  
-The database for these rankings sources data from Row2k.com Results.
-Data is acquired manually - so mistakes can happen!
-If you notice something wrong, or an important race is missing, let me know!
+    st.markdown("Email: louis.c.petitjean@gmail.com")
 
-**Contact:**  
-louis.c.petitjean@gmail.com
-""")
-
-# =======================================================================
-# 5 · FOOTER – DOWNLOAD BUTTON
-# =======================================================================
+# Download
 with open(CSV_PATH, "rb") as fh:
-    st.download_button(
-        label="⬇️ Download raw CSV",
-        data=fh.read(),
-        file_name="rowing_races.csv",
-        mime="text/csv",
-    )
+    st.download_button("⬇️ Download raw CSV", fh.read(), file_name="rowing_races.csv", mime="text/csv")
+
+
+
