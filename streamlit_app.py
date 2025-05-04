@@ -55,7 +55,7 @@ teams_all = sorted(df_filtered["school"].unique())
 
 # School filter (must be before applying timeline logic)
 school_color = school_colors()
-default_sel = [t for t in teams_all if t in school_colors]
+default_sel = [t for t in teams_all if t in school_color]
 chosen = st.sidebar.multiselect("Schools on chart", options=teams_all, default=default_sel)
 
 # Metric selection
@@ -144,7 +144,7 @@ for team in chosen:
         name=team,
         text=hover_labels,
         hoverinfo="text+name",
-        line=dict(color=school_colors.get(team)),
+        line=dict(color=school_color.get(team)),
     ))
 
 fig.update_layout(
