@@ -66,8 +66,8 @@ st.sidebar.markdown("### Rolling")
 use_rolling = st.sidebar.toggle("Apply rolling window", value=False)
 
 if use_rolling:
-    days_window = st.sidebar.number_input("Rolling window (days)", 1, 180, value=40)
-    dropoff = st.sidebar.selectbox("Drop-off", ["Sudden Decay", "Lindear Decay", "Exponential Decay"], index=0)
+    days_window = st.sidebar.number_input("Rolling window (days)", 1, 180, value=30)
+    dropoff = st.sidebar.selectbox("Drop-off", ["Sudden Decay", "Linear Decay", "Exponential Decay"], index=0)
     decay_rate = st.sidebar.slider("Decay rate (r)", 0.01, 1.0, 0.1, step=0.01) if dropoff == "Exponential Decay" else None
 
 # Apply timeline logic after rolling toggle + settings
