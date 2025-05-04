@@ -158,15 +158,75 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 
 # Explanation
-with st.expander("ℹ️  What do Rank, Percentile, and Rating mean?"):
+with st.expander("ℹ️  How are Rank, Percentile, and Rating calculated?"):
     st.markdown("""
-**• Rank** – Position relative to all teams seen so far.  
-**• Percentile** – A 0–100 scaled interpretation of rank.  
-**• Rating** – Massey score based on opponent strength and margin.
+### 📊 Data Source & Processing
+All race data is manually collected from **Row2k.com Results**, and includes:
+- **Race ID**
+- **Date**
+- **Boat Class**
+- **Team Name (School)**
+- **Position (Finish Order)**
+- **Elapsed Time (in seconds)**
+
+Each race is processed into **pairwise comparisons** (e.g., Team A beat Team B by 5 seconds), and all methods below rely on that foundation.
+
+---
+
+### 🥇 Rank
+For each date, a **Massey Rating** is calculated for all teams based on races **up to that point**.  
+Teams are then **ranked from best to worst** by rating.
+
+- Rank 1 = top team so far  
+- Rank increases with weaker performance  
+- If a team has not yet raced, Rank is **empty**
+
+---
+
+### 📈 Percentile
+Percentile is a **rescaled version of rank**, expressed as a score from 0 to 100:
+- 100 = top-ranked team  
+- 50 = middle of the pack  
+- 0 = lowest-ranked team
+
+This helps compare teams more intuitively, especially when field size changes.
+
+---
+
+### 🧠 Massey Rating
+This is a continuous numeric score that reflects **how dominant a team has been**, factoring in:
+- Who they raced
+- Who they beat
+- By how much
+
+Massey ratings are **centered around 0**, with top teams rising above and underperformers falling below.
+
+---
+
+### 🔁 Rolling Ratings (New!)
+Optionally, you can compute a team’s rating using only **recent races** from a moving window of days.
+
+You can also choose how older results “fade out”:
+
+- **Sudden**: All races within the window have equal weight; older ones drop off immediately.
+- **Linear**: Races lose influence gradually as they age within the window.
+- **Exponential Decay**: Older races decline quickly in influence, controlled by a **decay rate**.
+
+Rolling ratings are helpful for tracking **momentum** and avoiding outdated performance bias.
+
+---
 """)
 
 with st.expander("ℹ️  Errors? Contact me!"):
-    st.markdown("Email: louis.c.petitjean@gmail.com")
+    st.markdown("""
+**Methods:**  
+The database for these rankings sources data from Row2k.com Results.  
+Data is acquired manually – so mistakes can happen!  
+If you notice something wrong, or an important race is missing, let me know!
+
+**Contact:**  
+louis.c.petitjean@gmail.com
+""")
 
 # Download
 with open(CSV_PATH, "rb") as fh:
