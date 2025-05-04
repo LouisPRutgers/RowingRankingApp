@@ -170,6 +170,9 @@ All race data is manually collected from **Row2k.com Results**, and includes:
 
 Not all NCAA Schools were included in this analysis. If a school was in a race but was not included in this analysis, they were simply skipped 
 over in the race results.
+The general inclusion criteria was to include all regattas of schools included in the analysis from march 21st onwards. 
+That being said, it is possible I missed regattas of schools that are in this list. 
+
 Each race is processed into **pairwise comparisons** (e.g., Team A beat Team B by 5 seconds), and all methods below rely on that foundation.
 
 ---
@@ -219,7 +222,7 @@ Rolling ratings are helpful for tracking **momentum** and avoiding outdated perf
 
 with st.expander("ℹ️  List of Schools Included in the Results."):
     st.markdown("""
-There are many schools in the NCAA and it was not feasable at this time to include them all for this analysis.
+There are many schools in the NCAA and it was not feasable to include them all.
 The following schools were included for the purposes of this analysis:
 
 **Schools:**""")
