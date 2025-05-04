@@ -218,60 +218,24 @@ Rolling ratings are helpful for tracking **momentum** and avoiding outdated perf
 """)
 
 with st.expander("ℹ️  List of Schools Included in the Results."):
-    st.markdown("""
-There are many schools in the NCAA and it was not feasable at this time to include them all for this analysis.
-The following schools were included for the purposes of this study:
-
-**Schools:**
-- Brown University  
-- Columbia University  
-- Cornell University  
-- Dartmouth College  
-- Harvard University  
-- University of Pennsylvania  
-- Princeton University  
-- Yale University  
-- Michigan  
-- Rutgers  
-- Tennessee  
-- Washington - UW 
-- Northeastern  
-- Boston University - BU  
-- Colgate  
-- Stanford  
-- Syracuse  
-- Ohio  
-- Gonzaga  
-- Texas  
-- Duke  
-- California  
-- Indiana  
-- Jacksonville  
-- Virginia - UVA  
-- SMU  
-- Rhode Island (RIU)  
-- Iowa  
-- Oregon State - OSU  
-- UCF  
-- Louisville  
-- Notre Dame  
-- Duquesne  
-- Clemson  
-- Portland  
-- George Washington  
-- Oklahoma  
-- University of Minnesota  
-- Michigan State  
-- Boston College  
-- North Carolina Chapel Hill - UNC  
-- Kansas State  
-- Miami  
-- Washington State - WSU  
-- USC  
-- UCLA  
-- UCSD  
-- Wisconsin
-""")
+    st.markdown("There are many schools... The following schools were included:")
+    
+    schools = [
+        "Brown University", "Columbia University", "Cornell University", "Dartmouth College",
+        "Harvard University", "University of Pennsylvania", "Princeton University", "Yale University",
+        "Michigan", "Rutgers", "Tennessee", "Washington - UW", "Northeastern",
+        "Boston University - BU", "Colgate", "Stanford", "Syracuse", "Ohio", "Gonzaga", "Texas",
+        "Duke", "California", "Indiana", "Jacksonville", "Virginia - UVA", "SMU",
+        "Rhode Island (RIU)", "Iowa", "Oregon State - OSU", "UCF", "Louisville", "Notre Dame",
+        "Duquesne", "Clemson", "Portland", "George Washington", "Oklahoma",
+        "University of Minnesota", "Michigan State", "Boston College",
+        "North Carolina Chapel Hill - UNC", "Kansas State", "Miami", "Washington State - WSU",
+        "USC", "UCLA", "UCSD", "Wisconsin"
+    ]
+    
+    cols = st.columns(3)
+    for i, school in enumerate(schools):
+        cols[i % 3].markdown(f"- {school}")
 
 with st.expander("ℹ️  Errors? Contact me!"):
     st.markdown("""
