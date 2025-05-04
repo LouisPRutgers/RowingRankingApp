@@ -168,6 +168,8 @@ All race data is manually collected from **Row2k.com Results**, and includes:
 - **Position (Finish Order)**
 - **Elapsed Time (in seconds)**
 
+Not all NCAA Schools were included in this analysis. If a school was in a race but was not included in this analysis, they were simply skipped 
+over in the race results.
 Each race is processed into **pairwise comparisons** (e.g., Team A beat Team B by 5 seconds), and all methods below rely on that foundation.
 
 ---
@@ -177,7 +179,6 @@ For each date, a **Massey Rating** is calculated for all teams based on races **
 Teams are then **ranked from best to worst** by rating.
 
 - Rank 1 = top team so far  
-- Rank increases with weaker performance  
 - If a team has not yet raced, Rank is **empty**
 
 ---
@@ -214,6 +215,62 @@ You can also choose how older results “fade out”:
 Rolling ratings are helpful for tracking **momentum** and avoiding outdated performance bias.
 
 ---
+""")
+
+with st.expander("ℹ️  List of Schools Included in the Results."):
+    st.markdown("""
+There are many schools in the NCAA and it was not feasable at this time to include them all for this analysis.
+The following schools were included for the purposes of this study:
+
+**Schools:**
+- Brown University  
+- Columbia University  
+- Cornell University  
+- Dartmouth College  
+- Harvard University  
+- University of Pennsylvania  
+- Princeton University  
+- Yale University  
+- Michigan  
+- Rutgers  
+- Tennessee  
+- Washington - UW 
+- Northeastern  
+- Boston University - BU  
+- Colgate  
+- Stanford  
+- Syracuse  
+- Ohio  
+- Gonzaga  
+- Texas  
+- Duke  
+- California  
+- Indiana  
+- Jacksonville  
+- Virginia - UVA  
+- SMU  
+- Rhode Island (RIU)  
+- Iowa  
+- Oregon State - OSU  
+- UCF  
+- Louisville  
+- Notre Dame  
+- Duquesne  
+- Clemson  
+- Portland  
+- George Washington  
+- Oklahoma  
+- University of Minnesota  
+- Michigan State  
+- Boston College  
+- North Carolina Chapel Hill - UNC  
+- Kansas State  
+- Miami  
+- Washington State - WSU  
+- USC  
+- UCLA  
+- UCSD  
+- Wisconsin
 """)
 
 with st.expander("ℹ️  Errors? Contact me!"):
