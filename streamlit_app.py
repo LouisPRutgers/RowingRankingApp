@@ -220,7 +220,6 @@ Rolling ratings are helpful for tracking **momentum** and avoiding outdated perf
 with st.expander("ℹ️  List of Schools Included in the Results."):
     st.markdown("There are many schools... The following schools were included:")
     
-    schools = [
     schools = sorted([
         "Brown University", "Columbia University", "Cornell University", "Dartmouth College",
         "Harvard University", "University of Pennsylvania", "Princeton University", "Yale University",
@@ -233,8 +232,6 @@ with st.expander("ℹ️  List of Schools Included in the Results."):
         "North Carolina Chapel Hill - UNC", "Kansas State", "Miami", "Washington State - WSU",
         "USC", "UCLA", "UCSD", "Wisconsin"
     ])
-
-    ]
     
     cols = st.columns(3)
     col_blocks = ["", "", ""]
