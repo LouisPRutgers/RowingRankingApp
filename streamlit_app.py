@@ -221,6 +221,7 @@ with st.expander("ℹ️  List of Schools Included in the Results."):
     st.markdown("There are many schools... The following schools were included:")
     
     schools = [
+    schools = sorted([
         "Brown University", "Columbia University", "Cornell University", "Dartmouth College",
         "Harvard University", "University of Pennsylvania", "Princeton University", "Yale University",
         "Michigan", "Rutgers", "Tennessee", "Washington - UW", "Northeastern",
@@ -231,11 +232,19 @@ with st.expander("ℹ️  List of Schools Included in the Results."):
         "University of Minnesota", "Michigan State", "Boston College",
         "North Carolina Chapel Hill - UNC", "Kansas State", "Miami", "Washington State - WSU",
         "USC", "UCLA", "UCSD", "Wisconsin"
+    ])
+
     ]
     
     cols = st.columns(3)
+    col_blocks = ["", "", ""]
+
     for i, school in enumerate(schools):
-        cols[i % 3].markdown(f"- {school}")
+        col_blocks[i % 3] += f"- {school}\n"
+
+    for col, text in zip(cols, col_blocks):
+        col.markdown(text)
+
 
 with st.expander("ℹ️  Errors? Contact me!"):
     st.markdown("""
