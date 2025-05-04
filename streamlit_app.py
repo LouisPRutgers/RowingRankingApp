@@ -158,7 +158,7 @@ fig.update_layout(
 st.plotly_chart(fig, use_container_width=True)
 
 # Explanation
-with st.expander("ℹ️  Methods? How are Rank, Percentile, and Rating calculated? What is Rolling Ratings?"):
+with st.expander("ℹ️  Methods.  And, How are Rank, Percentile, and Rating calculated?"):
     st.markdown("""
 ### 📊 Data Source & Processing
 All race data is manually collected from **Row2k.com Results**, and includes:
