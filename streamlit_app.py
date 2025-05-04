@@ -53,10 +53,32 @@ if df_filtered.empty:
 # All teams (for filtering and plotting)
 teams_all = sorted(df_filtered["school"].unique())
 
-# School filter (must be before applying timeline logic)
+# School filter
 school_color = school_colors()
-default_sel = [t for t in teams_all if t in school_color]
-chosen = st.sidebar.multiselect("Schools on chart", options=teams_all, default=default_sel)
+ivy_schools = [
+    "Brown University", "Columbia University", "Cornell University",
+    "Dartmouth College", "Harvard University",
+    "University of Pennsylvania", "Princeton University", "Yale University",
+]
+
+# Initialize session state for school selection if not set
+if "chosen_schools" not in st.session_state:
+    st.session_state.chosen_schools = [t for t in teams_all if t in ivy_schools]
+
+# Update selected schools only if new teams are present (e.g., boat class changed)
+previous_teams = set(st.session_state.chosen_schools)
+available_set = set(teams_all)
+
+# Keep only selections still valid for new boat class
+valid_selection = [t for t in st.session_state.chosen_schools if t in available_set]
+
+# Allow re-selection
+st.session_state.chosen_schools = st.sidebar.multiselect(
+    "Schools on chart", options=teams_all, default=valid_selection
+)
+
+chosen = st.session_state.chosen_schools
+
 
 # Metric selection
 mode = st.sidebar.radio("Metric to plot", ["Rank", "Percentile", "Rating"], index=2)
