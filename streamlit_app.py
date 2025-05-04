@@ -145,7 +145,7 @@ for team in chosen:
         val = series[dates.index(d)]
         label_val = f"{mode}: {int(round(val))}" if mode == "Rank" and val is not None else f"{mode}: {val:.2f}" if val is not None else f"{mode}: N/A"
         if races_with_team.empty:
-            hover_labels.append(f"{team} (Date {d.strftime('%m/%d/%y')})<br>{label_val}<br>No race on this date")
+            hover_labels.append(f"{team} ({d.strftime('%m/%d/%y')})<br>{label_val}<br>No race on this date")
             continue
         all_race_texts = []
         for i, (_, row) in enumerate(races_with_team.iterrows(), start=1):
