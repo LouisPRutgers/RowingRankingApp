@@ -162,7 +162,6 @@ with st.expander("ℹ️  How are Rank, Percentile, and Rating calculated?"):
     st.markdown("""
 ### 📊 Data Source & Processing
 All race data is manually collected from **Row2k.com Results**, and includes:
-- **Race ID**
 - **Date**
 - **Boat Class**
 - **Team Name (School)**
@@ -225,7 +224,7 @@ Data is acquired manually – so mistakes can happen!
 If you notice something wrong, or an important race is missing, let me know!
 
 **Contact:**  
-louis.c.petitjean@gmail.com
+collegiate.rowing.rankings@gmail.com
 """)
 
 # Download
