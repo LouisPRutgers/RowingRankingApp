@@ -14,7 +14,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from rank_math import timeline, ivy_colors, rolling_rating
+from rank_math import timeline, school_colors, rolling_rating
 
 # Config
 CSV_PATH = Path("data/rowing_races.csv")
@@ -54,8 +54,8 @@ if df_filtered.empty:
 teams_all = sorted(df_filtered["school"].unique())
 
 # School filter (must be before applying timeline logic)
-ivy_color = ivy_colors()
-default_sel = [t for t in teams_all if t in ivy_color]
+school_color = school_colors()
+default_sel = [t for t in teams_all if t in school_colors]
 chosen = st.sidebar.multiselect("Schools on chart", options=teams_all, default=default_sel)
 
 # Metric selection
@@ -144,7 +144,7 @@ for team in chosen:
         name=team,
         text=hover_labels,
         hoverinfo="text+name",
-        line=dict(color=ivy_color.get(team)),
+        line=dict(color=school_colors.get(team)),
     ))
 
 fig.update_layout(

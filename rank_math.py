@@ -31,7 +31,7 @@ IVY_SCHOOLS = [
     "University of Pennsylvania", "Princeton University", "Yale University",
 ]
 
-_IVY_COLORS = {
+SCHOOL_COLORS = {
     "Brown University":           "#4E3629",
     "Columbia University":        "#9BDDFF",
     "Cornell University":         "#B31B1B",
@@ -40,13 +40,53 @@ _IVY_COLORS = {
     "University of Pennsylvania": "#011F5B",
     "Princeton University":       "#E77500",
     "Yale University":            "#00356B",
+    "Boston College":             "#98002E",
+    "Boston University - BU":     "#CC0000",
+    "California":                 "#003262",
+    "Clemson":                    "#F66733",
+    "Colgate":                    "#821019",
+    "Duke":                       "#0736A4",
+    "Duquesne":                   "#041E42",
+    "George Washington":          "#002855",
+    "Gonzaga":                    "#041E42",
+    "Indiana":                    "#990000",
+    "Iowa":                       "#FFCD00",
+    "Jacksonville":              "#007A33",
+    "Kansas State":               "#512888",
+    "Louisville":                 "#AD0000",
+    "Miami":                      "#F47321",
+    "Michigan":                   "#00274C",
+    "Michigan State":             "#18453B",
+    "Northeastern":               "#C8102E",
+    "Notre Dame":                 "#0C2340",
+    "Ohio":                       "#00694E",
+    "Oklahoma":                   "#841617",
+    "Oregon State - OSU":         "#DC4405",
+    "Portland":                   "#5E2A84",
+    "Rhode Island (RIU)":         "#75B2DD",
+    "Rutgers":                    "#CC0033",
+    "SMU":                        "#CC0000",
+    "Stanford":                   "#8C1515",
+    "Syracuse":                   "#F76900",
+    "Tennessee":                  "#FF8200",
+    "Texas":                      "#BF5700",
+    "UCLA":                       "#2774AE",
+    "UCSD":                       "#00629B",
+    "UCF":                        "#BA9B37",
+    "University of Minnesota":    "#7A0019",
+    "University of Southern California": "#990000",
+    "University of Washington":   "#4B2E83",
+    "University of Wisconsin":    "#C5050C",
+    "USC":                        "#990000",
+    "Virginia - UVA":             "#232D4B",
+    "Washington State - WSU":     "#981E32",
 }
 
 
 # ── public helper ─────────────────────────────────────────────────────
-def ivy_colors() -> Dict[str, str]:
+def school_colors() -> Dict[str, str]:
     """Hard‑coded palette used by both GUIs."""
-    return _IVY_COLORS.copy()
+    return SCHOOL_COLORS.copy()
 
 
 # ── internal math helpers ─────────────────────────────────────────────
@@ -290,4 +330,4 @@ def _ratings_weighted(pairs: list[dict]) -> dict[str, float]:
 
 
 # ── dunder exports ----------------------------------------------------
-__all__ = ["timeline", "ivy_colors", "rolling_rating"]
+__all__ = ["timeline", "school_colors", "rolling_rating"]
