@@ -190,7 +190,7 @@ def rolling_rating(
     """
     For each date in the season, compute a Massey rating using only
     races within the last `window_days`, with optional drop-off.
-    dropoff ∈ {"Sudden Decay", "Lindear Decay", "Exponential Decay"}.
+    dropoff ∈ {"Sudden Decay", "Linear Decay", "Exponential Decay"}.
     If dropoff=="Exponential Decay", decay_rate ∈ (0,1) controls slope.
     """
     from datetime import timedelta
@@ -228,7 +228,7 @@ def rolling_rating(
             # compute weight
             if dropoff == "Sudden Decay":
                 w = 1.0
-            elif dropoff == "Lindear Decay":
+            elif dropoff == "Linear Decay":
                 w = max(0.0, 1 - age_days / window_days)
             else:  # Exponential Decay
                 w = float(np.exp(-decay_rate * age_days))
