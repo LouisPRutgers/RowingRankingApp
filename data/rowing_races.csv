@@ -65,7 +65,7 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 4+,25,2025-04-12,2,Iowa,452
 1st Varsity 4+,26,2025-04-12,1,University of Minnesota,457
 1st Varsity 4+,26,2025-04-12,2,Kansas State,492
-1st Varsity 4+,27,2025-04-18,1,1. Washington,434
+1st Varsity 4+,27,2025-04-18,1,Washington (UW),434
 1st Varsity 4+,27,2025-04-18,2,University of Pennsylvania,443
 1st Varsity 4+,27,2025-04-18,3,Indiana,445
 1st Varsity 4+,27,2025-04-18,4,Clemson,446
@@ -86,7 +86,7 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 4+,30,2025-04-18,2,Brown University,429
 1st Varsity 4+,30,2025-04-18,3,University of Minnesota,431
 1st Varsity 4+,30,2025-04-18,4,Oklahoma,444
-1st Varsity 4+,31,2025-04-18,1,1. Washington,426
+1st Varsity 4+,31,2025-04-18,1,Washington (UW),426
 1st Varsity 4+,31,2025-04-18,2,Brown University,434
 1st Varsity 4+,31,2025-04-18,3,Duke,440
 1st Varsity 4+,31,2025-04-18,4,Ohio,444
@@ -120,7 +120,7 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 4+,39,2025-04-19,2,Cornell University,510
 1st Varsity 4+,40,2025-04-19,1,Gonzaga,455
 1st Varsity 4+,40,2025-04-19,2,Washington State - WSU,462
-1st Varsity 4+,41,2025-04-19,1,1. Washington,433
+1st Varsity 4+,41,2025-04-19,1,Washington (UW),433
 1st Varsity 4+,41,2025-04-19,2,University of Pennsylvania,443
 1st Varsity 4+,41,2025-04-19,3,Indiana,445
 1st Varsity 4+,41,2025-04-19,4,Clemson,446
@@ -142,7 +142,7 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 4+,44,2025-04-19,2,Brown University,429
 1st Varsity 4+,44,2025-04-19,3,University of Minnesota,431
 1st Varsity 4+,44,2025-04-19,4,Oklahoma,444
-1st Varsity 4+,45,2025-04-19,1,1. Washington,426
+1st Varsity 4+,45,2025-04-19,1,Washington (UW),426
 1st Varsity 4+,45,2025-04-19,2,Brown University,434
 1st Varsity 4+,45,2025-04-19,3,Duke,440
 1st Varsity 4+,45,2025-04-19,4,Ohio,444
@@ -166,7 +166,7 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 4+,48,2025-04-19,6,Michigan State,467
 1st Varsity 4+,49,2025-04-25,1,Brown University,476
 1st Varsity 4+,49,2025-04-25,2,Cornell University,516
-1st Varsity 4+,50,2025-04-26,1,1. Washington,439
+1st Varsity 4+,50,2025-04-26,1,Washington (UW),439
 1st Varsity 4+,50,2025-04-26,2,California,451
 1st Varsity 4+,51,2025-04-26,1,Yale University,458
 1st Varsity 4+,51,2025-04-26,2,Harvard University,474
@@ -299,7 +299,7 @@ Boat Class,race_id,date,position,school,time
 2nd Varsity 4+,35,2025-04-12,2,Syracuse,484
 2nd Varsity 4+,36,2025-04-13,1,California,435
 2nd Varsity 4+,36,2025-04-13,2,Syracuse,438
-2nd Varsity 4+,37,2025-04-18,1,1. Washington,442
+2nd Varsity 4+,37,2025-04-18,1,Washington (UW),442
 2nd Varsity 4+,37,2025-04-18,2,University of Pennsylvania,452
 2nd Varsity 4+,37,2025-04-18,3,Clemson,454
 2nd Varsity 4+,37,2025-04-18,4,Notre Dame,474
@@ -320,7 +320,7 @@ Boat Class,race_id,date,position,school,time
 2nd Varsity 4+,40,2025-04-18,2,Brown University,438
 2nd Varsity 4+,40,2025-04-18,3,University of Minnesota,447
 2nd Varsity 4+,40,2025-04-18,4,Oklahoma,453
-2nd Varsity 4+,41,2025-04-18,1,1. Washington,435
+2nd Varsity 4+,41,2025-04-18,1,Washington (UW),435
 2nd Varsity 4+,41,2025-04-18,2,Duke,439
 2nd Varsity 4+,41,2025-04-18,3,Brown University,439
 2nd Varsity 4+,41,2025-04-18,4,Ohio,452
@@ -359,7 +359,7 @@ Boat Class,race_id,date,position,school,time
 2nd Varsity 4+,50,2025-04-26,2,Stanford,459
 2nd Varsity 4+,50,2025-04-26,3,UCF,482
 2nd Varsity 4+,51,2025-04-26,1,California,444
-2nd Varsity 4+,51,2025-04-26,2,1. Washington,446
+2nd Varsity 4+,51,2025-04-26,2,Washington (UW),446
 2nd Varsity 4+,52,2025-04-26,1,North Carolina Chapel Hill - UNC,449
 2nd Varsity 4+,52,2025-04-26,2,Duke,453
 2nd Varsity 4+,52,2025-04-26,3,Clemson,461
@@ -576,7 +576,7 @@ Boat Class,race_id,date,position,school,time
 2nd Varsity 8+,73,2025-04-13,2,Virginia - UVA,397
 2nd Varsity 8+,74,2025-04-13,1,California,389
 2nd Varsity 8+,74,2025-04-13,2,Syracuse,392
-1st Varsity 8+,75,2025-04-18,1,1. Washington,377
+1st Varsity 8+,75,2025-04-18,1,Washington (UW),377
 1st Varsity 8+,75,2025-04-18,2,Indiana,384
 1st Varsity 8+,75,2025-04-18,3,University of Pennsylvania,386
 1st Varsity 8+,75,2025-04-18,4,Clemson,390
@@ -598,7 +598,7 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 8+,78,2025-04-18,2,Brown University,384
 1st Varsity 8+,78,2025-04-18,3,University of Minnesota,392
 1st Varsity 8+,78,2025-04-18,4,Oklahoma,398
-1st Varsity 8+,79,2025-04-18,1,1. Washington,373
+1st Varsity 8+,79,2025-04-18,1,Washington (UW),373
 1st Varsity 8+,79,2025-04-18,2,Brown University,380
 1st Varsity 8+,79,2025-04-18,3,Ohio,387
 1st Varsity 8+,79,2025-04-18,4,Miami,392
@@ -620,7 +620,7 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 8+,82,2025-04-18,4,Clemson,393
 1st Varsity 8+,82,2025-04-18,5,Notre Dame,397
 1st Varsity 8+,82,2025-04-18,6,University of Minnesota,397
-2nd Varsity 8+,83,2025-04-18,1,1. Washington,386
+2nd Varsity 8+,83,2025-04-18,1,Washington (UW),386
 2nd Varsity 8+,83,2025-04-18,2,University of Pennsylvania,394
 2nd Varsity 8+,83,2025-04-18,3,Indiana,400
 2nd Varsity 8+,83,2025-04-18,4,Clemson,400
@@ -642,7 +642,7 @@ Boat Class,race_id,date,position,school,time
 2nd Varsity 8+,86,2025-04-18,2,Brown University,382
 2nd Varsity 8+,86,2025-04-18,3,Oklahoma,389
 2nd Varsity 8+,86,2025-04-18,4,University of Minnesota,395
-2nd Varsity 8+,87,2025-04-18,1,1. Washington,385
+2nd Varsity 8+,87,2025-04-18,1,Washington (UW),385
 2nd Varsity 8+,87,2025-04-18,2,Brown University,391
 2nd Varsity 8+,87,2025-04-18,3,Duke,401
 2nd Varsity 8+,87,2025-04-18,4,Ohio,407
@@ -750,7 +750,7 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 8+,119,2025-04-26,3,Boston University - BU,388
 1st Varsity 8+,119,2025-04-26,4,Gonzaga,390
 1st Varsity 8+,119,2025-04-26,5,Rhode Island (RIU),400
-1st Varsity 8+,120,2025-04-26,1,1. Washington,393
+1st Varsity 8+,120,2025-04-26,1,Washington (UW),393
 1st Varsity 8+,120,2025-04-26,2,California,399
 2nd Varsity 8+,121,2025-04-26,1,UCLA,418
 2nd Varsity 8+,121,2025-04-26,2,UCSD,439
@@ -810,21 +810,21 @@ Boat Class,race_id,date,position,school,time
 2nd Varsity 8+,135,2025-04-26,3,Boston University - BU,401
 2nd Varsity 8+,135,2025-04-26,4,Gonzaga,411
 2nd Varsity 8+,135,2025-04-26,5,Rhode Island (RIU),420
-2nd Varsity 8+,136,2025-04-26,1,1. Washington,397
+2nd Varsity 8+,136,2025-04-26,1,Washington (UW),397
 2nd Varsity 8+,136,2025-04-26,2,California,413
-1st Varsity 8+,137,2025-05-03,1,Princeton University,361.000
-1st Varsity 8+,137,2025-05-03,2,University of Pennsylvania,378.000
-2nd Varsity 8+,138,2025-05-03,1,Princeton University,370.000
-2nd Varsity 8+,138,2025-05-03,2,University of Pennsylvania,383.000
-1st Varsity 4+,139,2025-05-03,1,Princeton University,423.000
-1st Varsity 4+,139,2025-05-03,2,University of Pennsylvania,425.000
-2nd Varsity 4+,140,2025-05-03,1,Princeton University,430.000
-2nd Varsity 4+,140,2025-05-03,2,University of Pennsylvania,442.000
-1st Varsity 8+,141,2025-05-03,1,Stanford,392.000
-1st Varsity 8+,141,2025-05-03,2,California,407.000
-2nd Varsity 8+,142,2025-05-03,1,Stanford,410.000
-2nd Varsity 8+,142,2025-05-03,2,California,428.000
-1st Varsity 4+,143,2025-05-03,1,Stanford,458.000
-1st Varsity 4+,143,2025-05-03,2,California,473.000
-2nd Varsity 4+,144,2025-05-03,1,Stanford,471.000
-2nd Varsity 4+,144,2025-05-03,2,California,490.000
+1st Varsity 8+,137,2025-05-03,1,Princeton University,361
+1st Varsity 8+,137,2025-05-03,2,University of Pennsylvania,378
+2nd Varsity 8+,138,2025-05-03,1,Princeton University,370
+2nd Varsity 8+,138,2025-05-03,2,University of Pennsylvania,383
+1st Varsity 4+,139,2025-05-03,1,Princeton University,423
+1st Varsity 4+,139,2025-05-03,2,University of Pennsylvania,425
+2nd Varsity 4+,140,2025-05-03,1,Princeton University,430
+2nd Varsity 4+,140,2025-05-03,2,University of Pennsylvania,442
+1st Varsity 8+,141,2025-05-03,1,Stanford,392
+1st Varsity 8+,141,2025-05-03,2,California,407
+2nd Varsity 8+,142,2025-05-03,1,Stanford,410
+2nd Varsity 8+,142,2025-05-03,2,California,428
+1st Varsity 4+,143,2025-05-03,1,Stanford,458
+1st Varsity 4+,143,2025-05-03,2,California,473
+2nd Varsity 4+,144,2025-05-03,1,Stanford,471
+2nd Varsity 4+,144,2025-05-03,2,California,490
