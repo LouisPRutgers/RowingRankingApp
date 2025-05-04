@@ -220,7 +220,7 @@ Rolling ratings are helpful for tracking **momentum** and avoiding outdated perf
 with st.expander("ℹ️  List of Schools Included in the Results."):
     st.markdown("""
 There are many schools in the NCAA and it was not feasable at this time to include them all for this analysis.
-The following schools were included for the purposes of this study:
+The following schools were included for the purposes of this analysis:
 
 **Schools:**""")
     
