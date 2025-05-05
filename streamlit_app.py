@@ -191,7 +191,7 @@ else:
 
 
 # Chart logic
-st.title(f"NCAA Women's Collegiate Rowing Ranker – {boat_class}")
+st.title(f"Test NCAA Women's Collegiate Rowing Ranker – {boat_class}")
 now_et = datetime.now(timezone("US/Eastern"))
 st.caption(f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET • CSV path: `data/rowing_races.csv`")
 
