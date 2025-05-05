@@ -168,8 +168,21 @@ def ordinal_suffix(n: int) -> str:
         return "th"
     return {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
 
-fig = go.Figure()
+# Sort chosen schools by most recent value of selected metric
+latest_values = {}
 for team in chosen:
+    series = metric_map[mode][team]
+    latest_val = next((v for v in reversed(series) if v is not None), None)
+    if latest_val is not None:
+        latest_values[team] = latest_val
+
+# Sorting logic: lower Rank = better, higher Percentile/Rating = better
+reverse = (mode != "Rank")
+chosen_sorted = sorted(latest_values, key=latest_values.get, reverse=reverse)
+
+
+fig = go.Figure()
+for team in chosen_sorted:
     series = metric_map[mode][team]
     if not any(pd.notna(series)):
         continue
