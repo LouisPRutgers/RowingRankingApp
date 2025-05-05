@@ -51,7 +51,7 @@ if df_filtered.empty:
     st.warning(f"No races found for {boat_class}")
     st.stop()
 
-preselected_schools = st.sidebar.selectbox("League", ["CRCA Top25", "Ivy League"])
+preselected_schools = st.sidebar.selectbox("League", ["CRCA Top25", "Ivy League", "All"])
 
 # All teams (for filtering and plotting)
 teams_all = sorted(df_filtered["school"].unique())
@@ -97,6 +97,8 @@ if preselected_schools == "Ivy League":
     preselected_schoolsed_list = [t for t in ivy_schools if t in teams_all]
 elif preselected_schools == "CRCA Top25":
     preselected_schoolsed_list = [t for t in crca_top25_schools if t in teams_all]
+elif preselected_schools == "All":
+    preselected_schoolsed_list = teams_all  # Select all schools
 else:
     preselected_schoolsed_list = []
 
