@@ -13,6 +13,7 @@ from pytz import timezone
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+import io
 
 from rank_math import timeline, school_colors, rolling_rating
 
@@ -230,6 +231,122 @@ fig.update_layout(
     legend=dict(font=dict(size=10)),
 )
 st.plotly_chart(fig, use_container_width=True)
+
+with st.expander("🏆 What if the NCAA were to happen today?"):
+    st.markdown("Below is the predicted team standings if the NCAA Championship happened today, based on the latest ratings!")
+
+    def assign_points_with_hidden_ranking(sorted_teams, base, step=3):
+        """
+        Assigns both:
+        - Official display points (e.g., 66, 63, ...)
+        - Hidden placement scores used for sorting (same as display, but even 0 gets negative scores)
+        """
+        display_points = {}
+        hidden_scores = {}
+        for i, team in enumerate(sorted_teams):
+            pts = max(base - i * step, 0)  # Displayed NCAA points
+            display_points[team] = pts
+            # Hidden placement score: zero scores are treated as negative for fair sorting
+            hidden_scores[team] = pts if pts > 0 else -step * (len(sorted_teams) - i)
+        return display_points, hidden_scores
+
+    boat_classes = {
+        "1st Varsity 8+": {"points_start": 66, "step": 3, "col": "1st Varsity 8+ Points"},
+        "2nd Varsity 8+": {"points_start": 44, "step": 2, "col": "2st Varsity 8+ Points"},
+        "1st Varsity 4+": {"points_start": 22, "step": 1, "col": "1st Varsity 4+ Points"},
+    }
+
+    # Collect points (shown) and hidden placement scores (used for ranking)
+    team_display_points = {}
+    team_hidden_scores = {}
+
+    for boat, config in boat_classes.items():
+        df_boat = df[df["Boat Class"] == boat]
+        if df_boat.empty:
+            continue
+
+        # Get each team's most recent relative rank
+        dates_b, rank_rel_b, _, _ = timeline(df_boat)
+        latest_ranks = {
+            team: next((r for r in reversed(rank_rel_b[team]) if r is not None), None)
+            for team in rank_rel_b
+        }
+
+        # Sort teams by latest rank (lowest rank = best)
+        sorted_teams = [t for t, _ in sorted(
+            latest_ranks.items(), key=lambda x: x[1] if x[1] is not None else float("inf")
+        )]
+
+        # Assign official points and hidden placement scores
+        display_pts, hidden_pts = assign_points_with_hidden_ranking(
+            sorted_teams, config["points_start"], config["step"]
+        )
+
+        for team in sorted_teams:
+            if team not in team_display_points:
+                team_display_points[team] = {}
+                team_hidden_scores[team] = {}
+            team_display_points[team][config["col"]] = display_pts[team]
+            team_hidden_scores[team][config["col"]] = hidden_pts[team]
+
+    # Build the results table
+    results_table = []
+    for team in team_display_points:
+        # Display points for UI
+        p1 = team_display_points[team].get("1st Varsity 8+ Points", 0)
+        p2 = team_display_points[team].get("2st Varsity 8+ Points", 0)
+        p4 = team_display_points[team].get("1st Varsity 4+ Points", 0)
+        total_display = p1 + p2 + p4
+
+        # Hidden score for fair placement (can include negative values)
+        h1 = team_hidden_scores[team].get("1st Varsity 8+ Points", 0)
+        h2 = team_hidden_scores[team].get("2st Varsity 8+ Points", 0)
+        h4 = team_hidden_scores[team].get("1st Varsity 4+ Points", 0)
+        total_hidden = h1 + h2 + h4
+
+        results_table.append({
+            "School Name": team,
+            "1st Varsity 8+ Points": p1,
+            "2st Varsity 8+ Points": p2,
+            "1st Varsity 4+ Points": p4,
+            "Overall Team points": total_display,
+            "_Total Placement Score": total_hidden,
+            "_1V8 Points for Tie": p1  # Needed for tie-breaking per NCAA rules
+        })
+
+    results_df = pd.DataFrame(results_table)
+
+    # Sort using hidden score (descending = higher score is better)
+    # Break ties using official 1V8+ points (also descending)
+    results_df = results_df.sort_values(
+        by=["_Total Placement Score", "_1V8 Points for Tie"],
+        ascending=[False, False]
+    ).reset_index(drop=True)
+
+    # Assign placement numbers
+    results_df["Placement"] = range(1, len(results_df) + 1)
+
+    # Remove internal scoring columns before displaying
+    results_df.drop(columns=["_Total Placement Score", "_1V8 Points for Tie"], inplace=True)
+
+    # Move 'Placement' column to the front
+    cols = ["Placement"] + [col for col in results_df.columns if col != "Placement"]
+    results_df = results_df[cols]
+
+    # Show table in UI
+    st.dataframe(results_df, use_container_width=True, hide_index=True)
+
+    # Convert results_df to CSV in memory
+    csv = results_df.to_csv(index=False)
+    csv_bytes = csv.encode("utf-8")
+    buffer = io.BytesIO(csv_bytes)
+    st.download_button(
+        label="⬇️ Download Prediction Table",
+        data=results_df.to_csv(index=False).encode("utf-8"),
+        file_name="ncaa_prediction_table.csv",
+        mime="text/csv"
+    )
+
 
 # Explanation
 with st.expander("ℹ️  Methods. How are Rank, Percentile, and Rating calculated?"):
