@@ -50,34 +50,73 @@ if df_filtered.empty:
     st.warning(f"No races found for {boat_class}")
     st.stop()
 
+preselected_schools = st.sidebar.selectbox("League", ["Ivy League", "CRCA Top25"])
+
 # All teams (for filtering and plotting)
 teams_all = sorted(df_filtered["school"].unique())
 
 # School filter
 school_color = school_colors()
+crca_top25_schools  = [
+    "Stanford",
+    "Texas",
+    "Washington - UW",
+    "Tennessee",
+    "Yale University",
+    "Princeton University",
+    "Rutgers",
+    "Brown University",
+    "California",
+    "Michigan",
+    "Syracuse",
+    "Virginia - UVA",
+    "University of Pennsylvania",
+    "Harvard University",
+    "UCF",
+    "Indiana",
+    "Ohio",
+    "Duke",
+    "Columbia University",  
+    "Oregon State - OSU",
+    "Dartmouth College",
+    "Clemson",
+    "USC", 
+    "North Carolina Chapel Hill - UNC",
+    "Oklahoma"
+]
+
 ivy_schools = [
     "Brown University", "Columbia University", "Cornell University",
     "Dartmouth College", "Harvard University",
-    "University of Pennsylvania", "Princeton University", "Yale University",
+    "University of Pennsylvania", "Princeton University", "Yale University"
 ]
 
-# Initialize session state for school selection if not set
-if "chosen_schools" not in st.session_state:
-    st.session_state.chosen_schools = [t for t in teams_all if t in ivy_schools]
+# Determine preselected_schoolsed list
+if preselected_schools == "Ivy League":
+    preselected_schoolsed_list = [t for t in ivy_schools if t in teams_all]
+elif preselected_schools == "CRCA Top25":
+    preselected_schoolsed_list = [t for t in crca_top25_schools if t in teams_all]
+else:
+    preselected_schoolsed_list = []
 
-# Update selected schools only if new teams are present (e.g., boat class changed)
-previous_teams = set(st.session_state.chosen_schools)
-available_set = set(teams_all)
+# Initialize or update session state
+if "chosen_schools" not in st.session_state or preselected_schoolsed_list:
+    st.session_state.chosen_schools = preselected_schoolsed_list or [t for t in teams_all if t in ivy_schools]
 
-# Keep only selections still valid for new boat class
-valid_selection = [t for t in st.session_state.chosen_schools if t in available_set]
+# Use current selection as default (preserved on rerun)
+valid_selection = [t for t in st.session_state.chosen_schools if t in teams_all]
 
-# Allow re-selection
-st.session_state.chosen_schools = st.sidebar.multiselect(
+# Display multiselect
+chosen_schools = st.sidebar.multiselect(
     "Schools on chart", options=teams_all, default=valid_selection
 )
 
+# Update session state only if changed
+if chosen_schools != st.session_state.chosen_schools:
+    st.session_state.chosen_schools = chosen_schools
+
 chosen = st.session_state.chosen_schools
+
 
 
 # Metric selection

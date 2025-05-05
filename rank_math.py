@@ -75,7 +75,7 @@ SCHOOL_COLORS = {
     "UCF":                        "#BA9B37",
     "University of Minnesota":    "#7A0019",
     "University of Southern California": "#990000",
-    "University of Washington":   "#4B2E83",
+    "Washington - UW":   "#4B2E83",
     "University of Wisconsin":    "#C5050C",
     "USC":                        "#990000",
     "Virginia - UVA":             "#232D4B",
