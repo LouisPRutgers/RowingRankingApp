@@ -92,33 +92,70 @@ ivy_schools = [
     "University of Pennsylvania", "Princeton University", "Yale University"
 ]
 
-# Determine preselected_schoolsed list
-if preselected_schools == "Ivy League":
-    preselected_schoolsed_list = [t for t in ivy_schools if t in teams_all]
-elif preselected_schools == "CRCA Top25":
-    preselected_schoolsed_list = [t for t in crca_top25_schools if t in teams_all]
-elif preselected_schools == "All":
-    preselected_schoolsed_list = teams_all  # Select all schools
-else:
-    preselected_schoolsed_list = []
+# Map league selections to corresponding school lists
+school_mapping = {
+    "Ivy League": ivy_schools,
+    "CRCA Top25": crca_top25_schools,
+    "All": teams_all
+}
 
-# Initialize or update session state
-if "chosen_schools" not in st.session_state or preselected_schoolsed_list:
-    st.session_state.chosen_schools = preselected_schoolsed_list or [t for t in teams_all if t in ivy_schools]
+# Get the list of schools based on the selected league
+preselected_schoolsed_list = school_mapping.get(preselected_schools, [])
 
-# Use current selection as default (preserved on rerun)
-valid_selection = [t for t in st.session_state.chosen_schools if t in teams_all]
+# Filter the schools to include only those present in 'teams_all'
+# This ensures that we don't include schools that are not part of the dataset
+preselected_schoolsed_list = [school for school in preselected_schoolsed_list if school in teams_all] if preselected_schools != "All" else teams_all
 
-# Display multiselect
+# Initialize session state for chosen schools if it hasn't been initialized
+# This is the list of schools that the user will see and can modify
+if "chosen_schools" not in st.session_state:
+    st.session_state.chosen_schools = preselected_schoolsed_list
+
+# Initialize session state for modifications if it hasn't been initialized
+# The 'modifications' dictionary keeps track of schools the user has added or removed
+if "modifications" not in st.session_state:
+    st.session_state.modifications = {}
+
+# Initialize 'previous_league' to keep track of the last selected league
+# This allows us to compare if the user switches between leagues
+if "previous_league" not in st.session_state:
+    st.session_state.previous_league = preselected_schools
+
+# Check if the league has changed
+if preselected_schools != st.session_state.previous_league:
+    # If the league has changed, reset the modifications
+    # Update the list of schools based on the selected league and preserve user modifications
+    if preselected_schools != "All":
+        # Reset to the list of schools for the selected league but exclude schools marked as "removed"
+        st.session_state.chosen_schools = [school for school in preselected_schoolsed_list if school not in st.session_state.modifications.get("removed", [])]
+    else:
+        # If "All" schools are selected, allow the user to modify all schools
+        st.session_state.chosen_schools = preselected_schoolsed_list
+    
+    # Update the 'previous_league' session state to the current league
+    st.session_state.previous_league = preselected_schools  # Store the current league
+
+# Handle school modifications (additions and removals)
 chosen_schools = st.sidebar.multiselect(
-    "Schools on chart", options=teams_all, default=valid_selection
+    "Schools on chart", options=teams_all, default=[school for school in st.session_state.chosen_schools if school in teams_all]
 )
 
-# Update session state only if changed
-if chosen_schools != st.session_state.chosen_schools:
-    st.session_state.chosen_schools = chosen_schools
+# Track schools the user has added
+for school in chosen_schools:
+    if school not in st.session_state.modifications or st.session_state.modifications[school] == "removed":
+        st.session_state.modifications[school] = "added"
 
+# Track schools the user has removed
+removed_schools = [school for school in teams_all if school not in chosen_schools and school in st.session_state.chosen_schools]
+for school in removed_schools:
+    st.session_state.modifications[school] = "removed"
+
+# Update the session state with the latest list of chosen schools
+st.session_state.chosen_schools = chosen_schools
+
+# Store the final list of chosen schools in the session state (after modification tracking)
 chosen = st.session_state.chosen_schools
+
 
 
 
