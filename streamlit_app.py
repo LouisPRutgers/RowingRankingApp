@@ -298,11 +298,16 @@ with st.expander("🏆 What if the NCAA were to happen today?"):
         p4 = team_display_points[team].get("1st Varsity 4+ Points", 0)
         total_display = p1 + p2 + p4
 
-        # Hidden score for fair placement (can include negative values)
-        h1 = team_hidden_scores[team].get("1st Varsity 8+ Points", 0)
-        h2 = team_hidden_scores[team].get("2st Varsity 8+ Points", 0)
-        h4 = team_hidden_scores[team].get("1st Varsity 4+ Points", 0)
-        total_hidden = h1 + h2 + h4
+        # Hidden score logic — only apply negative fallback if all events are 0
+        has_positive = any(x > 0 for x in [p1, p2, p4])
+        if has_positive:
+            total_hidden = p1 + p2 + p4
+        else:
+            h1 = team_hidden_scores[team].get("1st Varsity 8+ Points", 0)
+            h2 = team_hidden_scores[team].get("2st Varsity 8+ Points", 0)
+            h4 = team_hidden_scores[team].get("1st Varsity 4+ Points", 0)
+            total_hidden = h1 + h2 + h4
+
 
         results_table.append({
             "School Name": team,
