@@ -50,7 +50,7 @@ if df_filtered.empty:
     st.warning(f"No races found for {boat_class}")
     st.stop()
 
-preselected_schools = st.sidebar.selectbox("League", ["Ivy League", "CRCA Top25"])
+preselected_schools = st.sidebar.selectbox("League", ["CRCA Top25", "Ivy League"])
 
 # All teams (for filtering and plotting)
 teams_all = sorted(df_filtered["school"].unique())
