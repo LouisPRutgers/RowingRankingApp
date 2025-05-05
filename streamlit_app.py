@@ -73,9 +73,15 @@ available_set = set(teams_all)
 valid_selection = [t for t in st.session_state.chosen_schools if t in available_set]
 
 # Allow re-selection
-st.session_state.chosen_schools = st.sidebar.multiselect(
+chosen = st.sidebar.multiselect(
     "Schools on chart", options=teams_all, default=valid_selection
 )
+
+# Reset the dropdown after the user selects a school
+if chosen != st.session_state.chosen_schools:
+    st.session_state.chosen_schools = chosen
+    # Trigger reset for the dropdown by resetting the session state
+    st.rerun()  # This forces the app to rerun and reset the dropdown
 
 chosen = st.session_state.chosen_schools
 
