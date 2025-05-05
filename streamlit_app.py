@@ -320,8 +320,6 @@ with st.expander("🏆 What if the NCAA were to happen today?", expanded=False):
                 team_points[team] = {}
             team_points[team][config["col"]] = display_pts[team]
 
-    # Continue with the rest of the code to calculate and display the results table...
-
 
     # Build the results table
     results_table = []
