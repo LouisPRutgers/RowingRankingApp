@@ -270,7 +270,7 @@ fig.update_layout(
     legend=dict(font=dict(size=10)),
 )
 st.plotly_chart(fig, use_container_width=True)
-with st.expander("🏆 What if the NCAA were to happen today?"):
+with st.expander("🏆 What if the NCAA were to happen today?", expanded=False):
     st.markdown("Below is the predicted team standings if the NCAA Championship happened today, based on the latest ratings!")
 
     def calculate_points(sorted_teams, base, step=3):
@@ -293,19 +293,19 @@ with st.expander("🏆 What if the NCAA were to happen today?"):
 
     team_points = {}
 
+    # For each boat class, calculate the predicted points using the rating data
     for boat, config in boat_classes.items():
         df_boat = df[df["Boat Class"] == boat]
         if df_boat.empty:
             continue
 
-        # Get each team's most recent relative rank
-        dates_b, rank_rel_b, _, _ = timeline(df_boat)
+        # Use the previously computed rank_rel for the selected rating method (Rating or Rolling Rating)
         latest_ranks = {
-            team: next((r for r in reversed(rank_rel_b[team]) if r is not None), None)
-            for team in rank_rel_b
+            team: next((r for r in reversed(rank_rel[team]) if r is not None), None)
+            for team in rank_rel  # We are using rank_rel computed earlier, not from timeline(df_boat)
         }
 
-        # Sort teams by latest rank (lowest rank = best)
+        # Sort teams by latest rank or rating (based on the latest ranks from rank_rel)
         sorted_teams = [t for t, _ in sorted(
             latest_ranks.items(), key=lambda x: x[1] if x[1] is not None else float("inf")
         )]
@@ -319,6 +319,9 @@ with st.expander("🏆 What if the NCAA were to happen today?"):
             if team not in team_points:
                 team_points[team] = {}
             team_points[team][config["col"]] = display_pts[team]
+
+    # Continue with the rest of the code to calculate and display the results table...
+
 
     # Build the results table
     results_table = []
