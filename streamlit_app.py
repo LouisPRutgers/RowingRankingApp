@@ -251,6 +251,15 @@ for team in chosen_sorted:
                 result_lines.append(f"{pos}{ordinal_suffix(pos)} — {r['school']} ({int(secs)//60}:{int(secs)%60:02d}{margin_str})")
             all_race_texts.append(f"Race {i}:<br>" + "<br>".join(result_lines))
         hover_labels.append(f"{team} ({d.strftime('%m/%d/%y')})<br>{label_val}<br>" + "<br>".join(all_race_texts))
+        
+    marker_symbols = []
+    for d in dates:
+        date_str = d.strftime("%Y-%m-%d")
+        if not df_filtered[(df_filtered["date"] == date_str) & (df_filtered["school"] == team)].empty:
+            marker_symbols.append("circle-open")
+        else:
+            marker_symbols.append("circle")
+  
     fig.add_trace(go.Scatter(
         x=dates,
         y=series,
@@ -259,6 +268,7 @@ for team in chosen_sorted:
         text=hover_labels,
         hoverinfo="text+name",
         line=dict(color=school_color.get(team)),
+        marker=dict(size=6, color=school_color.get(team), symbol=marker_symbols)
     ))
 
 fig.update_layout(
