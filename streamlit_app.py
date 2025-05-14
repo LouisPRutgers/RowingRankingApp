@@ -19,6 +19,72 @@ import numpy as np
 
 from rank_math import timeline, school_colors, rolling_rating
 
+
+######### CONSTANTS #############
+crca_top25_schools  = [
+    "Stanford","Texas","Washington - UW","Tennessee","Yale University","Princeton University",
+    "Rutgers","Brown University","California","Michigan","Syracuse","Virginia - UVA",
+    "University of Pennsylvania","Harvard University","UCF","Indiana","Ohio","Duke",
+    "Columbia University","Oregon State - OSU","Dartmouth College","Clemson",
+    "USC", "North Carolina Chapel Hill - UNC","Oklahoma"
+]
+
+ivy_schools = [
+    "Brown University", "Columbia University", "Cornell University",
+    "Dartmouth College", "Harvard University",
+    "University of Pennsylvania", "Princeton University", "Yale University"
+]
+
+ACC_SCHOOLS = [
+    "Boston College", "California", "Clemson", "Duke", "Louisville",
+    "Miami (FL)", "North Carolina", "Notre Dame",
+    "Southern Methodist University (SMU)", "Stanford", "Syracuse"
+]
+
+BIG_TEN_SCHOOLS = [
+    "Indiana", "Iowa", "Michigan", "Michigan State", "Minnesota",
+    "Ohio State", "Rutgers", "UCLA", "USC", "Washington", "Wisconsin"
+]
+
+SEC_SCHOOLS = [
+    "Alabama", "Oklahoma", "Tennessee", "Texas"
+]
+
+WCC_SCHOOLS = [
+    "Creighton", "Gonzaga", "Loyola Marymount", "Oregon State",
+    "Portland", "Saint Mary's", "San Diego", "Santa Clara", "Washington State"
+]
+
+A10_SCHOOLS = [
+    "Dayton", "Duquesne", "Fordham", "George Mason",
+    "George Washington", "La Salle", "Rhode Island",
+    "Saint Joseph's", "Umass"
+]
+
+PATRIOT_SCHOOLS = [
+    "Boston University", "Bucknell", "Colgate", "Holy Cross",
+    "Lehigh", "Loyola (MD)", "MIT", "Navy"
+]
+
+CAA_SCHOOLS = [
+    "Delaware", "Drexel", "Eastern Michigan", "Monmouth",
+    "Northeastern", "UC San Diego", "UConn", "Villanova"
+]
+
+MAAC_SCHOOLS = [
+    "Canisius", "Drake", "Fairfield", "Iona", "Jacksonville",
+    "Manhattan", "Marist", "Robert Morris", "Sacred Heart", "Stetson"
+]
+
+BIG_12_SCHOOLS = [
+    "Kansas", "Kansas State", "Old Dominion", "Tulsa", "UCF", "West Virginia"
+]
+
+INDEPENDENT_SCHOOLS = [
+    "Temple", "Georgetown University", "Sacramento State University",
+    "Seattle University", "Bryant University"
+]
+
 # Config
 CSV_PATH = Path("data/rowing_races.csv")
 st.set_page_config(page_title="Rowing Race Ranker", page_icon="🚣", layout="wide")
@@ -33,7 +99,6 @@ if df.empty or "Boat Class" not in df.columns:
     st.warning("CSV missing or malformed. Must include 'Boat Class'.")
     st.stop()
 
-# Boat class dropdown
 priority_order = [
     "1st Varsity 8+",
     "2nd Varsity 8+",
@@ -41,122 +106,147 @@ priority_order = [
     "2nd Varsity 4+",
     "3rd Varsity 8+"
 ]
-available_classes = sorted(df["Boat Class"].unique())
-sorted_boats = [b for b in priority_order if b in available_classes] + \
-               sorted([b for b in available_classes if b not in priority_order])
-default_boat = "1st Varsity 8+" if "1st Varsity 8+" in sorted_boats else sorted_boats[0]
 
 st.sidebar.header("Filters")
-boat_class = st.sidebar.selectbox("Boat Class", options=sorted_boats, index=sorted_boats.index(default_boat))
-df_filtered = df[df["Boat Class"] == boat_class]
+#Boat-class selector (priority order respected)
+available_classes = sorted(df["Boat Class"].unique())
+sorted_boats = ([b for b in priority_order if b in available_classes] +
+                sorted(set(available_classes) - set(priority_order)))
+default_boat = "1st Varsity 8+" if "1st Varsity 8+" in sorted_boats else sorted_boats[0]
+
+boat_class = st.sidebar.selectbox(
+    "Boat Class", sorted_boats, index=sorted_boats.index(default_boat)
+)
+
+df_filtered = df.query("`Boat Class` == @boat_class")
 if df_filtered.empty:
     st.warning(f"No races found for {boat_class}")
     st.stop()
 
-preselected_schools = st.sidebar.selectbox("League", ["CRCA Top25", "Ivy League", "All"])
+# League selector
+LEAGUES = [
+    "CRCA Top25", "Ivy League", "Southeastern Conference (SEC)",
+    "Atlantic Coast Conference (ACC)", "Big Ten Conference",
+    "Big 12 Conference", "West Coast Conference (WCC)",
+    "Atlantic 10 Conference (A-10)", "Patriot League",
+    "Coastal Athletic Association (CAA)",
+    "Metro Atlantic Athletic Conference (MAAC)",
+    "Independents & Other Programs", "All",
+]
+selected_league = st.sidebar.selectbox("League", LEAGUES)
 
-# All teams (for filtering and plotting)
+# Teams present *after* Boat-class filter
 teams_all = sorted(df_filtered["school"].unique())
 
-# School filter
-school_color = school_colors()
-crca_top25_schools  = [
-    "Stanford",
-    "Texas",
-    "Washington - UW",
-    "Tennessee",
-    "Yale University",
-    "Princeton University",
-    "Rutgers",
-    "Brown University",
-    "California",
-    "Michigan",
-    "Syracuse",
-    "Virginia - UVA",
-    "University of Pennsylvania",
-    "Harvard University",
-    "UCF",
-    "Indiana",
-    "Ohio",
-    "Duke",
-    "Columbia University",  
-    "Oregon State - OSU",
-    "Dartmouth College",
-    "Clemson",
-    "USC", 
-    "North Carolina Chapel Hill - UNC",
-    "Oklahoma"
-]
-
-ivy_schools = [
-    "Brown University", "Columbia University", "Cornell University",
-    "Dartmouth College", "Harvard University",
-    "University of Pennsylvania", "Princeton University", "Yale University"
-]
-
-# Map league selections to corresponding school lists
+# League → schools lookup (dynamic “All” entry)
 school_mapping = {
-    "Ivy League": ivy_schools,
     "CRCA Top25": crca_top25_schools,
-    "All": teams_all
+    "Ivy League": ivy_schools,
+    "Southeastern Conference (SEC)": SEC_SCHOOLS,
+    "Atlantic Coast Conference (ACC)": ACC_SCHOOLS,
+    "Big Ten Conference": BIG_TEN_SCHOOLS,
+    "Big 12 Conference": BIG_12_SCHOOLS,
+    "West Coast Conference (WCC)": WCC_SCHOOLS,
+    "Atlantic 10 Conference (A-10)": A10_SCHOOLS,
+    "Patriot League": PATRIOT_SCHOOLS,
+    "Coastal Athletic Association (CAA)": CAA_SCHOOLS,
+    "Metro Atlantic Athletic Conference (MAAC)": MAAC_SCHOOLS,
+    "Independents & Other Programs": INDEPENDENT_SCHOOLS,
+    "All": teams_all,
 }
 
-# Get the list of schools based on the selected league
-preselected_schoolsed_list = school_mapping.get(preselected_schools, [])
-
-# Filter the schools to include only those present in 'teams_all'
-# This ensures that we don't include schools that are not part of the dataset
-preselected_schoolsed_list = [school for school in preselected_schoolsed_list if school in teams_all] if preselected_schools != "All" else teams_all
-
-# Initialize session state for chosen schools if it hasn't been initialized
-# This is the list of schools that the user will see and can modify
-if "chosen_schools" not in st.session_state:
-    st.session_state.chosen_schools = preselected_schoolsed_list
-
-# Initialize session state for modifications if it hasn't been initialized
-# The 'modifications' dictionary keeps track of schools the user has added or removed
-if "modifications" not in st.session_state:
-    st.session_state.modifications = {}
-
-# Initialize 'previous_league' to keep track of the last selected league
-# This allows us to compare if the user switches between leagues
-if "previous_league" not in st.session_state:
-    st.session_state.previous_league = preselected_schools
-
-# Check if the league has changed
-if preselected_schools != st.session_state.previous_league:
-    # If the league has changed, reset the modifications
-    # Update the list of schools based on the selected league and preserve user modifications
-    if preselected_schools != "All":
-        # Reset to the list of schools for the selected league but exclude schools marked as "removed"
-        st.session_state.chosen_schools = [school for school in preselected_schoolsed_list if school not in st.session_state.modifications.get("removed", [])]
-    else:
-        # If "All" schools are selected, allow the user to modify all schools
-        st.session_state.chosen_schools = preselected_schoolsed_list
-    
-    # Update the 'previous_league' session state to the current league
-    st.session_state.previous_league = preselected_schools  # Store the current league
-
-# Handle school modifications (additions and removals)
-chosen_schools = st.sidebar.multiselect(
-    "Schools on chart", options=teams_all, default=[school for school in st.session_state.chosen_schools if school in teams_all]
+preselected = (
+    [s for s in school_mapping[selected_league] if s in teams_all]
+    if selected_league != "All" else teams_all
 )
 
-# Track schools the user has added
-for school in chosen_schools:
-    if school not in st.session_state.modifications or st.session_state.modifications[school] == "removed":
-        st.session_state.modifications[school] = "added"
+# Session-state helpers ----------------------------------------------------
+def _ensure_state():
+    st.session_state.setdefault("chosen_schools", preselected)
+    st.session_state.setdefault("modifications", {})          # {school: "added"/"removed"}
+    st.session_state.setdefault("previous_league", selected_league)
 
-# Track schools the user has removed
-removed_schools = [school for school in teams_all if school not in chosen_schools and school in st.session_state.chosen_schools]
-for school in removed_schools:
-    st.session_state.modifications[school] = "removed"
+_ensure_state()
 
-# Update the session state with the latest list of chosen schools
+# ── 5️⃣  Handle league changes & keep per-run selection alive ──────────────────
+if "previous_league" not in st.session_state:
+    st.session_state.previous_league = selected_league
+if "previous_boat" not in st.session_state:
+    st.session_state.previous_boat = boat_class
+if "schools_on_chart" not in st.session_state:
+    st.session_state.schools_on_chart = []
+if "modifications" not in st.session_state:
+    st.session_state.modifications = {}
+if "chosen_schools" not in st.session_state:
+    st.session_state.chosen_schools = []
+if "init_done" not in st.session_state:
+    st.session_state.init_done = False
+
+if not st.session_state.init_done:                    # ← changed condition
+    first_list = (
+        teams_all
+        if selected_league == "All"
+        else [s for s in school_mapping[selected_league] if s in teams_all]
+    )
+    st.session_state["schools_on_chart"] = first_list
+    st.session_state.chosen_schools = first_list.copy()
+    st.session_state.init_done = True                 # ← mark as done
+
+# -------- When the user picks a *different* LEAGUE ----------------------------
+if selected_league != st.session_state.previous_league:
+    # fresh full list for that league (restricted to teams in current boat-class data)
+    if selected_league == "All":
+        fresh_list = teams_all
+    else:
+        league_list = school_mapping[selected_league]
+        fresh_list = [s for s in league_list if s in teams_all]
+
+    # wipe any old add/remove history and push the fresh list into state + widget
+    st.session_state.modifications.clear()
+    st.session_state.chosen_schools = fresh_list
+    st.session_state.schools_on_chart = fresh_list.copy()
+
+    # remember which league is now active
+    st.session_state.previous_league = selected_league
+
+# ── Handle a change in the Boat-class dropdown ──────────────────────
+if boat_class != st.session_state.previous_boat:
+    # show only the schools (from the user’s current selection) that
+    # actually race in this boat class
+    visible = [s for s in st.session_state.chosen_schools if s in teams_all]
+
+    # push that list into the widget so it never starts empty
+    st.session_state.schools_on_chart = visible
+
+    # remember this boat class
+    st.session_state.previous_boat = boat_class
+# ────────────────────────────────────────────────────────────────────
+
+# ── 6️⃣  School multiselect (widget reads/writes `schools_on_chart`) ───────────
+chosen_schools = st.sidebar.multiselect(
+    "Schools on chart",
+    options=teams_all,
+    key="schools_on_chart",        # <- widget’s single source of truth
+)
+
+# ---- Track what the user just did -------------------------------------------
+# additions
+for s in chosen_schools:
+    if st.session_state.modifications.get(s) == "removed":
+        st.session_state.modifications[s] = "added"
+    elif s not in st.session_state.modifications:
+        st.session_state.modifications[s] = "added"
+
+# removals
+for s in set(st.session_state.chosen_schools) - set(chosen_schools):
+    st.session_state.modifications[s] = "removed"
+
+# stash latest list for downstream plotting etc.
 st.session_state.chosen_schools = chosen_schools
-
-# Store the final list of chosen schools in the session state (after modification tracking)
 chosen = st.session_state.chosen_schools
+
+# 🎨 Color dictionary
+school_color = school_colors()
 
 
 
