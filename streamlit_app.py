@@ -14,6 +14,8 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 import io
+from datetime import datetime, timedelta
+import numpy as np   
 
 from rank_math import timeline, school_colors, rolling_rating
 
@@ -189,6 +191,59 @@ if use_rolling:
 else:
     dates, rank_rel, pct, rating = timeline(df_filtered)
 
+#Show weight Overlay
+if use_rolling:
+    show_overlay = st.sidebar.toggle("Show weighting overlay", value=True)
+else:
+    show_overlay = False
+
+# ── helper that builds green-background shapes ───────────────────────
+def _weight_shapes() -> list[dict]:
+    if not show_overlay:
+        return []                 # overlay disabled
+
+    latest = dates[-1]            # we shade w.r.t. *today's* rating
+    g = (0, 255, 0)               # pure green
+    max_a = 0.18                  # peak opacity
+
+    shapes = []
+    if not use_rolling:           # no window → solid green
+        shapes.append(dict(type="rect", xref="x", yref="paper",
+                           x0=min(dates), x1=max(dates),
+                           y0=0, y1=1,
+                           fillcolor=f"rgba({g[0]},{g[1]},{g[2]},{max_a})",
+                           line_width=0))
+        return shapes
+
+    start = latest - timedelta(days=days_window)
+
+    if dropoff == "Sudden Decay":
+        shapes.append(dict(type="rect", xref="x", yref="paper",
+                           x0=start, x1=latest, y0=0, y1=1,
+                           fillcolor=f"rgba({g[0]},{g[1]},{g[2]},{max_a})",
+                           line_width=0))
+        return shapes
+
+    # Linear or Exponential → fade in ~50 slices
+    slices = 50
+    step = days_window / slices
+    for i in range(slices):
+        seg_end   = latest - timedelta(days=i * step)
+        seg_start = latest - timedelta(days=(i + 1) * step)
+        age_mid   = (latest - (seg_start + (seg_end - seg_start) / 2)).days
+        if dropoff == "Linear Decay":
+            w = max(0.0, 1 - age_mid / days_window)
+        else:                       # Exponential Decay
+            w = np.exp(-decay_rate * age_mid)
+        alpha = max_a * w
+        if alpha < 0.01:            # skip if almost invisible
+            continue
+        shapes.append(dict(type="rect", xref="x", yref="paper",
+                           x0=seg_start, x1=seg_end, y0=0, y1=1,
+                           fillcolor=f"rgba({g[0]},{g[1]},{g[2]},{alpha:.3f})",
+                           line_width=0))
+    return shapes
+
 
 # Chart logic
 st.title(f"NCAA Women's Collegiate Rowing Ranker – {boat_class}")
@@ -256,9 +311,9 @@ for team in chosen_sorted:
     for d in dates:
         date_str = d.strftime("%Y-%m-%d")
         if not df_filtered[(df_filtered["date"] == date_str) & (df_filtered["school"] == team)].empty:
-            marker_symbols.append("circle-open")
-        else:
             marker_symbols.append("circle")
+        else:
+            marker_symbols.append("line-ew")
   
     fig.add_trace(go.Scatter(
         x=dates,
@@ -278,6 +333,7 @@ fig.update_layout(
     hovermode="closest",
     template="plotly_white",
     legend=dict(font=dict(size=10)),
+    shapes=_weight_shapes(),
 )
 st.plotly_chart(fig, use_container_width=True)
 with st.expander("🏆 What if the NCAA were to happen today?", expanded=False):
