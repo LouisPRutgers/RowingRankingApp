@@ -249,7 +249,7 @@ chosen = st.session_state.chosen_schools
 school_color = school_colors()
 
 # Metric selection
-mode = st.sidebar.radio("Metric to plot", ["Absolute Rank", "Subset Rank", "Percentile", "Rating"], index=3)
+mode = st.sidebar.radio("Metric to plot", ["Overall Rank", "Subset Rank", "Percentile", "Rating"], index=3)
 
 # Rolling toggle + settings
 st.sidebar.markdown("### Rolling")
@@ -371,17 +371,17 @@ now_et = datetime.now(timezone("US/Eastern"))
 st.caption(f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET • CSV path: `data/rowing_races.csv`")
 
 metric_map = {
-    "Absolute Rank": rank_rel,
+    "Overall Rank": rank_rel,
     "Subset Rank":   subset_rank,
     "Percentile":    pct,
     "Rating":        rating,
 }
-invert_y = (mode in ["Absolute Rank", "Subset Rank"])
+invert_y = (mode in ["Overall Rank", "Subset Rank"])
 
 y_label = (
     f"{mode} (Rolling, {days_window} d, drop-off: {dropoff})"
     if use_rolling else {
-        "Absolute Rank": "Absolute Rank (1 = best vs. ALL schools)",
+        "Overall Rank": "Overall Rank (1 = best vs. ALL schools)",
         "Subset Rank":   "Subset Rank (1 = best in visible subset)",
         "Percentile":    "Percentile (100 = best)",
         "Rating":        "Massey rating (higher = better)",
@@ -422,7 +422,7 @@ for team in chosen_sorted:
         val = series[dates.index(d)]
         label_val = (
             f"{mode}: {int(round(val))}"
-            if mode in ["Absolute Rank", "Subset Rank"] and val is not None
+            if mode in ["Overall Rank", "Subset Rank"] and val is not None
             else f"{mode}: {val:.2f}" if val is not None
             else f"{mode}: N/A"
         )
