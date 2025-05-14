@@ -422,7 +422,7 @@ for team in chosen_sorted:
         val = series[dates.index(d)]
         label_val = (
             f"{mode}: {int(round(val))}"
-            if mode in ["Absolute Rank", "Subset Rank"] and val is not None
+            if mode in ["Rank", "Subset Rank"] and val is not None
             else f"{mode}: {val:.2f}" if val is not None
             else f"{mode}: N/A"
         )
