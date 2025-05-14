@@ -99,6 +99,8 @@ if df.empty or "Boat Class" not in df.columns:
     st.warning("CSV missing or malformed. Must include 'Boat Class'.")
     st.stop()
 
+_, rank_rel_ALL, _, _ = timeline(df)
+
 priority_order = [
     "1st Varsity 8+",
     "2nd Varsity 8+",
@@ -502,8 +504,8 @@ with st.expander("🏆 What if the NCAA were to happen today?", expanded=False):
 
         # Use the previously computed rank_rel for the selected rating method (Rating or Rolling Rating)
         latest_ranks = {
-            team: next((r for r in reversed(rank_rel[team]) if r is not None), None)
-            for team in rank_rel  # We are using rank_rel computed earlier, not from timeline(df_boat)
+            team: next((r for r in reversed(rank_rel_ALL[team]) if r is not None), None)
+            for team in rank_rel_ALL  # We are using rank_rel computed earlier, not from timeline(df_boat)
         }
 
         # Sort teams by latest rank or rating (based on the latest ranks from rank_rel)
