@@ -216,7 +216,8 @@ if boat_class != st.session_state.previous_boat:
     visible = [s for s in st.session_state.chosen_schools if s in teams_all]
 
     # push that list into the widget so it never starts empty
-    st.session_state.schools_on_chart = visible
+    if ("schools_on_chart" not in st.session_state) or (not visible):
+        st.session_state.schools_on_chart = visible
 
     # remember this boat class
     st.session_state.previous_boat = boat_class
