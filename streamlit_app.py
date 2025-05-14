@@ -249,7 +249,7 @@ chosen = st.session_state.chosen_schools
 school_color = school_colors()
 
 # Metric selection
-mode = st.sidebar.radio("Metric to plot", ["Overall Rank", "Subset Rank", "Percentile", "Rating"], index=3)
+mode = st.sidebar.radio("Metric to plot", ["Overall Rank", "League Rank", "Percentile", "Rating"], index=3)
 
 # Rolling toggle + settings
 st.sidebar.markdown("### Rolling")
@@ -289,7 +289,7 @@ else:
 # ------------------------------------------------------------------
 subset_rank = {t: [] for t in teams_all}
 
-if mode == "Subset Rank":           # only compute when needed
+if mode == "League Rank":           # only compute when needed
     chosen_set = set(chosen)        # faster lookup
     n_dates = len(dates)
 
@@ -372,17 +372,17 @@ st.caption(f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET • CSV path: 
 
 metric_map = {
     "Overall Rank": rank_rel,
-    "Subset Rank":   subset_rank,
+    "League Rank":   subset_rank,
     "Percentile":    pct,
     "Rating":        rating,
 }
-invert_y = (mode in ["Overall Rank", "Subset Rank"])
+invert_y = (mode in ["Overall Rank", "League Rank"])
 
 y_label = (
     f"{mode} (Rolling, {days_window} d, drop-off: {dropoff})"
     if use_rolling else {
         "Overall Rank": "Overall Rank (1 = best vs. ALL schools)",
-        "Subset Rank":   "Subset Rank (1 = best in visible subset)",
+        "League Rank":   "League Rank (1 = best in visible subset)",
         "Percentile":    "Percentile (100 = best)",
         "Rating":        "Massey rating (higher = better)",
     }[mode]
@@ -402,7 +402,7 @@ for team in chosen:
         latest_values[team] = latest_val
 
 # Sorting logic: lower Rank = better, higher Percentile/Rating = better
-reverse = mode not in ["Overall Rank", "Subset Rank"]
+reverse = mode not in ["Overall Rank", "League Rank"]
 chosen_sorted = sorted(latest_values, key=latest_values.get, reverse=reverse)
 
 
@@ -421,9 +421,12 @@ for team in chosen_sorted:
         races_with_team = races_today[races_today["school"] == team]
         val = series[dates.index(d)]
         label_val = (
-            f"{mode}: {int(round(val))}"
-            if mode in ["Overall Rank", "Subset Rank"] and val is not None
-            else f"{mode}: {val:.2f}" if val is not None
+            f"{selected_league} Rank: {int(round(val))}"
+            if mode == "League Rank" and val is not None
+            else f"{mode}: {int(round(val))}"
+            if mode == "Overall Rank" and val is not None
+            else f"{mode}: {val:.2f}"
+            if val is not None
             else f"{mode}: N/A"
         )
         if races_with_team.empty:
