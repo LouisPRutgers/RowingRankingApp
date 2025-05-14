@@ -402,7 +402,7 @@ for team in chosen:
         latest_values[team] = latest_val
 
 # Sorting logic: lower Rank = better, higher Percentile/Rating = better
-reverse = (mode != "Rank")
+reverse = mode not in ["Overall Rank", "Subset Rank"]
 chosen_sorted = sorted(latest_values, key=latest_values.get, reverse=reverse)
 
 
