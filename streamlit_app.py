@@ -99,8 +99,6 @@ if df.empty or "Boat Class" not in df.columns:
     st.warning("CSV missing or malformed. Must include 'Boat Class'.")
     st.stop()
 
-_, rank_rel_ALL, _, _ = timeline(df)
-
 priority_order = [
     "1st Varsity 8+",
     "2nd Varsity 8+",
@@ -251,7 +249,7 @@ chosen = st.session_state.chosen_schools
 school_color = school_colors()
 
 # Metric selection
-mode = st.sidebar.radio("Metric to plot", ["Overall Rank", "Subset Rank", "Percentile", "Rating"], index=3)
+mode = st.sidebar.radio("Metric to plot", ["Rank", "Percentile", "Rating"], index=2)
 
 # Rolling toggle + settings
 st.sidebar.markdown("### Rolling")
@@ -285,39 +283,6 @@ if use_rolling:
     show_overlay = st.sidebar.toggle("Show weighting overlay", value=True)
 else:
     show_overlay = False
-
-# ------------------------------------------------------------------
-#  Build Subset-Rank (rank among the schools currently on the chart)
-# ------------------------------------------------------------------
-subset_rank = {t: [] for t in teams_all}
-
-if mode == "Subset Rank":           # only compute when needed
-    chosen_set = set(chosen)        # faster lookup
-    n_dates = len(dates)
-
-    for i in range(n_dates):
-        # gather (team, abs_rank) for teams *visible* on the chart today
-        todays = [
-            (t, rank_rel[t][i])
-            for t in chosen_set
-            if rank_rel[t][i] is not None
-        ]
-        if not todays:
-            continue
-
-        # order by Absolute-Rank to get Subset-Rank
-        todays_sorted = sorted(todays, key=lambda kv: kv[1])
-        for j, (team, _) in enumerate(todays_sorted, start=1):
-            subset_rank[team].append(j)
-        # pad other chosen schools with None so list lengths stay equal
-        for team in chosen_set - {t for t, _ in todays_sorted}:
-            subset_rank[team].append(None)
-    # for teams *not* on the chart, just mirror Absolute-Rank list length
-    for t in teams_all:
-        if len(subset_rank[t]) < n_dates:
-            subset_rank[t].extend([None]*(n_dates - len(subset_rank[t])))
-
-
 
 # ── helper that builds green-background shapes ───────────────────────
 def _weight_shapes() -> list[dict]:
@@ -372,23 +337,13 @@ st.title(f"NCAA Women's Collegiate Rowing Ranker – {boat_class}")
 now_et = datetime.now(timezone("US/Eastern"))
 st.caption(f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET • CSV path: `data/rowing_races.csv`")
 
-metric_map = {
-    "Overall Rank": rank_rel,
-    "Subset Rank":   subset_rank,
-    "Percentile":    pct,
-    "Rating":        rating,
-}
-invert_y = (mode in ["Overall Rank", "Subset Rank"])
-
-y_label = (
-    f"{mode} (Rolling, {days_window} d, drop-off: {dropoff})"
-    if use_rolling else {
-        "Overall Rank": "Overall Rank (1 = best vs. ALL schools)",
-        "Subset Rank":   "Subset Rank (1 = best in visible subset)",
-        "Percentile":    "Percentile (100 = best)",
-        "Rating":        "Massey rating (higher = better)",
-    }[mode]
-)
+metric_map = {"Rank": rank_rel, "Percentile": pct, "Rating": rating}
+invert_y = (mode == "Rank")
+y_label = f"{mode} (Rolling, {days_window}d, drop-off: {dropoff})" if use_rolling else {
+    "Rank": "Rank (1 = best)",
+    "Percentile": "Percentile (100 = best)",
+    "Rating": "Massey rating (higher = better)",
+}[mode]
 
 def ordinal_suffix(n: int) -> str:
     if 10 <= n % 100 <= 20:
@@ -422,12 +377,7 @@ for team in chosen_sorted:
         races_today = df_filtered[df_filtered["date"] == date_str]
         races_with_team = races_today[races_today["school"] == team]
         val = series[dates.index(d)]
-        label_val = (
-            f"{mode}: {int(round(val))}"
-            if mode in ["Overall Rank", "Subset Rank"] and val is not None
-            else f"{mode}: {val:.2f}" if val is not None
-            else f"{mode}: N/A"
-        )
+        label_val = f"{mode}: {int(round(val))}" if mode == "Rank" and val is not None else f"{mode}: {val:.2f}" if val is not None else f"{mode}: N/A"
         if races_with_team.empty:
             hover_labels.append(f"{team} ({d.strftime('%m/%d/%y')})<br>{label_val}<br>No race on this date")
             continue
@@ -504,8 +454,8 @@ with st.expander("🏆 What if the NCAA were to happen today?", expanded=False):
 
         # Use the previously computed rank_rel for the selected rating method (Rating or Rolling Rating)
         latest_ranks = {
-            team: next((r for r in reversed(rank_rel_ALL[team]) if r is not None), None)
-            for team in rank_rel_ALL  # We are using rank_rel computed earlier, not from timeline(df_boat)
+            team: next((r for r in reversed(rank_rel[team]) if r is not None), None)
+            for team in rank_rel  # We are using rank_rel computed earlier, not from timeline(df_boat)
         }
 
         # Sort teams by latest rank or rating (based on the latest ranks from rank_rel)
