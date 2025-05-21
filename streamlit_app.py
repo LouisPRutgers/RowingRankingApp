@@ -37,13 +37,13 @@ ivy_schools = [
 
 ACC_SCHOOLS = [
     "Boston College", "California", "Clemson", "Duke", "Louisville",
-    "Miami (FL)", "North Carolina", "Notre Dame",
+    "Miami (FL)", "North Carolina Chapel Hill - UNC", "Notre Dame",
     "Southern Methodist University (SMU)", "Stanford", "Syracuse"
 ]
 
 BIG_TEN_SCHOOLS = [
     "Indiana", "Iowa", "Michigan", "Michigan State", "Minnesota",
-    "Ohio State", "Rutgers", "UCLA", "USC", "Washington", "Wisconsin"
+    "Ohio", "Rutgers", "UCLA", "USC", "Washington - UW", "Wisconsin"
 ]
 
 SEC_SCHOOLS = [
@@ -51,7 +51,7 @@ SEC_SCHOOLS = [
 ]
 
 WCC_SCHOOLS = [
-    "Creighton", "Gonzaga", "Loyola Marymount", "Oregon State",
+    "Creighton", "Gonzaga", "Loyola Marymount", "Oregon State - OSU",
     "Portland", "Saint Mary's", "San Diego", "Santa Clara", "Washington State"
 ]
 
