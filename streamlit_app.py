@@ -134,7 +134,8 @@ if df_filtered.empty:
 
 # League selector
 LEAGUES = [
-    "CRCA Top25", "Ivy League", "Southeastern Conference (SEC)",
+    "2025 NCAA Championship Schools", "CRCA Top25", "Ivy League", 
+    "Southeastern Conference (SEC)",
     "Atlantic Coast Conference (ACC)", "Big Ten Conference",
     "Big 12 Conference", "West Coast Conference (WCC)",
     "Atlantic 10 Conference (A-10)", "Patriot League",
