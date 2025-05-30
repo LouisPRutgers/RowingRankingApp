@@ -21,6 +21,15 @@ from rank_math import timeline, school_colors, rolling_rating
 
 
 ######### CONSTANTS #############
+
+NCAA_Championship_Schools  = [
+    "Stanford","Texas", "Tennessee", "Washington - UW","Princeton University",
+    "Rutgers","Yale University","Michigan","Brown University","Indiana",
+    "Dartmouth College","Virginia - UVA","UCF","California","University of Pennsylvania",
+    "Harvard University", "Syracuse","Boston University - BU","Northeastern",
+    "Rhode Island (RIU)", "Fairfield",
+]
+
 crca_top25_schools  = [
     "Stanford","Texas","Washington - UW","Tennessee","Yale University","Princeton University",
     "Rutgers","Brown University","California","Michigan","Syracuse","Virginia - UVA",
@@ -57,12 +66,12 @@ WCC_SCHOOLS = [
 
 A10_SCHOOLS = [
     "Dayton", "Duquesne", "Fordham", "George Mason",
-    "George Washington", "La Salle", "Rhode Island",
+    "George Washington", "La Salle", "Rhode Island (RIU)",
     "Saint Joseph's", "Umass"
 ]
 
 PATRIOT_SCHOOLS = [
-    "Boston University", "Bucknell", "Colgate", "Holy Cross",
+    "Boston University - BU", "Bucknell", "Colgate", "Holy Cross",
     "Lehigh", "Loyola (MD)", "MIT", "Navy"
 ]
 
@@ -140,6 +149,7 @@ teams_all = sorted(df_filtered["school"].unique())
 
 # League → schools lookup (dynamic “All” entry)
 school_mapping = {
+    "2025 NCAA Championship Schools": NCAA_Championship_Schools,
     "CRCA Top25": crca_top25_schools,
     "Ivy League": ivy_schools,
     "Southeastern Conference (SEC)": SEC_SCHOOLS,
