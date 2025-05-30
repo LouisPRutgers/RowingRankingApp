@@ -134,7 +134,7 @@ if df_filtered.empty:
 
 # League selector
 LEAGUES = [
-    "2025 NCAA Championship Schools", "CRCA Top25", "Ivy League", 
+    "CRCA Top25", "Ivy League", "2025 NCAA Championship Schools",
     "Southeastern Conference (SEC)",
     "Atlantic Coast Conference (ACC)", "Big Ten Conference",
     "Big 12 Conference", "West Coast Conference (WCC)",
@@ -150,8 +150,8 @@ teams_all = sorted(df_filtered["school"].unique())
 
 # League → schools lookup (dynamic “All” entry)
 school_mapping = {
-    "2025 NCAA Championship Schools": NCAA_Championship_Schools,
     "CRCA Top25": crca_top25_schools,
+    "2025 NCAA Championship Schools": NCAA_Championship_Schools,
     "Ivy League": ivy_schools,
     "Southeastern Conference (SEC)": SEC_SCHOOLS,
     "Atlantic Coast Conference (ACC)": ACC_SCHOOLS,
