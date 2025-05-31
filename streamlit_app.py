@@ -377,7 +377,7 @@ def _weight_shapes() -> list[dict]:
 
 
 # Chart logic
-st.title(f"NCAA Women's Collegiate Rowing Ranker 2025 – {boat_class}")
+st.title(f"NCAA Women's Collegiate Rowing Ranker 2024-25 – {boat_class}")
 now_et = datetime.now(timezone("US/Eastern"))
 st.caption(f"Data last updated: {now_et:%B %d, %Y at %I:%M %p} ET • CSV path: `data/rowing_races.csv`")
 
