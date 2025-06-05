@@ -376,6 +376,51 @@ def _weight_shapes() -> list[dict]:
     return shapes
 
 
+# ── helper to render right-aligned “Export Data” button ───────────────
+def render_export_button(dates, df_filtered, chosen, metric_series, mode):
+    """
+    Builds a CSV of the races that are actually visible on the chart
+    (current boat class + chosen schools + current date range) and
+    shows a right-aligned download button under the plot.
+    """
+    export_rows = []
+    for i, d in enumerate(dates):
+        date_str = d.strftime("%Y-%m-%d")
+        todays    = df_filtered[df_filtered["date"] == date_str]
+
+        for _, row in todays.iterrows():
+            team = row["school"]
+            if team not in chosen:            # skip schools not on chart
+                continue
+
+            export_rows.append({
+                "Date"        : date_str,
+                "School"      : team,
+                "Boat Class"  : row["Boat Class"],
+                "Race ID"     : row["race_id"],
+                "Position"    : row["position"],
+                "Elapsed (s)" : row["time"],
+                mode          : metric_series[team][i],   # Rank / Rating / etc.
+            })
+
+    if not export_rows:                       # nothing to export right now
+        return
+
+    export_df  = pd.DataFrame(export_rows)
+    csv_bytes  = export_df.to_csv(index=False).encode("utf-8")
+
+    # right-align button just below the chart
+    left, right = st.columns([0.70, 0.30])
+    with right:
+        st.download_button(
+            "⬇️ Export Displayed Data",
+            data      = csv_bytes,
+            file_name = "chart_display_data.csv",
+            mime      = "text/csv",
+        )
+# ──────────────────────────────────────────────────────────────────────
+
+
 # Chart logic
 st.title(f"NCAA Women's Collegiate Rowing Ranker 2024-25 – {boat_class}")
 now_et = datetime.now(timezone("US/Eastern"))
@@ -485,6 +530,16 @@ fig.update_layout(
     shapes=_weight_shapes(),
 )
 st.plotly_chart(fig, use_container_width=True)
+
+#Export Data Button
+render_export_button(
+    dates           = dates,
+    df_filtered     = df_filtered,
+    chosen          = chosen,
+    metric_series   = metric_map[mode],
+    mode            = mode,
+)
+
 with st.expander("🏆 What if the NCAA were to happen today?", expanded=False):
     st.markdown("Below is the predicted team standings if the NCAA Championship happened today, based on the latest ratings!")
 
@@ -703,7 +758,7 @@ collegiate.rowing.rankings@gmail.com
 
 # Download
 with open(CSV_PATH, "rb") as fh:
-    st.download_button("⬇️ Download raw CSV", fh.read(), file_name="rowing_races.csv", mime="text/csv")
+    st.download_button("⬇️ Download Raw Race Data CSV", fh.read(), file_name="rowing_races.csv", mime="text/csv")
 
 
 
