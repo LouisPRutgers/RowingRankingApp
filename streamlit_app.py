@@ -6,7 +6,7 @@ Show interactive Rank / Percentile / Rating trend lines for
 any subset of schools, using the results CSV produced by the
 desktop GUI.  Built for Streamlit Community Cloud.
 """
-
+ 
 from datetime import datetime
 from pathlib import Path
 from pytz import timezone

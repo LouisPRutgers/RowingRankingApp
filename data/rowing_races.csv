@@ -51,1375 +51,1375 @@ Boat Class,race_id,date,position,school,time
 1st Varsity 4+,19,2025-04-05,1,North Carolina Chapel Hill - UNC,454
 1st Varsity 4+,19,2025-04-05,2,University of Minnesota,456
 1st Varsity 4+,19,2025-04-05,3,Clemson,461
-1st Varsity 4+,21,2025-04-12,1,Yale University,415
-1st Varsity 4+,21,2025-04-12,2,Dartmouth College,436
-1st Varsity 4+,22,2025-04-12,1,Princeton University,429
-1st Varsity 4+,22,2025-04-12,2,Harvard University,439
-1st Varsity 4+,22,2025-04-12,3,Cornell University,461
-1st Varsity 4+,23,2025-04-12,1,Columbia University,458
-1st Varsity 4+,23,2025-04-12,2,Boston University - BU,464
-1st Varsity 4+,23,2025-04-12,3,Northeastern,465
-1st Varsity 4+,24,2025-04-12,1,Texas,424
-1st Varsity 4+,24,2025-04-12,2,Michigan,432
-1st Varsity 4+,25,2025-04-12,1,Kansas State,446
-1st Varsity 4+,25,2025-04-12,2,Iowa,452
-1st Varsity 4+,26,2025-04-12,1,University of Minnesota,457
-1st Varsity 4+,26,2025-04-12,2,Kansas State,492
-1st Varsity 4+,27,2025-04-18,1,Washington - UW,434
-1st Varsity 4+,27,2025-04-18,2,University of Pennsylvania,443
-1st Varsity 4+,27,2025-04-18,3,Indiana,445
-1st Varsity 4+,27,2025-04-18,4,Clemson,446
-1st Varsity 4+,27,2025-04-18,5,Notre Dame,460
-1st Varsity 4+,27,2025-04-18,6,Iowa,475
-1st Varsity 4+,28,2025-04-18,1,Tennessee,432
-1st Varsity 4+,28,2025-04-18,2,Ohio,437
-1st Varsity 4+,28,2025-04-18,3,SMU,440
-1st Varsity 4+,28,2025-04-18,4,Michigan State,455
-1st Varsity 4+,28,2025-04-18,5,Oregon State - OSU,457
-1st Varsity 4+,29,2025-04-18,1,Michigan,429
-1st Varsity 4+,29,2025-04-18,2,Harvard University,431
-1st Varsity 4+,29,2025-04-18,3,Duke,433
-1st Varsity 4+,29,2025-04-18,4,USC,437
-1st Varsity 4+,29,2025-04-18,5,Miami,442
-1st Varsity 4+,29,2025-04-18,6,Wisconsin,473
-1st Varsity 4+,30,2025-04-18,1,Rutgers,427
-1st Varsity 4+,30,2025-04-18,2,Brown University,429
-1st Varsity 4+,30,2025-04-18,3,University of Minnesota,431
-1st Varsity 4+,30,2025-04-18,4,Oklahoma,444
-1st Varsity 4+,31,2025-04-18,1,Washington - UW,426
-1st Varsity 4+,31,2025-04-18,2,Brown University,434
-1st Varsity 4+,31,2025-04-18,3,Duke,440
-1st Varsity 4+,31,2025-04-18,4,Ohio,444
-1st Varsity 4+,31,2025-04-18,5,Miami,458
-1st Varsity 4+,31,2025-04-18,6,Wisconsin,465
-1st Varsity 4+,32,2025-04-18,1,Tennessee,436
-1st Varsity 4+,32,2025-04-18,2,Michigan,440
-1st Varsity 4+,32,2025-04-18,3,Rutgers,443
-1st Varsity 4+,32,2025-04-18,4,University of Pennsylvania,447
-1st Varsity 4+,32,2025-04-18,5,SMU,448
-1st Varsity 4+,33,2025-04-18,1,Harvard University,436
-1st Varsity 4+,33,2025-04-18,2,UCLA,448
-1st Varsity 4+,33,2025-04-18,3,Indiana,449
-1st Varsity 4+,33,2025-04-18,4,Oklahoma,452
-1st Varsity 4+,33,2025-04-18,5,Iowa,468
-1st Varsity 4+,34,2025-04-18,1,University of Minnesota,440
-1st Varsity 4+,34,2025-04-18,2,USC,445
-1st Varsity 4+,34,2025-04-18,3,Clemson,448
-1st Varsity 4+,34,2025-04-18,4,Oregon State - OSU,451
-1st Varsity 4+,34,2025-04-18,5,Notre Dame,458
-1st Varsity 4+,34,2025-04-18,6,Michigan State,467
-1st Varsity 4+,35,2025-04-19,1,Yale University,417
-1st Varsity 4+,35,2025-04-19,2,Princeton University,428
-1st Varsity 4+,36,2025-04-19,1,Dartmouth College,478
-1st Varsity 4+,36,2025-04-19,2,Rhode Island (RIU),504
-1st Varsity 4+,37,2025-04-19,1,Northeastern,499
-1st Varsity 4+,37,2025-04-19,2,Cornell University,510
-1st Varsity 4+,38,2025-04-19,1,Northeastern,496
-1st Varsity 4+,38,2025-04-19,2,Rhode Island (RIU),510
-1st Varsity 4+,39,2025-04-19,1,Dartmouth College,488
-1st Varsity 4+,39,2025-04-19,2,Cornell University,510
-1st Varsity 4+,40,2025-04-19,1,Gonzaga,455
-1st Varsity 4+,40,2025-04-19,2,Washington State - WSU,462
-1st Varsity 4+,41,2025-04-19,1,Washington - UW,433
-1st Varsity 4+,41,2025-04-19,2,University of Pennsylvania,443
-1st Varsity 4+,41,2025-04-19,3,Indiana,445
-1st Varsity 4+,41,2025-04-19,4,Clemson,446
-1st Varsity 4+,41,2025-04-19,5,Notre Dame,460
-1st Varsity 4+,41,2025-04-19,6,Iowa,475
-1st Varsity 4+,42,2025-04-19,1,Tennessee,432
-1st Varsity 4+,42,2025-04-19,2,Ohio,437
-1st Varsity 4+,42,2025-04-19,3,SMU,440
-1st Varsity 4+,42,2025-04-19,4,UCLA,447
-1st Varsity 4+,42,2025-04-19,5,Michigan State,455
-1st Varsity 4+,42,2025-04-19,6,Oregon State - OSU,457
-1st Varsity 4+,43,2025-04-19,1,Michigan,429
-1st Varsity 4+,43,2025-04-19,2,Harvard University,431
-1st Varsity 4+,43,2025-04-19,3,Duke,433
-1st Varsity 4+,43,2025-04-19,4,USC,437
-1st Varsity 4+,43,2025-04-19,5,Miami,442
-1st Varsity 4+,43,2025-04-19,6,Wisconsin,473
-1st Varsity 4+,44,2025-04-19,1,Rutgers,427
-1st Varsity 4+,44,2025-04-19,2,Brown University,429
-1st Varsity 4+,44,2025-04-19,3,University of Minnesota,431
-1st Varsity 4+,44,2025-04-19,4,Oklahoma,444
-1st Varsity 4+,45,2025-04-19,1,Washington - UW,426
-1st Varsity 4+,45,2025-04-19,2,Brown University,434
-1st Varsity 4+,45,2025-04-19,3,Duke,440
-1st Varsity 4+,45,2025-04-19,4,Ohio,444
-1st Varsity 4+,45,2025-04-19,5,Miami,458
-1st Varsity 4+,45,2025-04-19,6,Wisconsin,465
-1st Varsity 4+,46,2025-04-19,1,Tennessee,436
-1st Varsity 4+,46,2025-04-19,2,Michigan,440
-1st Varsity 4+,46,2025-04-19,3,Rutgers,443
-1st Varsity 4+,46,2025-04-19,4,University of Pennsylvania,447
-1st Varsity 4+,46,2025-04-19,5,SMU,448
-1st Varsity 4+,47,2025-04-19,1,Harvard University,436
-1st Varsity 4+,47,2025-04-19,2,UCLA,448
-1st Varsity 4+,47,2025-04-19,3,Indiana,449
-1st Varsity 4+,47,2025-04-19,4,Oklahoma,452
-1st Varsity 4+,47,2025-04-19,5,Iowa,469
-1st Varsity 4+,48,2025-04-19,1,University of Minnesota,440
-1st Varsity 4+,48,2025-04-19,2,USC,445
-1st Varsity 4+,48,2025-04-19,3,Clemson,448
-1st Varsity 4+,48,2025-04-19,4,Oregon State - OSU,451
-1st Varsity 4+,48,2025-04-19,5,Notre Dame,459
-1st Varsity 4+,48,2025-04-19,6,Michigan State,467
-1st Varsity 4+,49,2025-04-25,1,Brown University,476
-1st Varsity 4+,49,2025-04-25,2,Cornell University,516
-1st Varsity 4+,50,2025-04-26,1,Washington - UW,439
-1st Varsity 4+,50,2025-04-26,2,California,451
-1st Varsity 4+,51,2025-04-26,1,Yale University,458
-1st Varsity 4+,51,2025-04-26,2,Harvard University,474
-1st Varsity 4+,52,2025-04-26,1,Tennessee,422
-1st Varsity 4+,52,2025-04-26,2,Princeton University,424
-1st Varsity 4+,52,2025-04-26,3,Ohio,425
-1st Varsity 4+,52,2025-04-26,4,Syracuse,462
-1st Varsity 4+,53,2025-04-26,1,Indiana,501
-1st Varsity 4+,53,2025-04-26,2,Notre Dame,506
-1st Varsity 4+,53,2025-04-26,3,Michigan State,510
-1st Varsity 4+,54,2025-04-26,1,Texas,442
-1st Varsity 4+,54,2025-04-26,2,SMU,473
-1st Varsity 4+,55,2025-04-26,1,Stanford,450
-1st Varsity 4+,55,2025-04-26,2,UCF,463
-1st Varsity 4+,56,2025-04-26,1,Duke,439
-1st Varsity 4+,56,2025-04-26,2,North Carolina Chapel Hill - UNC,446
-1st Varsity 4+,56,2025-04-26,3,Clemson,449
-1st Varsity 4+,56,2025-04-26,4,Washington State - WSU,455
-1st Varsity 4+,56,2025-04-26,5,Jacksonville,469
-1st Varsity 4+,57,2025-04-26,1,Columbia University,441
-1st Varsity 4+,57,2025-04-26,2,Virginia - UVA,442
-1st Varsity 4+,57,2025-04-26,3,Gonzaga,450
-1st Varsity 4+,57,2025-04-26,4,Miami,456
-1st Varsity 4+,57,2025-04-26,5,Kansas State,465
-1st Varsity 4+,58,2025-04-26,1,Boston University - BU,453
-1st Varsity 4+,58,2025-04-26,2,Boston College,462
-1st Varsity 4+,58,2025-04-26,3,Louisville,463
-1st Varsity 4+,58,2025-04-26,4,Rhode Island (RIU),466
-1st Varsity 4+,59,2025-04-26,1,Clemson,443
-1st Varsity 4+,59,2025-04-26,2,Gonzaga,454
-1st Varsity 4+,59,2025-04-26,3,Louisville,458
-1st Varsity 4+,59,2025-04-26,4,Boston College,463
-1st Varsity 4+,60,2025-04-26,1,Virginia - UVA,443
-1st Varsity 4+,60,2025-04-26,2,North Carolina Chapel Hill - UNC,448
-1st Varsity 4+,60,2025-04-26,3,Boston University - BU,454
-1st Varsity 4+,60,2025-04-26,4,Washington State - WSU,455
-1st Varsity 4+,60,2025-04-26,5,Miami,457
-1st Varsity 4+,60,2025-04-26,6,Kansas State,465
-1st Varsity 4+,61,2025-04-26,1,Duke,444
-1st Varsity 4+,61,2025-04-26,2,Columbia University,448
-1st Varsity 4+,61,2025-04-26,3,Rhode Island (RIU),468
-1st Varsity 4+,62,2025-04-26,1,Columbia University,438
-1st Varsity 4+,62,2025-04-26,2,Washington State - WSU,442
-1st Varsity 4+,62,2025-04-26,3,Clemson,446
-1st Varsity 4+,62,2025-04-26,4,Miami,451
-1st Varsity 4+,63,2025-04-26,1,North Carolina Chapel Hill - UNC,442
-1st Varsity 4+,63,2025-04-26,2,Boston College,463
-1st Varsity 4+,63,2025-04-26,3,Kansas State,465
-1st Varsity 4+,64,2025-04-26,1,Virginia - UVA,440
-1st Varsity 4+,64,2025-04-26,2,Duke,445
-1st Varsity 4+,64,2025-04-26,3,Gonzaga,449
-1st Varsity 4+,64,2025-04-26,4,Boston University - BU,449
-1st Varsity 4+,65,2025-04-26,1,Stanford,454
-1st Varsity 4+,65,2025-04-26,2,Texas,460
-2nd Varsity 4+,4,2025-03-22,1,Yale University,441
-2nd Varsity 4+,4,2025-03-22,2,Rutgers,442
-2nd Varsity 4+,4,2025-03-22,3,Ohio,471
-2nd Varsity 4+,5,2025-03-22,1,Yale University,437
-2nd Varsity 4+,5,2025-03-22,2,Michigan,441
-2nd Varsity 4+,6,2025-03-22,1,Rutgers,436
-2nd Varsity 4+,6,2025-03-22,2,University of Pennsylvania,458
-2nd Varsity 4+,7,2025-03-22,1,Syracuse,450
-2nd Varsity 4+,7,2025-03-22,2,University of Pennsylvania,459
-2nd Varsity 4+,8,2025-03-22,1,Syracuse,438
-2nd Varsity 4+,8,2025-03-22,2,Ohio,441
-2nd Varsity 4+,9,2025-03-29,1,Stanford,438
-2nd Varsity 4+,9,2025-03-29,2,Tennessee,445
-2nd Varsity 4+,10,2025-03-29,1,Gonzaga,464
-2nd Varsity 4+,10,2025-03-29,2,Oregon State - OSU,471
-2nd Varsity 4+,10,2025-03-29,3,Portland,512
-2nd Varsity 4+,11,2025-03-29,1,Boston University - BU,467
-2nd Varsity 4+,11,2025-03-29,2,Cornell University,480
-2nd Varsity 4+,12,2025-03-29,1,Cornell University,516
-2nd Varsity 4+,12,2025-03-29,2,Colgate,582
-2nd Varsity 4+,13,2025-03-29,1,Princeton University,440
-2nd Varsity 4+,13,2025-03-29,2,Brown University,442
-2nd Varsity 4+,14,2025-03-29,1,Virginia - UVA,480
-2nd Varsity 4+,14,2025-03-29,2,Ohio,493
-2nd Varsity 4+,15,2025-03-29,1,Michigan,473
-2nd Varsity 4+,15,2025-03-29,2,Oklahoma,489
-2nd Varsity 4+,16,2025-03-29,1,Ohio,499
-2nd Varsity 4+,16,2025-03-29,2,Oklahoma,512
-2nd Varsity 4+,17,2025-03-29,1,Michigan,482
-2nd Varsity 4+,17,2025-03-29,2,Virginia - UVA,490
-2nd Varsity 4+,18,2025-03-29,1,Boston College,469
-2nd Varsity 4+,18,2025-03-29,2,Louisville,471
-2nd Varsity 4+,18,2025-03-29,3,Michigan State,472
-2nd Varsity 4+,18,2025-03-29,4,Kansas State,476
-2nd Varsity 4+,19,2025-03-29,1,UCF,447
-2nd Varsity 4+,19,2025-03-29,2,Dartmouth College,455
-2nd Varsity 4+,19,2025-03-29,3,Miami,457
-2nd Varsity 4+,19,2025-03-29,4,Kansas State,465
-2nd Varsity 4+,19,2025-03-29,5,Jacksonville,475
-2nd Varsity 4+,20,2025-04-04,1,Ohio,418
-2nd Varsity 4+,20,2025-04-04,2,SMU,433
-2nd Varsity 4+,21,2025-04-04,1,Columbia University,423
-2nd Varsity 4+,21,2025-04-04,2,Indiana,430
-2nd Varsity 4+,22,2025-04-05,1,Yale University,471
-2nd Varsity 4+,22,2025-04-05,2,Syracuse,482
-2nd Varsity 4+,22,2025-04-05,3,Cornell University,529
-2nd Varsity 4+,23,2025-04-05,1,Oregon State - OSU,447
-2nd Varsity 4+,23,2025-04-05,2,Washington State - WSU,452
-2nd Varsity 4+,24,2025-04-05,1,Tennessee,454
-2nd Varsity 4+,24,2025-04-05,2,UCF,459
-2nd Varsity 4+,24,2025-04-05,3,North Carolina Chapel Hill - UNC,460
-2nd Varsity 4+,25,2025-04-05,1,Duke,460
-2nd Varsity 4+,25,2025-04-05,2,University of Minnesota,466
-2nd Varsity 4+,25,2025-04-05,3,Clemson,475
-2nd Varsity 4+,26,2025-04-05,1,Brown University,452
-2nd Varsity 4+,26,2025-04-05,2,University of Pennsylvania,458
-2nd Varsity 4+,27,2025-04-05,1,Boston University - BU,459
-2nd Varsity 4+,27,2025-04-05,2,Dartmouth College,461
-2nd Varsity 4+,27,2025-04-05,3,Northeastern,476
-2nd Varsity 4+,28,2025-04-12,1,Yale University,420
-2nd Varsity 4+,28,2025-04-12,2,Dartmouth College,444
-2nd Varsity 4+,29,2025-04-12,1,Harvard University,439
-2nd Varsity 4+,29,2025-04-12,2,Princeton University,444
-2nd Varsity 4+,29,2025-04-12,3,Cornell University,461
-2nd Varsity 4+,30,2025-04-12,1,Texas,426
-2nd Varsity 4+,30,2025-04-12,2,Michigan,434
-2nd Varsity 4+,31,2025-04-12,1,Kansas State,447
-2nd Varsity 4+,31,2025-04-12,2,Iowa,453
-2nd Varsity 4+,32,2025-04-12,1,University of Minnesota,433
-2nd Varsity 4+,32,2025-04-12,2,UCSD,464
-2nd Varsity 4+,33,2025-04-12,1,University of Minnesota,454
-2nd Varsity 4+,33,2025-04-12,2,Kansas State,478
-2nd Varsity 4+,34,2025-04-12,1,Iowa,468
-2nd Varsity 4+,34,2025-04-12,2,UCSD,491
-2nd Varsity 4+,35,2025-04-12,1,Stanford,468
-2nd Varsity 4+,35,2025-04-12,2,Syracuse,484
-2nd Varsity 4+,36,2025-04-13,1,California,435
-2nd Varsity 4+,36,2025-04-13,2,Syracuse,438
-2nd Varsity 4+,37,2025-04-18,1,Washington - UW,442
-2nd Varsity 4+,37,2025-04-18,2,University of Pennsylvania,452
-2nd Varsity 4+,37,2025-04-18,3,Clemson,454
-2nd Varsity 4+,37,2025-04-18,4,Notre Dame,474
-2nd Varsity 4+,37,2025-04-18,5,Iowa,486
-2nd Varsity 4+,38,2025-04-18,1,Tennessee,438
-2nd Varsity 4+,38,2025-04-18,2,Oregon State - OSU,442
-2nd Varsity 4+,38,2025-04-18,3,Ohio,443
-2nd Varsity 4+,38,2025-04-18,4,UCLA,457
-2nd Varsity 4+,38,2025-04-18,5,Michigan State,462
-2nd Varsity 4+,38,2025-04-18,6,SMU,473
-2nd Varsity 4+,39,2025-04-18,1,Michigan,434
-2nd Varsity 4+,39,2025-04-18,2,Duke,435
-2nd Varsity 4+,39,2025-04-18,3,Harvard University,436
-2nd Varsity 4+,39,2025-04-18,4,USC,448
-2nd Varsity 4+,39,2025-04-18,5,Miami,454
-2nd Varsity 4+,39,2025-04-18,6,Wisconsin,462
-2nd Varsity 4+,40,2025-04-18,1,Rutgers,426
-2nd Varsity 4+,40,2025-04-18,2,Brown University,438
-2nd Varsity 4+,40,2025-04-18,3,University of Minnesota,447
-2nd Varsity 4+,40,2025-04-18,4,Oklahoma,453
-2nd Varsity 4+,41,2025-04-18,1,Washington - UW,435
-2nd Varsity 4+,41,2025-04-18,2,Duke,439
-2nd Varsity 4+,41,2025-04-18,3,Brown University,439
-2nd Varsity 4+,41,2025-04-18,4,Ohio,452
-2nd Varsity 4+,41,2025-04-18,5,Miami,459
-2nd Varsity 4+,41,2025-04-18,6,Wisconsin,462
-2nd Varsity 4+,42,2025-04-18,1,Rutgers,433
-2nd Varsity 4+,42,2025-04-18,2,Tennessee,438
-2nd Varsity 4+,42,2025-04-18,3,University of Pennsylvania,449
-2nd Varsity 4+,42,2025-04-18,4,Michigan,453
-2nd Varsity 4+,42,2025-04-18,5,SMU,479
-2nd Varsity 4+,43,2025-04-18,1,Harvard University,445
-2nd Varsity 4+,43,2025-04-18,2,UCLA,448
-2nd Varsity 4+,43,2025-04-18,3,Oklahoma,450
-2nd Varsity 4+,43,2025-04-18,4,Indiana,465
-2nd Varsity 4+,43,2025-04-18,5,Iowa,490
-2nd Varsity 4+,44,2025-04-18,1,USC,448
-2nd Varsity 4+,44,2025-04-18,2,Clemson,452
-2nd Varsity 4+,44,2025-04-18,3,University of Minnesota,456
-2nd Varsity 4+,44,2025-04-18,4,Oregon State - OSU,458
-2nd Varsity 4+,44,2025-04-18,5,Michigan State,458
-2nd Varsity 4+,44,2025-04-18,6,Notre Dame,469
-2nd Varsity 4+,45,2025-04-25,1,Brown University,501
-2nd Varsity 4+,45,2025-04-25,2,Cornell University,528
-2nd Varsity 4+,46,2025-04-26,1,UCLA,490
-2nd Varsity 4+,46,2025-04-26,2,UCSD,522
-2nd Varsity 4+,47,2025-04-26,1,Yale University,472
-2nd Varsity 4+,47,2025-04-26,2,Harvard University,482
-2nd Varsity 4+,48,2025-04-26,1,Princeton University,430
-2nd Varsity 4+,48,2025-04-26,2,Tennessee,433
-2nd Varsity 4+,48,2025-04-26,3,Syracuse,443
-2nd Varsity 4+,48,2025-04-26,4,Ohio,446
-2nd Varsity 4+,49,2025-04-26,1,Notre Dame,518
-2nd Varsity 4+,49,2025-04-26,2,Indiana,533
-2nd Varsity 4+,49,2025-04-26,3,Michigan State,550
-2nd Varsity 4+,50,2025-04-26,1,Texas,451
-2nd Varsity 4+,50,2025-04-26,2,Stanford,459
-2nd Varsity 4+,50,2025-04-26,3,UCF,482
-2nd Varsity 4+,51,2025-04-26,1,California,444
-2nd Varsity 4+,51,2025-04-26,2,Washington - UW,446
-2nd Varsity 4+,52,2025-04-26,1,North Carolina Chapel Hill - UNC,449
-2nd Varsity 4+,52,2025-04-26,2,Duke,453
-2nd Varsity 4+,52,2025-04-26,3,Clemson,461
-2nd Varsity 4+,52,2025-04-26,4,Washington State - WSU,472
-2nd Varsity 4+,52,2025-04-26,5,Jacksonville,487
-2nd Varsity 4+,53,2025-04-26,1,Virginia - UVA,448
-2nd Varsity 4+,53,2025-04-26,2,Columbia University,452
-2nd Varsity 4+,53,2025-04-26,3,Miami,462
-2nd Varsity 4+,53,2025-04-26,4,Gonzaga,468
-2nd Varsity 4+,53,2025-04-26,5,Kansas State,480
-2nd Varsity 4+,54,2025-04-26,1,Boston University - BU,458
-2nd Varsity 4+,54,2025-04-26,2,Boston College,478
-2nd Varsity 4+,54,2025-04-26,3,Louisville,483
-2nd Varsity 4+,55,2025-04-26,1,Clemson,451
-2nd Varsity 4+,55,2025-04-26,2,Gonzaga,462
-2nd Varsity 4+,55,2025-04-26,3,Boston College,469
-2nd Varsity 4+,55,2025-04-26,4,Louisville,474
-2nd Varsity 4+,56,2025-04-26,1,North Carolina Chapel Hill - UNC,442
-2nd Varsity 4+,56,2025-04-26,2,Virginia - UVA,446
-2nd Varsity 4+,56,2025-04-26,3,Boston University - BU,451
-2nd Varsity 4+,56,2025-04-26,4,Washington State - WSU,460
-2nd Varsity 4+,56,2025-04-26,5,Miami,460
-2nd Varsity 4+,56,2025-04-26,6,Kansas State,477
-2nd Varsity 4+,57,2025-04-26,1,Duke,446
-2nd Varsity 4+,57,2025-04-26,2,Columbia University,453
-2nd Varsity 4+,57,2025-04-26,3,Jacksonville,471
-2nd Varsity 4+,58,2025-04-26,1,Columbia University,450
-2nd Varsity 4+,58,2025-04-26,2,Clemson,454
-2nd Varsity 4+,58,2025-04-26,3,Washington State - WSU,458
-2nd Varsity 4+,58,2025-04-26,4,Miami,460
-2nd Varsity 4+,58,2025-04-26,5,Louisville,471
-2nd Varsity 4+,58,2025-04-26,6,Jacksonville,478
-2nd Varsity 4+,59,2025-04-26,1,North Carolina Chapel Hill - UNC,443
-2nd Varsity 4+,59,2025-04-26,2,Kansas State,460
-2nd Varsity 4+,59,2025-04-26,3,Boston College,474
-2nd Varsity 4+,60,2025-04-26,1,Duke,442
-2nd Varsity 4+,60,2025-04-26,2,Virginia - UVA,446
-2nd Varsity 4+,60,2025-04-26,3,Boston University - BU,447
-2nd Varsity 4+,60,2025-04-26,4,Gonzaga,469
-1st Varsity 8+,1,2025-03-22,1,Yale University,381
-1st Varsity 8+,1,2025-03-22,2,Rutgers,385
-1st Varsity 8+,1,2025-03-22,3,Ohio,402
-1st Varsity 8+,2,2025-03-22,1,Yale University,374
-1st Varsity 8+,2,2025-03-22,2,Michigan,391
-1st Varsity 8+,3,2025-03-22,1,Rutgers,371
-1st Varsity 8+,3,2025-03-22,2,University of Pennsylvania,380
-1st Varsity 8+,4,2025-03-22,1,University of Pennsylvania,385
-1st Varsity 8+,4,2025-03-22,2,Michigan,387
-1st Varsity 8+,4,2025-03-22,3,Syracuse,387
-1st Varsity 8+,5,2025-03-22,1,Syracuse,387
-1st Varsity 8+,5,2025-03-22,2,Ohio,391
-2nd Varsity 8+,6,2025-03-22,1,Yale University,391
-2nd Varsity 8+,6,2025-03-22,2,Rutgers,396
-2nd Varsity 8+,6,2025-03-22,3,Ohio,414
-2nd Varsity 8+,7,2025-03-22,1,Yale University,384
-2nd Varsity 8+,7,2025-03-22,2,Michigan,397
-2nd Varsity 8+,8,2025-03-22,1,Rutgers,386
-2nd Varsity 8+,8,2025-03-22,2,University of Pennsylvania,394
-2nd Varsity 8+,9,2025-03-22,1,Syracuse,397
-2nd Varsity 8+,9,2025-03-22,2,Michigan,403
-2nd Varsity 8+,9,2025-03-22,3,University of Pennsylvania,407
-2nd Varsity 8+,10,2025-03-22,1,Syracuse,388
-2nd Varsity 8+,10,2025-03-22,2,Ohio,394
-1st Varsity 8+,11,2025-03-29,1,Stanford,377
-1st Varsity 8+,11,2025-03-29,2,Tennessee,386
-1st Varsity 8+,12,2025-03-29,1,Oregon State - OSU,388
-1st Varsity 8+,12,2025-03-29,2,Gonzaga,395
-1st Varsity 8+,12,2025-03-29,3,Portland,417
-1st Varsity 8+,13,2025-03-29,1,Boston University - BU,401
-1st Varsity 8+,13,2025-03-29,2,Cornell University,404
-1st Varsity 8+,14,2025-03-29,1,Cornell University,434
-1st Varsity 8+,14,2025-03-29,2,Colgate,450
-1st Varsity 8+,15,2025-03-29,1,Princeton University,372
-1st Varsity 8+,15,2025-03-29,2,Brown University,375
-1st Varsity 8+,16,2025-03-29,1,Ohio,404
-1st Varsity 8+,16,2025-03-29,2,Virginia - UVA,406
-1st Varsity 8+,17,2025-03-29,1,Michigan,406
-1st Varsity 8+,17,2025-03-29,2,Oklahoma,418
-1st Varsity 8+,18,2025-03-29,1,Ohio,437
-1st Varsity 8+,18,2025-03-29,2,Oklahoma,440
-1st Varsity 8+,19,2025-03-29,1,Virginia - UVA,419
-1st Varsity 8+,19,2025-03-29,2,Michigan,424
-1st Varsity 8+,20,2025-03-29,1,UCF,387
-1st Varsity 8+,20,2025-03-29,2,Dartmouth College,389
-1st Varsity 8+,20,2025-03-29,3,North Carolina Chapel Hill - UNC,390
-1st Varsity 8+,20,2025-03-29,4,Michigan State,392
-1st Varsity 8+,20,2025-03-29,5,Iowa,394
-1st Varsity 8+,20,2025-03-29,6,Miami,397
-2nd Varsity 8+,21,2025-03-29,1,Stanford,386
-2nd Varsity 8+,21,2025-03-29,2,Tennessee,390
-2nd Varsity 8+,22,2025-03-29,1,Oregon State - OSU,404
-2nd Varsity 8+,22,2025-03-29,2,Gonzaga,409
-2nd Varsity 8+,22,2025-03-29,3,Portland,431
-2nd Varsity 8+,23,2025-03-29,1,Boston University - BU,421
-2nd Varsity 8+,23,2025-03-29,2,Cornell University,435
-2nd Varsity 8+,24,2025-03-29,1,Cornell University,454
-2nd Varsity 8+,24,2025-03-29,2,Colgate,481
-2nd Varsity 8+,25,2025-03-29,1,Princeton University,381
-2nd Varsity 8+,25,2025-03-29,2,Brown University,391
-2nd Varsity 8+,26,2025-03-29,1,Virginia - UVA,410
-2nd Varsity 8+,26,2025-03-29,2,Ohio,423
-2nd Varsity 8+,27,2025-03-29,1,Oklahoma,415
-2nd Varsity 8+,27,2025-03-29,2,Michigan,416
-2nd Varsity 8+,28,2025-03-29,1,Ohio,439
-2nd Varsity 8+,28,2025-03-29,2,Oklahoma,442
-2nd Varsity 8+,29,2025-03-29,1,Virginia - UVA,426
-2nd Varsity 8+,29,2025-03-29,2,Michigan,434
-2nd Varsity 8+,30,2025-03-29,1,Kansas State,413
-2nd Varsity 8+,30,2025-03-29,2,Iowa,414
-2nd Varsity 8+,30,2025-03-29,3,Louisville,414
-2nd Varsity 8+,30,2025-03-29,4,Boston College,418
-2nd Varsity 8+,31,2025-03-29,1,UCF,394
-2nd Varsity 8+,31,2025-03-29,2,Dartmouth College,402
-2nd Varsity 8+,31,2025-03-29,3,North Carolina Chapel Hill - UNC,403
-2nd Varsity 8+,31,2025-03-29,4,Miami,403
-2nd Varsity 8+,31,2025-03-29,5,Michigan State,408
-1st Varsity 8+,32,2025-04-04,1,Tennessee,398
-1st Varsity 8+,32,2025-04-04,2,University of Minnesota,414
-1st Varsity 8+,32,2025-04-04,3,North Carolina Chapel Hill - UNC,421
-2nd Varsity 8+,33,2025-04-04,1,Tennessee,408
-2nd Varsity 8+,33,2025-04-04,2,University of Minnesota,424
-2nd Varsity 8+,33,2025-04-04,3,North Carolina Chapel Hill - UNC,432
-1st Varsity 8+,34,2025-04-04,1,Ohio,367
-1st Varsity 8+,34,2025-04-04,2,SMU,377
-1st Varsity 8+,35,2025-04-04,1,Columbia University,369
-1st Varsity 8+,35,2025-04-04,2,Indiana,372
-2nd Varsity 8+,36,2025-04-04,1,Ohio,372
-2nd Varsity 8+,36,2025-04-04,2,SMU,376
-2nd Varsity 8+,37,2025-04-04,1,Columbia University,376
-2nd Varsity 8+,37,2025-04-04,2,Indiana,378
-1st Varsity 8+,38,2025-04-05,1,Yale University,404
-1st Varsity 8+,38,2025-04-05,2,Syracuse,416
-1st Varsity 8+,38,2025-04-05,3,Cornell University,436
-1st Varsity 8+,39,2025-04-05,1,Oregon State - OSU,374
-1st Varsity 8+,39,2025-04-05,2,Washington State - WSU,382
-1st Varsity 8+,40,2025-04-05,1,Tennessee,380
-1st Varsity 8+,40,2025-04-05,2,UCF,389
-1st Varsity 8+,40,2025-04-05,3,Duke,403
-1st Varsity 8+,41,2025-04-05,1,Brown University,384
-1st Varsity 8+,41,2025-04-05,2,University of Pennsylvania,389
-1st Varsity 8+,42,2025-04-05,1,Dartmouth College,384
-1st Varsity 8+,42,2025-04-05,2,Boston University - BU,387
-1st Varsity 8+,42,2025-04-05,3,Northeastern,389
-1st Varsity 8+,43,2025-04-05,1,Ohio,359
-1st Varsity 8+,43,2025-04-05,2,Columbia University,363
-1st Varsity 8+,44,2025-04-05,1,North Carolina Chapel Hill - UNC,398
-1st Varsity 8+,44,2025-04-05,2,University of Minnesota,399
-1st Varsity 8+,44,2025-04-05,3,Clemson,406
-2nd Varsity 8+,45,2025-04-05,1,Yale University,416
-2nd Varsity 8+,45,2025-04-05,2,Syracuse,431
-2nd Varsity 8+,45,2025-04-05,3,Cornell University,459
-2nd Varsity 8+,46,2025-04-05,1,Oregon State - OSU,387
-2nd Varsity 8+,46,2025-04-05,2,Washington State - WSU,401
-2nd Varsity 8+,47,2025-04-05,1,Brown University,391
-2nd Varsity 8+,47,2025-04-05,2,University of Pennsylvania,398
-2nd Varsity 8+,48,2025-04-05,1,Dartmouth College,393
-2nd Varsity 8+,48,2025-04-05,2,Northeastern,400
-2nd Varsity 8+,48,2025-04-05,3,Boston University - BU,401
-2nd Varsity 8+,49,2025-04-05,1,Tennessee,394
-2nd Varsity 8+,49,2025-04-05,2,Duke,399
-2nd Varsity 8+,49,2025-04-05,3,UCF,401
-2nd Varsity 8+,50,2025-04-05,1,Clemson,410
-2nd Varsity 8+,50,2025-04-05,2,University of Minnesota,416
-2nd Varsity 8+,50,2025-04-05,3,North Carolina Chapel Hill - UNC,417
-1st Varsity 8+,51,2025-04-12,1,Yale University,368
-1st Varsity 8+,51,2025-04-12,2,Dartmouth College,382
-1st Varsity 8+,52,2025-04-12,1,Princeton University,378
-1st Varsity 8+,52,2025-04-12,2,Harvard University,385
-1st Varsity 8+,52,2025-04-12,3,Cornell University,400
-1st Varsity 8+,53,2025-04-12,1,Columbia University,402
-1st Varsity 8+,53,2025-04-12,2,Northeastern,404
-1st Varsity 8+,53,2025-04-12,3,Boston University - BU,405
-1st Varsity 8+,54,2025-04-12,1,Texas,371
-1st Varsity 8+,54,2025-04-12,2,Michigan,379
-1st Varsity 8+,55,2025-04-12,1,Iowa,380
-1st Varsity 8+,55,2025-04-12,2,Kansas State,388
-1st Varsity 8+,56,2025-04-12,1,University of Minnesota,376
-1st Varsity 8+,56,2025-04-12,2,UCSD,388
-1st Varsity 8+,57,2025-04-12,1,University of Minnesota,397
-1st Varsity 8+,57,2025-04-12,2,Kansas State,407
-1st Varsity 8+,58,2025-04-12,1,Iowa,404
-1st Varsity 8+,58,2025-04-12,2,UCSD,418
-1st Varsity 8+,59,2025-04-12,1,Stanford,401
-1st Varsity 8+,59,2025-04-12,2,Syracuse,413
-1st Varsity 8+,60,2025-04-12,1,California,408
-1st Varsity 8+,60,2025-04-12,2,Virginia - UVA,414
-2nd Varsity 8+,61,2025-04-12,1,Yale University,379
-2nd Varsity 8+,61,2025-04-12,2,Dartmouth College,391
-2nd Varsity 8+,62,2025-04-12,1,Princeton University,391
-2nd Varsity 8+,62,2025-04-12,2,Harvard University,398
-2nd Varsity 8+,62,2025-04-12,3,Cornell University,420
-2nd Varsity 8+,63,2025-04-12,1,Columbia University,408
-2nd Varsity 8+,63,2025-04-12,2,Northeastern,409
-2nd Varsity 8+,63,2025-04-12,3,Boston University - BU,420
-2nd Varsity 8+,64,2025-04-12,1,Texas,380
-2nd Varsity 8+,64,2025-04-12,2,Michigan,392
-2nd Varsity 8+,65,2025-04-12,1,Kansas State,391
-2nd Varsity 8+,65,2025-04-12,2,Iowa,397
-2nd Varsity 8+,66,2025-04-12,1,University of Minnesota,388
-2nd Varsity 8+,66,2025-04-12,2,UCSD,403
-2nd Varsity 8+,67,2025-04-12,1,University of Minnesota,413
-2nd Varsity 8+,67,2025-04-12,2,Kansas State,420
-2nd Varsity 8+,68,2025-04-12,1,Iowa,424
-2nd Varsity 8+,68,2025-04-12,2,UCSD,432
-2nd Varsity 8+,69,2025-04-12,1,Stanford,417
-2nd Varsity 8+,69,2025-04-12,2,Syracuse,434
-2nd Varsity 8+,70,2025-04-12,1,California,429
-2nd Varsity 8+,70,2025-04-12,2,Virginia - UVA,442
-1st Varsity 8+,71,2025-04-13,1,Stanford,372
-1st Varsity 8+,71,2025-04-13,2,Virginia - UVA,388
-1st Varsity 8+,72,2025-04-13,1,California,380
-1st Varsity 8+,72,2025-04-13,2,Syracuse,384
-2nd Varsity 8+,73,2025-04-13,1,Stanford,379
-2nd Varsity 8+,73,2025-04-13,2,Virginia - UVA,397
-2nd Varsity 8+,74,2025-04-13,1,California,389
-2nd Varsity 8+,74,2025-04-13,2,Syracuse,392
-1st Varsity 8+,75,2025-04-18,1,Washington - UW,377
-1st Varsity 8+,75,2025-04-18,2,Indiana,384
-1st Varsity 8+,75,2025-04-18,3,University of Pennsylvania,386
-1st Varsity 8+,75,2025-04-18,4,Clemson,390
-1st Varsity 8+,75,2025-04-18,5,Notre Dame,398
-1st Varsity 8+,75,2025-04-18,6,Iowa,399
-1st Varsity 8+,76,2025-04-18,1,Tennessee,374
-1st Varsity 8+,76,2025-04-18,2,Ohio,383
-1st Varsity 8+,76,2025-04-18,3,Oregon State - OSU,383
-1st Varsity 8+,76,2025-04-18,4,Michigan State,384
-1st Varsity 8+,76,2025-04-18,5,SMU,395
-1st Varsity 8+,76,2025-04-18,6,UCLA,397
-1st Varsity 8+,77,2025-04-18,1,Michigan,379
-1st Varsity 8+,77,2025-04-18,2,Harvard University,381
-1st Varsity 8+,77,2025-04-18,3,Miami,390
-1st Varsity 8+,77,2025-04-18,4,USC,391
-1st Varsity 8+,77,2025-04-18,5,Duke,395
-1st Varsity 8+,77,2025-04-18,6,Wisconsin,401
-1st Varsity 8+,78,2025-04-18,1,Rutgers,378
-1st Varsity 8+,78,2025-04-18,2,Brown University,384
-1st Varsity 8+,78,2025-04-18,3,University of Minnesota,392
-1st Varsity 8+,78,2025-04-18,4,Oklahoma,398
-1st Varsity 8+,79,2025-04-18,1,Washington - UW,373
-1st Varsity 8+,79,2025-04-18,2,Brown University,380
-1st Varsity 8+,79,2025-04-18,3,Ohio,387
-1st Varsity 8+,79,2025-04-18,4,Miami,392
-1st Varsity 8+,79,2025-04-18,5,Duke,393
-1st Varsity 8+,79,2025-04-18,6,Wisconsin,395
-1st Varsity 8+,80,2025-04-18,1,Tennessee,375
-1st Varsity 8+,80,2025-04-18,2,Rutgers,380
-1st Varsity 8+,80,2025-04-18,3,University of Pennsylvania,386
-1st Varsity 8+,80,2025-04-18,4,Michigan,388
-1st Varsity 8+,80,2025-04-18,5,SMU,402
-1st Varsity 8+,81,2025-04-18,1,Harvard University,386
-1st Varsity 8+,81,2025-04-18,2,Indiana,388
-1st Varsity 8+,81,2025-04-18,3,Oklahoma,396
-1st Varsity 8+,81,2025-04-18,4,Iowa,398
-1st Varsity 8+,81,2025-04-18,5,UCLA,402
-1st Varsity 8+,82,2025-04-18,1,Oregon State - OSU,387
-1st Varsity 8+,82,2025-04-18,2,Michigan State,392
-1st Varsity 8+,82,2025-04-18,3,USC,393
-1st Varsity 8+,82,2025-04-18,4,Clemson,393
-1st Varsity 8+,82,2025-04-18,5,Notre Dame,397
-1st Varsity 8+,82,2025-04-18,6,University of Minnesota,397
-2nd Varsity 8+,83,2025-04-18,1,Washington - UW,386
-2nd Varsity 8+,83,2025-04-18,2,University of Pennsylvania,394
-2nd Varsity 8+,83,2025-04-18,3,Indiana,400
-2nd Varsity 8+,83,2025-04-18,4,Clemson,400
-2nd Varsity 8+,83,2025-04-18,5,Notre Dame,411
-2nd Varsity 8+,83,2025-04-18,6,Iowa,416
-2nd Varsity 8+,84,2025-04-18,1,Tennessee,387
-2nd Varsity 8+,84,2025-04-18,2,UCLA,398
-2nd Varsity 8+,84,2025-04-18,3,Oregon State - OSU,398
-2nd Varsity 8+,84,2025-04-18,4,Michigan State,399
-2nd Varsity 8+,84,2025-04-18,5,Ohio,399
-2nd Varsity 8+,84,2025-04-18,6,SMU,401
-2nd Varsity 8+,85,2025-04-18,1,Michigan,387
-2nd Varsity 8+,85,2025-04-18,2,Harvard University,389
-2nd Varsity 8+,85,2025-04-18,3,USC,395
-2nd Varsity 8+,85,2025-04-18,4,Duke,396
-2nd Varsity 8+,85,2025-04-18,5,Miami,402
-2nd Varsity 8+,85,2025-04-18,6,Wisconsin,421
-2nd Varsity 8+,86,2025-04-18,1,Rutgers,381
-2nd Varsity 8+,86,2025-04-18,2,Brown University,382
-2nd Varsity 8+,86,2025-04-18,3,Oklahoma,389
-2nd Varsity 8+,86,2025-04-18,4,University of Minnesota,395
-2nd Varsity 8+,87,2025-04-18,1,Washington - UW,385
-2nd Varsity 8+,87,2025-04-18,2,Brown University,391
-2nd Varsity 8+,87,2025-04-18,3,Duke,401
-2nd Varsity 8+,87,2025-04-18,4,Ohio,407
-2nd Varsity 8+,87,2025-04-18,5,Miami,409
-2nd Varsity 8+,87,2025-04-18,6,Wisconsin,424
-2nd Varsity 8+,88,2025-04-18,1,Tennessee,388
-2nd Varsity 8+,88,2025-04-18,2,Rutgers,394
-2nd Varsity 8+,88,2025-04-18,3,Michigan,397
-2nd Varsity 8+,88,2025-04-18,4,University of Pennsylvania,398
-2nd Varsity 8+,88,2025-04-18,5,SMU,411
-2nd Varsity 8+,89,2025-04-18,1,Oklahoma,393
-2nd Varsity 8+,89,2025-04-18,2,Harvard University,395
-2nd Varsity 8+,89,2025-04-18,3,UCLA,399
-2nd Varsity 8+,89,2025-04-18,4,Indiana,401
-2nd Varsity 8+,89,2025-04-18,5,Iowa,415
-2nd Varsity 8+,90,2025-04-18,1,USC,399
-2nd Varsity 8+,90,2025-04-18,2,Oregon State - OSU,400
-2nd Varsity 8+,90,2025-04-18,3,University of Minnesota,401
-2nd Varsity 8+,90,2025-04-18,4,Notre Dame,403
-2nd Varsity 8+,90,2025-04-18,5,Michigan State,403
-2nd Varsity 8+,90,2025-04-18,6,Clemson,403
-1st Varsity 8+,91,2025-04-19,1,Yale University,363
-1st Varsity 8+,91,2025-04-19,2,Princeton University,367
-1st Varsity 8+,92,2025-04-19,1,Dartmouth College,424
-1st Varsity 8+,92,2025-04-19,2,Rhode Island (RIU),448
-1st Varsity 8+,93,2025-04-19,1,Northeastern,429
-1st Varsity 8+,93,2025-04-19,2,Cornell University,433
-1st Varsity 8+,94,2025-04-19,1,Northeastern,426
-1st Varsity 8+,94,2025-04-19,2,Rhode Island (RIU),434
-1st Varsity 8+,95,2025-04-19,1,Dartmouth College,419
-1st Varsity 8+,95,2025-04-19,2,Cornell University,436
-1st Varsity 8+,96,2025-04-19,1,Gonzaga,395
-1st Varsity 8+,96,2025-04-19,2,Washington State - WSU,401
-2nd Varsity 8+,97,2025-04-19,1,Yale University,376
-2nd Varsity 8+,97,2025-04-19,2,Princeton University,377
-2nd Varsity 8+,98,2025-04-19,1,Dartmouth College,427
-2nd Varsity 8+,98,2025-04-19,2,Rhode Island (RIU),452
-2nd Varsity 8+,99,2025-04-19,1,Northeastern,441
-2nd Varsity 8+,99,2025-04-19,2,Cornell University,443
-2nd Varsity 8+,100,2025-04-19,1,Northeastern,449
-2nd Varsity 8+,100,2025-04-19,2,Rhode Island (RIU),459
-2nd Varsity 8+,101,2025-04-19,1,Dartmouth College,432
-2nd Varsity 8+,101,2025-04-19,2,Cornell University,448
-2nd Varsity 8+,102,2025-04-19,1,Gonzaga,401
-2nd Varsity 8+,102,2025-04-19,2,Washington State - WSU,411
-1st Varsity 8+,103,2025-04-25,1,Brown University,408
-1st Varsity 8+,103,2025-04-25,2,Cornell University,428
-2nd Varsity 8+,104,2025-04-25,1,Brown University,421
-2nd Varsity 8+,104,2025-04-25,2,Cornell University,451
-1st Varsity 8+,105,2025-04-26,1,UCLA,423
-1st Varsity 8+,105,2025-04-26,2,UCSD,443
-1st Varsity 8+,106,2025-04-26,1,Yale University,398
-1st Varsity 8+,106,2025-04-26,2,Harvard University,411
-1st Varsity 8+,107,2025-04-26,1,Tennessee,357
-1st Varsity 8+,107,2025-04-26,2,Princeton University,361
-1st Varsity 8+,107,2025-04-26,3,Syracuse,373
-1st Varsity 8+,107,2025-04-26,4,Ohio,382
-1st Varsity 8+,108,2025-04-26,1,Indiana,446
-1st Varsity 8+,108,2025-04-26,2,Michigan State,451
-1st Varsity 8+,108,2025-04-26,3,Notre Dame,461
-1st Varsity 8+,109,2025-04-26,1,UCF,411
-1st Varsity 8+,109,2025-04-26,2,Oklahoma,420
-1st Varsity 8+,109,2025-04-26,3,SMU,432
-1st Varsity 8+,110,2025-04-26,1,Stanford,392
-1st Varsity 8+,110,2025-04-26,2,Texas,398
-1st Varsity 8+,111,2025-04-26,1,Clemson,392
-1st Varsity 8+,111,2025-04-26,2,Duke,393
-1st Varsity 8+,111,2025-04-26,3,Washington State - WSU,393
-1st Varsity 8+,111,2025-04-26,4,North Carolina Chapel Hill - UNC,394
-1st Varsity 8+,111,2025-04-26,5,Jacksonville,411
-1st Varsity 8+,112,2025-04-26,1,Virginia - UVA,383
-1st Varsity 8+,112,2025-04-26,2,Columbia University,390
-1st Varsity 8+,112,2025-04-26,3,Miami,394
-1st Varsity 8+,112,2025-04-26,4,Gonzaga,394
-1st Varsity 8+,112,2025-04-26,5,Kansas State,408
-1st Varsity 8+,113,2025-04-26,1,Boston University - BU,395
-1st Varsity 8+,113,2025-04-26,2,Louisville,400
-1st Varsity 8+,113,2025-04-26,3,Rhode Island (RIU),405
-1st Varsity 8+,113,2025-04-26,4,Boston College,408
-1st Varsity 8+,114,2025-04-26,1,Clemson,398
-1st Varsity 8+,114,2025-04-26,2,Gonzaga,400
-1st Varsity 8+,114,2025-04-26,3,Louisville,409
-1st Varsity 8+,114,2025-04-26,4,Boston College,413
-1st Varsity 8+,115,2025-04-26,1,Virginia - UVA,387
-1st Varsity 8+,115,2025-04-26,2,Washington State - WSU,396
-1st Varsity 8+,115,2025-04-26,3,Boston University - BU,397
-1st Varsity 8+,115,2025-04-26,4,North Carolina Chapel Hill - UNC,400
-1st Varsity 8+,115,2025-04-26,5,Miami,405
-1st Varsity 8+,115,2025-04-26,6,Kansas State,416
-1st Varsity 8+,116,2025-04-26,1,Duke,391
-1st Varsity 8+,116,2025-04-26,2,Columbia University,394
-1st Varsity 8+,116,2025-04-26,3,Rhode Island (RIU),404
-1st Varsity 8+,116,2025-04-26,4,Jacksonville,419
-1st Varsity 8+,117,2025-04-26,1,Columbia University,386
-1st Varsity 8+,117,2025-04-26,2,Washington State - WSU,388
-1st Varsity 8+,117,2025-04-26,3,Miami,390
-1st Varsity 8+,117,2025-04-26,4,Clemson,390
-1st Varsity 8+,117,2025-04-26,5,Louisville,396
-1st Varsity 8+,117,2025-04-26,6,Jacksonville,410
-1st Varsity 8+,118,2025-04-26,1,North Carolina Chapel Hill - UNC,389
-1st Varsity 8+,118,2025-04-26,2,Kansas State,399
-1st Varsity 8+,118,2025-04-26,3,Boston College,402
-1st Varsity 8+,119,2025-04-26,1,Virginia - UVA,378
-1st Varsity 8+,119,2025-04-26,2,Duke,387
-1st Varsity 8+,119,2025-04-26,3,Boston University - BU,388
-1st Varsity 8+,119,2025-04-26,4,Gonzaga,390
-1st Varsity 8+,119,2025-04-26,5,Rhode Island (RIU),400
-1st Varsity 8+,120,2025-04-26,1,Washington - UW,393
-1st Varsity 8+,120,2025-04-26,2,California,399
-2nd Varsity 8+,121,2025-04-26,1,UCLA,418
-2nd Varsity 8+,121,2025-04-26,2,UCSD,439
-2nd Varsity 8+,122,2025-04-26,1,Yale University,406
-2nd Varsity 8+,122,2025-04-26,2,Harvard University,415
-2nd Varsity 8+,123,2025-04-26,1,Tennessee,371
-2nd Varsity 8+,123,2025-04-26,2,Princeton University,377
-2nd Varsity 8+,123,2025-04-26,3,Syracuse,388
-2nd Varsity 8+,123,2025-04-26,4,Ohio,402
-2nd Varsity 8+,124,2025-04-26,1,Indiana,456
-2nd Varsity 8+,124,2025-04-26,2,Notre Dame,462
-2nd Varsity 8+,124,2025-04-26,3,Michigan State,467
-2nd Varsity 8+,125,2025-04-26,1,UCF,423
-2nd Varsity 8+,125,2025-04-26,2,SMU,427
-2nd Varsity 8+,125,2025-04-26,3,Oklahoma,432
-2nd Varsity 8+,126,2025-04-26,1,Stanford,404
-2nd Varsity 8+,126,2025-04-26,2,Texas,411
-2nd Varsity 8+,127,2025-04-26,1,Duke,401
-2nd Varsity 8+,127,2025-04-26,2,Clemson,404
-2nd Varsity 8+,127,2025-04-26,3,North Carolina Chapel Hill - UNC,406
-2nd Varsity 8+,127,2025-04-26,4,Washington State - WSU,414
-2nd Varsity 8+,127,2025-04-26,5,Jacksonville,429
-2nd Varsity 8+,128,2025-04-26,1,Virginia - UVA,392
-2nd Varsity 8+,128,2025-04-26,2,Columbia University,400
-2nd Varsity 8+,128,2025-04-26,3,Miami,407
-2nd Varsity 8+,128,2025-04-26,4,Gonzaga,410
-2nd Varsity 8+,128,2025-04-26,5,Kansas State,413
-2nd Varsity 8+,129,2025-04-26,1,Boston University - BU,402
-2nd Varsity 8+,129,2025-04-26,2,Louisville,404
-2nd Varsity 8+,129,2025-04-26,3,Boston College,411
-2nd Varsity 8+,129,2025-04-26,4,Rhode Island (RIU),414
-2nd Varsity 8+,130,2025-04-26,1,Clemson,404
-2nd Varsity 8+,130,2025-04-26,2,Gonzaga,407
-2nd Varsity 8+,130,2025-04-26,3,Louisville,411
-2nd Varsity 8+,130,2025-04-26,4,Boston College,416
-2nd Varsity 8+,131,2025-04-26,1,Virginia - UVA,397
-2nd Varsity 8+,131,2025-04-26,2,North Carolina Chapel Hill - UNC,401
-2nd Varsity 8+,131,2025-04-26,3,Boston University - BU,403
-2nd Varsity 8+,131,2025-04-26,4,Washington State - WSU,403
-2nd Varsity 8+,131,2025-04-26,5,Miami,409
-2nd Varsity 8+,131,2025-04-26,6,Kansas State,413
-2nd Varsity 8+,132,2025-04-26,1,Duke,395
-2nd Varsity 8+,132,2025-04-26,2,Columbia University,400
-2nd Varsity 8+,132,2025-04-26,3,Rhode Island (RIU),417
-2nd Varsity 8+,132,2025-04-26,4,Jacksonville,421
-2nd Varsity 8+,133,2025-04-26,1,Columbia University,398
-2nd Varsity 8+,133,2025-04-26,2,Clemson,398
-2nd Varsity 8+,133,2025-04-26,3,Louisville,404
-2nd Varsity 8+,133,2025-04-26,4,Miami,405
-2nd Varsity 8+,133,2025-04-26,5,Washington State - WSU,406
-2nd Varsity 8+,133,2025-04-26,6,Jacksonville,426
-2nd Varsity 8+,134,2025-04-26,1,North Carolina Chapel Hill - UNC,398
-2nd Varsity 8+,134,2025-04-26,2,Boston College,404
-2nd Varsity 8+,134,2025-04-26,3,Kansas State,409
-2nd Varsity 8+,135,2025-04-26,1,Virginia - UVA,390
-2nd Varsity 8+,135,2025-04-26,2,Duke,393
-2nd Varsity 8+,135,2025-04-26,3,Boston University - BU,401
-2nd Varsity 8+,135,2025-04-26,4,Gonzaga,411
-2nd Varsity 8+,135,2025-04-26,5,Rhode Island (RIU),420
-2nd Varsity 8+,136,2025-04-26,1,Washington - UW,397
-2nd Varsity 8+,136,2025-04-26,2,California,413
-1st Varsity 8+,137,2025-05-03,1,Princeton University,361
-1st Varsity 8+,137,2025-05-03,2,University of Pennsylvania,378
-2nd Varsity 8+,138,2025-05-03,1,Princeton University,370
-2nd Varsity 8+,138,2025-05-03,2,University of Pennsylvania,383
-1st Varsity 4+,139,2025-05-03,1,Princeton University,423
-1st Varsity 4+,139,2025-05-03,2,University of Pennsylvania,425
-2nd Varsity 4+,140,2025-05-03,1,Princeton University,430
-2nd Varsity 4+,140,2025-05-03,2,University of Pennsylvania,442
-1st Varsity 8+,141,2025-05-03,1,Stanford,392
-1st Varsity 8+,141,2025-05-03,2,California,407
-2nd Varsity 8+,142,2025-05-03,1,Stanford,410
-2nd Varsity 8+,142,2025-05-03,2,California,428
-1st Varsity 4+,143,2025-05-03,1,Stanford,458
-1st Varsity 4+,143,2025-05-03,2,California,473
-2nd Varsity 4+,144,2025-05-03,1,Stanford,471
-2nd Varsity 4+,144,2025-05-03,2,California,490
-2nd Varsity 4+,145,2025-05-04,1,Rutgers,489
-2nd Varsity 4+,145,2025-05-04,2,Brown University,494
-2nd Varsity 4+,145,2025-05-04,3,Harvard University,503
-2nd Varsity 4+,145,2025-05-04,4,Columbia University,507
-2nd Varsity 4+,145,2025-05-04,5,Boston University - BU,522
-2nd Varsity 4+,145,2025-05-04,6,Dartmouth College,533
-2nd Varsity 4+,146,2025-05-04,1,Northeastern,522
-2nd Varsity 4+,146,2025-05-04,2,Cornell University,528
-2nd Varsity 4+,146,2025-05-04,3,Boston College,549
-2nd Varsity 4+,146,2025-05-04,4,George Washington,575
-1st Varsity 4+,147,2025-05-04,1,Northeastern,504
-1st Varsity 4+,147,2025-05-04,2,Boston College,505
-1st Varsity 4+,147,2025-05-04,3,Michigan State,537
-1st Varsity 4+,148,2025-05-04,1,Rutgers,469
-1st Varsity 4+,148,2025-05-04,2,Harvard University,469
-1st Varsity 4+,148,2025-05-04,3,Brown University,474
-1st Varsity 4+,148,2025-05-04,4,Dartmouth College,480
-1st Varsity 4+,148,2025-05-04,5,Columbia University,487
-1st Varsity 4+,148,2025-05-04,6,Boston University - BU,502
-2nd Varsity 8+,149,2025-05-04,1,Michigan State,436
-2nd Varsity 8+,149,2025-05-04,2,Cornell University,446
-2nd Varsity 8+,149,2025-05-04,3,Boston University - BU,450
-2nd Varsity 8+,149,2025-05-04,4,George Washington,456
-2nd Varsity 8+,149,2025-05-04,5,Boston College,463
-2nd Varsity 8+,150,2025-05-04,1,Brown University,414
-2nd Varsity 8+,150,2025-05-04,2,Harvard University,419
-2nd Varsity 8+,150,2025-05-04,3,Rutgers,421
-2nd Varsity 8+,150,2025-05-04,4,Dartmouth College,425
-2nd Varsity 8+,150,2025-05-04,5,Columbia University,433
-2nd Varsity 8+,150,2025-05-04,6,Northeastern,433
-1st Varsity 8+,151,2025-05-04,1,Boston University - BU,421
-1st Varsity 8+,151,2025-05-04,2,Northeastern,427
-1st Varsity 8+,151,2025-05-04,3,Cornell University,429
-1st Varsity 8+,151,2025-05-04,4,George Washington,429
-1st Varsity 8+,151,2025-05-04,5,Rhode Island (RIU),437
-1st Varsity 8+,151,2025-05-04,6,Boston College,438
-1st Varsity 8+,152,2025-05-04,1,Rutgers,407
-1st Varsity 8+,152,2025-05-04,2,Brown University,413
-1st Varsity 8+,152,2025-05-04,3,Harvard University,417
-1st Varsity 8+,152,2025-05-04,4,Dartmouth College,422
-1st Varsity 8+,152,2025-05-04,5,Columbia University,426
-1st Varsity 8+,152,2025-05-04,6,Michigan State,429
-1st Varsity 8+,153,2025-05-04,1,UCF,412
-1st Varsity 8+,153,2025-05-04,2,Miami,434
-2nd Varsity 8+,154,2025-05-04,1,UCF,428
-2nd Varsity 8+,154,2025-05-04,2,Miami,447
-1st Varsity 4+,155,2025-05-04,1,UCF,479
-1st Varsity 4+,155,2025-05-04,2,Miami,502
-1st Varsity 8+,156,2025-05-11,1,Texas,372
-1st Varsity 8+,156,2025-05-11,2,Tennessee,375
-1st Varsity 8+,156,2025-05-11,3,Oklahoma,391
-2nd Varsity 8+,157,2025-05-11,1,Tennessee,384
-2nd Varsity 8+,157,2025-05-11,2,Texas,386
-2nd Varsity 8+,157,2025-05-11,3,Oklahoma,407
-1st Varsity 4+,158,2025-05-11,1,Texas,427
-1st Varsity 4+,158,2025-05-11,2,Tennessee,438
-1st Varsity 4+,158,2025-05-11,3,Oklahoma,450
-2nd Varsity 4+,159,2025-05-11,1,Texas,432
-2nd Varsity 4+,159,2025-05-11,2,Tennessee,435
-2nd Varsity 4+,159,2025-05-11,3,Oklahoma,457
-1st Varsity 8+,160,2025-05-17,1,Washington - UW,385
-1st Varsity 8+,160,2025-05-17,2,Indiana,393
-1st Varsity 8+,160,2025-05-17,3,Ohio,399
-1st Varsity 8+,160,2025-05-17,4,University of Wisconsin,405
-1st Varsity 8+,160,2025-05-17,5,Iowa,406
-1st Varsity 8+,160,2025-05-17,6,UCLA,413
-1st Varsity 8+,161,2025-05-17,1,Rutgers,385
-1st Varsity 8+,161,2025-05-17,2,Michigan,390
-1st Varsity 8+,161,2025-05-17,3,Michigan State,395
-1st Varsity 8+,161,2025-05-17,4,Minnesota,402
-1st Varsity 8+,161,2025-05-17,5,USC,406
-2nd Varsity 8+,162,2025-05-17,1,Washington - UW,395
-2nd Varsity 8+,162,2025-05-17,2,Minnesota,408
-2nd Varsity 8+,162,2025-05-17,3,Indiana,409
-2nd Varsity 8+,162,2025-05-17,4,Michigan State,409
-2nd Varsity 8+,162,2025-05-17,5,UCLA,411
-2nd Varsity 8+,162,2025-05-17,6,Wisconsin,425
-2nd Varsity 8+,163,2025-05-17,1,Rutgers,395
-2nd Varsity 8+,163,2025-05-17,2,Michigan,399
-2nd Varsity 8+,163,2025-05-17,3,USC,408
-2nd Varsity 8+,163,2025-05-17,4,Ohio,409
-2nd Varsity 8+,163,2025-05-17,5,Iowa,426
-1st Varsity 4+,164,2025-05-17,1,Washington - UW,440
-1st Varsity 4+,164,2025-05-17,2,Ohio,447
-1st Varsity 4+,164,2025-05-17,3,Minnesota,449
-1st Varsity 4+,164,2025-05-17,4,USC,451
-1st Varsity 4+,164,2025-05-17,5,Michigan State,470
-1st Varsity 4+,164,2025-05-17,6,Wisconsin,471
-1st Varsity 4+,165,2025-05-17,1,Rutgers,441
-1st Varsity 4+,165,2025-05-17,2,Michigan,447
-1st Varsity 4+,165,2025-05-17,3,Indiana,455
-1st Varsity 4+,165,2025-05-17,4,UCLA,460
-1st Varsity 4+,165,2025-05-17,5,Iowa,465
-2nd Varsity 4+,166,2025-05-17,1,Washington - UW,447
-2nd Varsity 4+,166,2025-05-17,2,Ohio,454
-2nd Varsity 4+,166,2025-05-17,3,Minnesota,457
-2nd Varsity 4+,166,2025-05-17,4,UCLA,460
-2nd Varsity 4+,166,2025-05-17,5,Michigan State,477
-2nd Varsity 4+,166,2025-05-17,6,Iowa,502
-2nd Varsity 4+,167,2025-05-17,1,Rutgers,448
-2nd Varsity 4+,167,2025-05-17,2,Michigan,451
-2nd Varsity 4+,167,2025-05-17,3,USC,458
-2nd Varsity 4+,167,2025-05-17,4,Indiana,483
-2nd Varsity 4+,167,2025-05-17,5,Wisconsin,503
-1st Varsity 8+,168,2025-05-18,1,Washington - UW,365
-1st Varsity 8+,168,2025-05-18,2,Rutgers,366
-1st Varsity 8+,168,2025-05-18,3,Michigan,370
-1st Varsity 8+,168,2025-05-18,4,Indiana,372
-1st Varsity 8+,168,2025-05-18,5,Michigan State,377
-1st Varsity 8+,168,2025-05-18,6,Ohio,381
-1st Varsity 8+,169,2025-05-18,1,USC,384
-1st Varsity 8+,169,2025-05-18,2,University of Minnesota,388
-1st Varsity 8+,169,2025-05-18,3,University of Wisconsin,388
-1st Varsity 8+,169,2025-05-18,4,Iowa,389
-1st Varsity 8+,169,2025-05-18,5,UCLA,389
-2nd Varsity 8+,170,2025-05-18,1,Washington - UW,371
-2nd Varsity 8+,170,2025-05-18,2,Rutgers,377
-2nd Varsity 8+,170,2025-05-18,3,Indiana,392
-2nd Varsity 8+,170,2025-05-18,4,USC,392
-2nd Varsity 8+,170,2025-05-18,5,University of Minnesota,393
-2nd Varsity 8+,171,2025-05-18,1,Michigan State,393
-2nd Varsity 8+,171,2025-05-18,2,UCLA,394
-2nd Varsity 8+,171,2025-05-18,3,Iowa,400
-2nd Varsity 8+,171,2025-05-18,4,University of Wisconsin,402
-2nd Varsity 8+,171,2025-05-18,5,Ohio,404
-1st Varsity 4+,172,2025-05-18,1,Washington - UW,413
-1st Varsity 4+,172,2025-05-18,2,Rutgers,416
-1st Varsity 4+,172,2025-05-18,3,Michigan,417
-1st Varsity 4+,172,2025-05-18,4,Ohio,422
-1st Varsity 4+,172,2025-05-18,5,University of Minnesota,426
-1st Varsity 4+,172,2025-05-18,6,Indiana,437
-1st Varsity 4+,173,2025-05-18,1,USC,431
-1st Varsity 4+,173,2025-05-18,2,Iowa,440
-1st Varsity 4+,173,2025-05-18,3,UCLA,441
-1st Varsity 4+,173,2025-05-18,4,Michigan State,448
-1st Varsity 4+,173,2025-05-18,5,University of Wisconsin,452
-2nd Varsity 4+,174,2025-05-18,1,Washington - UW,418
-2nd Varsity 4+,174,2025-05-18,2,Rutgers,419
-2nd Varsity 4+,174,2025-05-18,3,Michigan,427
-2nd Varsity 4+,174,2025-05-18,4,USC,434
-2nd Varsity 4+,174,2025-05-18,5,Ohio,435
-2nd Varsity 4+,174,2025-05-18,6,University of Minnesota,440
-2nd Varsity 4+,175,2025-05-18,1,UCLA,438
-2nd Varsity 4+,175,2025-05-18,2,Indiana,448
-2nd Varsity 4+,175,2025-05-18,3,Michigan State,453
-2nd Varsity 4+,175,2025-05-18,4,Iowa,463
-2nd Varsity 4+,175,2025-05-18,5,University of Wisconsin,473
-1st Varsity 8+,176,2025-05-18,1,Jacksonville,400
-1st Varsity 8+,176,2025-05-18,2,Marist,411
-1st Varsity 8+,176,2025-05-18,3,Canisius,413
-1st Varsity 8+,176,2025-05-18,4,Robert Morris,429
-1st Varsity 8+,176,2025-05-18,5,Iona,434
-1st Varsity 8+,177,2025-05-18,1,Fairfield,399
-1st Varsity 8+,177,2025-05-18,2,Sacred Heart,402
-1st Varsity 8+,177,2025-05-18,3,Eastern Michigan,417
-1st Varsity 8+,177,2025-05-18,4,Drake,430
-1st Varsity 8+,178,2025-05-18,1,Robert Morris,423
-1st Varsity 8+,178,2025-05-18,2,Iona,425
-1st Varsity 8+,178,2025-05-18,3,Drake,429
-1st Varsity 8+,179,2025-05-18,1,Fairfield,402
-1st Varsity 8+,179,2025-05-18,2,Stetson,404
-1st Varsity 8+,179,2025-05-18,3,Jacksonville,406
-1st Varsity 8+,179,2025-05-18,4,Marist,408
-1st Varsity 8+,179,2025-05-18,5,Sacred Heart,409
-1st Varsity 8+,179,2025-05-18,6,Canisius,413
-1st Varsity 4+,180,2025-05-18,1,Jacksonville,469
-1st Varsity 4+,180,2025-05-18,2,Fairfield,496
-1st Varsity 4+,180,2025-05-18,3,Canisius,508
-1st Varsity 4+,180,2025-05-18,4,Drake,607
-1st Varsity 4+,180,2025-05-18,5,Iona,635
-1st Varsity 4+,181,2025-05-18,1,Sacred Heart,460
-1st Varsity 4+,181,2025-05-18,2,Marist,464
-1st Varsity 4+,181,2025-05-18,3,Stetson,534
-1st Varsity 4+,181,2025-05-18,4,Robert Morris,553
-1st Varsity 4+,182,2025-05-18,1,Robert Morris,549
-1st Varsity 4+,182,2025-05-18,2,Drake,592
-1st Varsity 4+,182,2025-05-18,3,Iona,704
-1st Varsity 4+,183,2025-05-18,1,Sacred Heart,454
-1st Varsity 4+,183,2025-05-18,2,Jacksonville,457
-1st Varsity 4+,183,2025-05-18,3,Marist,460
-1st Varsity 4+,183,2025-05-18,4,Fairfield,500
-1st Varsity 4+,183,2025-05-18,5,Canisius,515
-1st Varsity 4+,183,2025-05-18,6,Eastern Michigan,528
-2nd Varsity 8+,184,2025-05-18,1,Jacksonville,412
-2nd Varsity 8+,184,2025-05-18,2,Fairfield,435
-2nd Varsity 8+,184,2025-05-18,3,Canisius,438
-2nd Varsity 8+,184,2025-05-18,4,Iona,482
-2nd Varsity 8+,184,2025-05-18,5,Robert Morris,486
-2nd Varsity 8+,185,2025-05-18,1,Sacred Heart,420
-2nd Varsity 8+,185,2025-05-18,2,Marist,433
-2nd Varsity 8+,185,2025-05-18,3,Stetson,441
-2nd Varsity 8+,185,2025-05-18,4,Drake,452
-2nd Varsity 8+,186,2025-05-18,1,Drake,455
-2nd Varsity 8+,186,2025-05-18,2,Iona,472
-2nd Varsity 8+,186,2025-05-18,3,Robert Morris,482
-2nd Varsity 8+,187,2025-05-18,1,Jacksonville,412
-2nd Varsity 8+,187,2025-05-18,2,Marist,416
-2nd Varsity 8+,187,2025-05-18,3,Fairfield,420
-2nd Varsity 8+,187,2025-05-18,4,Sacred Heart,423
-2nd Varsity 8+,187,2025-05-18,5,Stetson,431
-2nd Varsity 8+,187,2025-05-18,6,Canisius,437
-2nd Varsity 4+,188,2025-05-18,1,Sacred Heart,470
-2nd Varsity 4+,188,2025-05-18,2,Jacksonville,475
-2nd Varsity 4+,188,2025-05-18,3,Fairfield,508
-2nd Varsity 4+,188,2025-05-18,4,Marist,519
-2nd Varsity 4+,188,2025-05-18,5,Canisius,528
-2nd Varsity 4+,189,2025-05-18,1,UCF,453
-2nd Varsity 4+,189,2025-05-18,2,Kansas State,467
-2nd Varsity 4+,189,2025-05-18,3,Tulsa,471
-2nd Varsity 4+,189,2025-05-18,4,Kansas,472
-2nd Varsity 4+,189,2025-05-18,5,Old Dominion,491
-2nd Varsity 4+,189,2025-05-18,6,West Virginia,495
-1st Varsity 4+,190,2025-05-18,1,UCF,442
-1st Varsity 4+,190,2025-05-18,2,Kansas State,449
-1st Varsity 4+,190,2025-05-18,3,Tulsa,471
-1st Varsity 4+,190,2025-05-18,4,Old Dominion,477
-1st Varsity 4+,190,2025-05-18,5,Kansas,485
-1st Varsity 4+,190,2025-05-18,6,West Virginia,488
-2nd Varsity 8+,191,2025-05-18,1,UCF,395
-2nd Varsity 8+,191,2025-05-18,2,Tulsa,411
-2nd Varsity 8+,191,2025-05-18,3,Kansas,415
-2nd Varsity 8+,191,2025-05-18,4,Kansas State,417
-2nd Varsity 8+,191,2025-05-18,5,West Virginia,428
-2nd Varsity 8+,191,2025-05-18,6,Old Dominion,442
-1st Varsity 8+,192,2025-05-18,1,UCF,382
-1st Varsity 8+,192,2025-05-18,2,Tulsa,398
-1st Varsity 8+,192,2025-05-18,3,Kansas,407
-1st Varsity 8+,192,2025-05-18,4,Kansas State,412
-1st Varsity 8+,192,2025-05-18,5,Old Dominion,417
-1st Varsity 8+,192,2025-05-18,6,West Virginia,419
-1st Varsity 8+,193,2025-05-17,1,Yale University,368
-1st Varsity 8+,193,2025-05-17,2,University of Pennsylvania,372
-1st Varsity 8+,193,2025-05-17,3,Harvard University,378
-1st Varsity 8+,193,2025-05-17,4,Cornell University,398
-1st Varsity 8+,194,2025-05-17,1,Princeton University,365
-1st Varsity 8+,194,2025-05-17,2,Dartmouth College,369
-1st Varsity 8+,194,2025-05-17,3,Brown University,377
-1st Varsity 8+,194,2025-05-17,4,Columbia University,388
-1st Varsity 8+,195,2025-05-18,1,Princeton University,361
-1st Varsity 8+,195,2025-05-18,2,Yale University,365
-1st Varsity 8+,195,2025-05-18,3,Brown University,367
-1st Varsity 8+,195,2025-05-18,4,Dartmouth College,369
-1st Varsity 8+,195,2025-05-18,5,University of Pennsylvania,372
-1st Varsity 8+,195,2025-05-18,6,Harvard University,374
-1st Varsity 8+,196,2025-05-18,1,Columbia University,384
-1st Varsity 8+,196,2025-05-18,2,Cornell University,389
-2nd Varsity 8+,197,2025-05-17,1,Yale University,375
-2nd Varsity 8+,197,2025-05-17,2,University of Pennsylvania,382
-2nd Varsity 8+,197,2025-05-17,3,Harvard University,385
-2nd Varsity 8+,197,2025-05-17,4,Cornell University,417
-2nd Varsity 8+,198,2025-05-17,1,Princeton University,378
-2nd Varsity 8+,198,2025-05-17,2,Brown University,383
-2nd Varsity 8+,198,2025-05-17,3,Dartmouth College,389
-2nd Varsity 8+,198,2025-05-17,4,Columbia University,395
-2nd Varsity 8+,199,2025-05-18,1,Yale University,366
-2nd Varsity 8+,199,2025-05-18,2,Princeton University,367
-2nd Varsity 8+,199,2025-05-18,3,Brown University,372
-2nd Varsity 8+,199,2025-05-18,4,Harvard University,376
-2nd Varsity 8+,199,2025-05-18,5,Dartmouth College,384
-2nd Varsity 8+,199,2025-05-18,6,University of Pennsylvania,389
-2nd Varsity 8+,200,2025-05-18,1,Columbia University,387
-2nd Varsity 8+,200,2025-05-18,2,Cornell University,407
-1st Varsity 4+,201,2025-05-17,1,Yale University,415
-1st Varsity 4+,201,2025-05-17,2,Brown University,429
-1st Varsity 4+,201,2025-05-17,3,University of Pennsylvania,440
-1st Varsity 4+,201,2025-05-17,4,Cornell University,460
-1st Varsity 4+,202,2025-05-17,1,Princeton University,422
-1st Varsity 4+,202,2025-05-17,2,Dartmouth College,427
-1st Varsity 4+,202,2025-05-17,3,Harvard University,430
-1st Varsity 4+,202,2025-05-17,4,Columbia University,433
-1st Varsity 4+,203,2025-05-18,1,Yale University,412
-1st Varsity 4+,203,2025-05-18,2,Brown University,417
-1st Varsity 4+,203,2025-05-18,3,Princeton University,421
-1st Varsity 4+,203,2025-05-18,4,Harvard University,429
-1st Varsity 4+,203,2025-05-18,5,Dartmouth College,432
-1st Varsity 4+,203,2025-05-18,6,University of Pennsylvania,434
-1st Varsity 4+,204,2025-05-18,1,Columbia University,433
-1st Varsity 4+,204,2025-05-18,2,Cornell University,451
-2nd Varsity 4+,205,2025-05-17,1,Yale University,422
-2nd Varsity 4+,205,2025-05-17,2,Harvard University,436
-2nd Varsity 4+,205,2025-05-17,3,University of Pennsylvania,449
-2nd Varsity 4+,205,2025-05-17,4,Cornell University,466
-2nd Varsity 4+,206,2025-05-17,1,Brown University,434
-2nd Varsity 4+,206,2025-05-17,2,Princeton University,437
-2nd Varsity 4+,206,2025-05-17,3,Columbia University,440
-2nd Varsity 4+,206,2025-05-17,4,Dartmouth College,456
-2nd Varsity 4+,207,2025-05-18,1,Dartmouth College,447
-2nd Varsity 4+,207,2025-05-18,2,Cornell University,454
-2nd Varsity 4+,208,2025-05-18,1,Yale University,415
-2nd Varsity 4+,208,2025-05-18,2,Princeton University,418
-2nd Varsity 4+,208,2025-05-18,3,Brown University,425
-2nd Varsity 4+,208,2025-05-18,4,Harvard University,427
-2nd Varsity 4+,208,2025-05-18,5,Columbia University,438
-2nd Varsity 4+,208,2025-05-18,6,University of Pennsylvania,452
-1st Varsity 8+,209,2025-05-17,1,George Washington,410
-1st Varsity 8+,209,2025-05-17,2,La Salle,413
-1st Varsity 8+,209,2025-05-17,3,Umass,413
-1st Varsity 8+,209,2025-05-17,4,George Mason,432
-1st Varsity 8+,209,2025-05-17,5,Dayton,441
-1st Varsity 8+,210,2025-05-17,1,Rhode Island (RIU),408
-1st Varsity 8+,210,2025-05-17,2,Saint Joseph's,411
-1st Varsity 8+,210,2025-05-17,3,Fordham,423
-1st Varsity 8+,210,2025-05-17,4,Duquesne,431
-1st Varsity 8+,211,2025-05-17,1,Duquesne,414
-1st Varsity 8+,211,2025-05-17,2,George Mason,424
-1st Varsity 8+,211,2025-05-17,3,Dayton,426
-1st Varsity 8+,212,2025-05-17,1,Rhode Island (RIU),400
-1st Varsity 8+,212,2025-05-17,2,George Washington,403
-1st Varsity 8+,212,2025-05-17,3,Saint Joseph's,406
-1st Varsity 8+,212,2025-05-17,4,La Salle,406
-1st Varsity 8+,212,2025-05-17,5,Umass,412
-1st Varsity 8+,212,2025-05-17,6,Fordham,421
-2nd Varsity 8+,213,2025-05-17,1,George Washington,420
-2nd Varsity 8+,213,2025-05-17,2,Fordham,427
-2nd Varsity 8+,213,2025-05-17,3,La Salle,428
-2nd Varsity 8+,213,2025-05-17,4,George Mason,476
-2nd Varsity 8+,213,2025-05-17,5,Dayton,477
-2nd Varsity 8+,214,2025-05-17,1,Rhode Island (RIU),425
-2nd Varsity 8+,214,2025-05-17,2,Umass,435
-2nd Varsity 8+,214,2025-05-17,3,Saint Joseph's,440
-2nd Varsity 8+,214,2025-05-17,4,Duquesne,448
-2nd Varsity 8+,215,2025-05-17,1,Duquesne,455
-2nd Varsity 8+,215,2025-05-17,2,George Mason,485
-2nd Varsity 8+,215,2025-05-17,3,Dayton,492
-2nd Varsity 8+,216,2025-05-17,1,Rhode Island (RIU),406
-2nd Varsity 8+,216,2025-05-17,2,George Washington,409
-2nd Varsity 8+,216,2025-05-17,3,Umass,412
-2nd Varsity 8+,216,2025-05-17,4,Fordham,423
-2nd Varsity 8+,216,2025-05-17,5,La Salle,428
-2nd Varsity 8+,216,2025-05-17,6,Saint Joseph's,436
-1st Varsity 4+,217,2025-05-17,1,Umass,474
-1st Varsity 4+,217,2025-05-17,2,Duquesne,499
-1st Varsity 4+,217,2025-05-17,3,Fordham,507
-1st Varsity 4+,217,2025-05-17,4,George Mason,529
-1st Varsity 4+,218,2025-05-17,1,Rhode Island (RIU),482
-1st Varsity 4+,218,2025-05-17,2,George Washington,484
-1st Varsity 4+,218,2025-05-17,3,Saint Joseph's,492
-1st Varsity 4+,218,2025-05-17,4,La Salle,506
-1st Varsity 4+,219,2025-05-17,1,La Salle,543
-1st Varsity 4+,219,2025-05-17,2,George Mason,550
-1st Varsity 4+,220,2025-05-17,1,Umass,465
-1st Varsity 4+,220,2025-05-17,2,George Washington,482
-1st Varsity 4+,220,2025-05-17,3,Rhode Island (RIU),488
-1st Varsity 4+,220,2025-05-17,4,Saint Joseph's,504
-1st Varsity 4+,220,2025-05-17,5,Duquesne,510
-1st Varsity 4+,220,2025-05-17,6,Fordham,538
-2nd Varsity 4+,221,2025-05-17,1,Umass,496
-2nd Varsity 4+,221,2025-05-17,2,Duquesne,514
-2nd Varsity 4+,221,2025-05-17,3,George Washington,528
-2nd Varsity 4+,221,2025-05-17,4,La Salle,543
-2nd Varsity 4+,221,2025-05-17,5,George Mason,575
-1st Varsity 8+,222,2025-05-16,1,Stanford,368
-1st Varsity 8+,222,2025-05-16,2,Virginia - UVA,375
-1st Varsity 8+,222,2025-05-16,3,Duke,384
-1st Varsity 8+,222,2025-05-16,4,North Carolina Chapel Hill - UNC,389
-1st Varsity 8+,222,2025-05-16,5,Miami,391
-1st Varsity 8+,222,2025-05-16,6,Boston College,401
-1st Varsity 8+,223,2025-05-16,1,California,378
-1st Varsity 8+,223,2025-05-16,2,Syracuse,380
-1st Varsity 8+,223,2025-05-16,3,Clemson,388
-1st Varsity 8+,223,2025-05-16,4,Louisville,388
-1st Varsity 8+,223,2025-05-16,5,SMU,393
-1st Varsity 8+,223,2025-05-16,6,Notre Dame,397
-1st Varsity 8+,224,2025-05-17,1,North Carolina Chapel Hill - UNC,379
-1st Varsity 8+,224,2025-05-17,2,Louisville,381
-1st Varsity 8+,224,2025-05-17,3,Miami,382
-1st Varsity 8+,224,2025-05-17,4,SMU,384
-1st Varsity 8+,224,2025-05-17,5,Notre Dame,387
-1st Varsity 8+,224,2025-05-17,6,Boston College,390
-1st Varsity 8+,225,2025-05-17,1,Stanford,358
-1st Varsity 8+,225,2025-05-17,2,Virginia - UVA,368
-1st Varsity 8+,225,2025-05-17,3,California,369
-1st Varsity 8+,225,2025-05-17,4,Syracuse,373
-1st Varsity 8+,225,2025-05-17,5,Duke,380
-1st Varsity 8+,225,2025-05-17,6,Clemson,383
-2nd Varsity 8+,226,2025-05-16,1,Stanford,376
-2nd Varsity 8+,226,2025-05-16,2,Virginia - UVA,378
-2nd Varsity 8+,226,2025-05-16,3,Duke,393
-2nd Varsity 8+,226,2025-05-16,4,North Carolina Chapel Hill - UNC,401
-2nd Varsity 8+,226,2025-05-16,5,Notre Dame,407
-2nd Varsity 8+,226,2025-05-16,6,Boston College,423
-2nd Varsity 8+,227,2025-05-16,1,Syracuse,390
-2nd Varsity 8+,227,2025-05-16,2,California,393
-2nd Varsity 8+,227,2025-05-16,3,SMU,395
-2nd Varsity 8+,227,2025-05-16,4,Clemson,399
-2nd Varsity 8+,227,2025-05-16,5,Louisville,403
-2nd Varsity 8+,227,2025-05-16,6,Miami,408
-2nd Varsity 8+,228,2025-05-17,1,Notre Dame,390
-2nd Varsity 8+,228,2025-05-17,2,Clemson,391
-2nd Varsity 8+,228,2025-05-17,3,Louisville,391
-2nd Varsity 8+,228,2025-05-17,4,North Carolina Chapel Hill - UNC,392
-2nd Varsity 8+,228,2025-05-17,5,Miami,398
-2nd Varsity 8+,228,2025-05-17,6,Boston College,411
-2nd Varsity 8+,229,2025-05-17,1,Stanford,368
-2nd Varsity 8+,229,2025-05-17,2,Virginia - UVA,374
-2nd Varsity 8+,229,2025-05-17,3,Syracuse,381
-2nd Varsity 8+,229,2025-05-17,4,Duke,383
-2nd Varsity 8+,229,2025-05-17,5,SMU,388
-2nd Varsity 8+,229,2025-05-17,6,California,389
-1st Varsity 4+,230,2025-05-16,1,Stanford,421
-1st Varsity 4+,230,2025-05-16,2,Duke,434
-1st Varsity 4+,230,2025-05-16,3,Clemson,437
-1st Varsity 4+,230,2025-05-16,4,Virginia - UVA,444
-1st Varsity 4+,230,2025-05-16,5,Notre Dame,445
-1st Varsity 4+,230,2025-05-16,6,Boston College,451
-1st Varsity 4+,231,2025-05-16,1,Syracuse,425
-1st Varsity 4+,231,2025-05-16,2,California,429
-1st Varsity 4+,231,2025-05-16,3,North Carolina Chapel Hill - UNC,432
-1st Varsity 4+,231,2025-05-16,4,Miami,450
-1st Varsity 4+,231,2025-05-16,5,SMU,452
-1st Varsity 4+,231,2025-05-16,6,Louisville,457
-1st Varsity 4+,232,2025-05-17,1,Virginia - UVA,433
-1st Varsity 4+,232,2025-05-17,2,Notre Dame,440
-1st Varsity 4+,232,2025-05-17,3,SMU,440
-1st Varsity 4+,232,2025-05-17,4,Boston College,441
-1st Varsity 4+,232,2025-05-17,5,Miami,450
-1st Varsity 4+,232,2025-05-17,6,Louisville,451
-1st Varsity 4+,233,2025-05-17,1,Stanford,413
-1st Varsity 4+,233,2025-05-17,2,Syracuse,419
-1st Varsity 4+,233,2025-05-17,3,California,423
-1st Varsity 4+,233,2025-05-17,4,North Carolina Chapel Hill - UNC,423
-1st Varsity 4+,233,2025-05-17,5,Duke,425
-1st Varsity 4+,233,2025-05-17,6,Clemson,438
-2nd Varsity 4+,234,2025-05-16,1,Stanford,435
-2nd Varsity 4+,234,2025-05-16,2,North Carolina Chapel Hill - UNC,445
-2nd Varsity 4+,234,2025-05-16,3,Duke,454
-2nd Varsity 4+,234,2025-05-16,4,Miami,460
-2nd Varsity 4+,234,2025-05-16,5,North Carolina Chapel Hill - UNC,462
-2nd Varsity 4+,234,2025-05-16,6,Louisville,469
-2nd Varsity 4+,235,2025-05-16,1,California,439
-2nd Varsity 4+,235,2025-05-16,2,Virginia - UVA,446
-2nd Varsity 4+,235,2025-05-16,3,Syracuse,453
-2nd Varsity 4+,235,2025-05-16,4,Clemson,460
-2nd Varsity 4+,235,2025-05-16,5,Boston College,475
-2nd Varsity 4+,235,2025-05-16,6,SMU,488
-2nd Varsity 4+,236,2025-05-17,1,Clemson,445
-2nd Varsity 4+,236,2025-05-17,2,Miami,448
-2nd Varsity 4+,236,2025-05-17,3,Louisville,449
-2nd Varsity 4+,236,2025-05-17,4,Notre Dame,452
-2nd Varsity 4+,236,2025-05-17,5,Boston College,458
-2nd Varsity 4+,236,2025-05-17,6,SMU,477
-2nd Varsity 4+,237,2025-05-17,1,Stanford,418
-2nd Varsity 4+,237,2025-05-17,2,California,425
-2nd Varsity 4+,237,2025-05-17,3,North Carolina Chapel Hill - UNC,427
-2nd Varsity 4+,237,2025-05-17,4,Virginia - UVA,428
-2nd Varsity 4+,237,2025-05-17,5,Duke,433
-2nd Varsity 4+,237,2025-05-17,6,Syracuse,437
-1st Varsity 8+,238,2025-05-17,1,Oregon State - OSU,396
-1st Varsity 8+,238,2025-05-17,2,Gonzaga,405
-1st Varsity 8+,238,2025-05-17,3,Washington State - WSU,407
-1st Varsity 8+,238,2025-05-17,4,Sacramento State University,418
-1st Varsity 8+,238,2025-05-17,5,Saint Mary's,422
-1st Varsity 8+,238,2025-05-17,6,San Diego,424
-1st Varsity 8+,239,2025-05-17,1,Creighton,421
-1st Varsity 8+,239,2025-05-17,2,Portland,424
-1st Varsity 8+,239,2025-05-17,3,Santa Clara,433
-2nd Varsity 8+,240,2025-05-17,1,Oregon State - OSU,406
-2nd Varsity 8+,240,2025-05-17,2,Gonzaga,415
-2nd Varsity 8+,240,2025-05-17,3,Washington State - WSU,418
-2nd Varsity 8+,240,2025-05-17,4,San Diego,423
-2nd Varsity 8+,240,2025-05-17,5,Sacramento State University,433
-2nd Varsity 8+,240,2025-05-17,6,Saint Mary's,437
-2nd Varsity 8+,241,2025-05-17,1,Portland,436
-2nd Varsity 8+,241,2025-05-17,2,Santa Clara,440
-2nd Varsity 8+,241,2025-05-17,3,Creighton,452
-1st Varsity 4+,242,2025-05-17,1,Oregon State - OSU,456
-1st Varsity 4+,242,2025-05-17,2,Washington State - WSU,460
-1st Varsity 4+,242,2025-05-17,3,Gonzaga,463
-1st Varsity 4+,242,2025-05-17,4,San Diego,478
-1st Varsity 4+,242,2025-05-17,5,Sacramento State University,488
-1st Varsity 4+,242,2025-05-17,6,Saint Mary's,496
-1st Varsity 4+,243,2025-05-17,1,Creighton,493
-1st Varsity 4+,243,2025-05-17,2,Portland,496
-1st Varsity 4+,243,2025-05-17,3,Santa Clara,556
-2nd Varsity 4+,244,2025-05-17,1,Oregon State - OSU,471
-2nd Varsity 4+,244,2025-05-17,2,Washington State - WSU,478
-2nd Varsity 4+,244,2025-05-17,3,Gonzaga,488
-2nd Varsity 4+,244,2025-05-17,4,San Diego,499
-2nd Varsity 4+,244,2025-05-17,5,Portland,512
-2nd Varsity 4+,244,2025-05-17,6,Saint Mary's,513
-2nd Varsity 4+,245,2025-05-17,1,Sacramento State University,501
-2nd Varsity 4+,245,2025-05-17,2,Creighton,509
-1st Varsity 8+,246,2025-05-16,1,Northeastern,413
-1st Varsity 8+,246,2025-05-16,2,UCSD,420
-1st Varsity 8+,246,2025-05-16,3,Villanova,426
-1st Varsity 8+,246,2025-05-16,4,Monmouth,444
-1st Varsity 8+,247,2025-05-16,1,Delaware,416
-1st Varsity 8+,247,2025-05-16,2,Eastern Michigan,421
-1st Varsity 8+,247,2025-05-16,3,Drexel,425
-1st Varsity 8+,247,2025-05-16,4,UConn,433
-1st Varsity 8+,248,2025-05-17,1,UConn,430
-1st Varsity 8+,248,2025-05-17,2,Monmouth,444
-1st Varsity 8+,249,2025-05-17,1,Northeastern,405
-1st Varsity 8+,249,2025-05-17,2,Delaware,414
-1st Varsity 8+,249,2025-05-17,3,Drexel,419
-1st Varsity 8+,249,2025-05-17,4,Villanova,419
-1st Varsity 8+,249,2025-05-17,5,UCSD,423
-1st Varsity 8+,249,2025-05-17,6,Eastern Michigan,425
-2nd Varsity 8+,250,2025-05-16,1,Northeastern,419
-2nd Varsity 8+,250,2025-05-16,2,UCSD,435
-2nd Varsity 8+,250,2025-05-16,3,Eastern Michigan,443
-2nd Varsity 8+,250,2025-05-16,4,Monmouth,464
-2nd Varsity 8+,251,2025-05-16,1,Drexel,418
-2nd Varsity 8+,251,2025-05-16,2,Villanova,421
-2nd Varsity 8+,251,2025-05-16,3,UConn,428
-2nd Varsity 8+,251,2025-05-16,4,Delaware,434
-2nd Varsity 8+,252,2025-05-17,1,Delaware,430
-2nd Varsity 8+,252,2025-05-17,2,Monmouth,451
-2nd Varsity 8+,253,2025-05-17,1,North Carolina Chapel Hill - UNC,404
-2nd Varsity 8+,253,2025-05-17,2,Drexel,412
-2nd Varsity 8+,253,2025-05-17,3,Villanova,416
-2nd Varsity 8+,253,2025-05-17,4,UCSD,416
-2nd Varsity 8+,253,2025-05-17,5,UConn,426
-2nd Varsity 8+,253,2025-05-17,6,Eastern Michigan,432
-1st Varsity 4+,254,2025-05-16,1,Northeastern,476
-1st Varsity 4+,254,2025-05-16,2,UCSD,487
-1st Varsity 4+,254,2025-05-16,3,UConn,499
-1st Varsity 4+,254,2025-05-16,4,Monmouth,529
-1st Varsity 4+,255,2025-05-16,1,Drexel,466
-1st Varsity 4+,255,2025-05-16,2,Delaware,470
-1st Varsity 4+,255,2025-05-16,3,Eastern Michigan,504
-1st Varsity 4+,255,2025-05-16,4,Villanova,507
-1st Varsity 4+,256,2025-05-17,1,Villanova,504
-1st Varsity 4+,256,2025-05-17,2,Monmouth,510
-1st Varsity 4+,257,2025-05-17,1,Drexel,453
-1st Varsity 4+,257,2025-05-17,2,Northeastern,456
-1st Varsity 4+,257,2025-05-17,3,Delaware,461
-1st Varsity 4+,257,2025-05-17,4,UConn,464
-1st Varsity 4+,257,2025-05-17,5,UCSD,480
-1st Varsity 4+,257,2025-05-17,6,Eastern Michigan,502
-1st Varsity 8+,258,2025-05-30,1,Stanford,371
-1st Varsity 8+,258,2025-05-30,2,Brown University,374
-1st Varsity 8+,258,2025-05-30,3,Michigan,381
-1st Varsity 8+,258,2025-05-30,4,Harvard University,382
-1st Varsity 8+,258,2025-05-30,5,Syracuse,384
-1st Varsity 8+,259,2025-05-30,1,Yale University,372
-1st Varsity 8+,259,2025-05-30,2,Texas,375
-1st Varsity 8+,259,2025-05-30,3,Indiana,378
-1st Varsity 8+,259,2025-05-30,4,University of Pennsylvania,386
-1st Varsity 8+,259,2025-05-30,5,Oregon State - OSU,390
-1st Varsity 8+,260,2025-05-30,1,Tennessee,372
-1st Varsity 8+,260,2025-05-30,2,Rutgers,374
-1st Varsity 8+,260,2025-05-30,3,California,377
-1st Varsity 8+,260,2025-05-30,4,Dartmouth College,379
-1st Varsity 8+,260,2025-05-30,5,Boston University - BU,396
-1st Varsity 8+,260,2025-05-30,6,Fairfield,416
-1st Varsity 8+,261,2025-05-30,1,Washington - UW,373
-1st Varsity 8+,261,2025-05-30,2,Virginia - UVA,375
-1st Varsity 8+,261,2025-05-30,3,Princeton University,376
-1st Varsity 8+,261,2025-05-30,4,UCF,379
-1st Varsity 8+,261,2025-05-30,5,Northeastern,395
-1st Varsity 8+,261,2025-05-30,6,Rhode Island (RIU),408
-2nd Varsity 8+,262,2025-05-30,1,Stanford,378
-2nd Varsity 8+,262,2025-05-30,2,Harvard University,382
-2nd Varsity 8+,262,2025-05-30,3,California,385
-2nd Varsity 8+,262,2025-05-30,4,Rutgers,385
-2nd Varsity 8+,262,2025-05-30,5,Indiana,405
-2nd Varsity 8+,263,2025-05-30,1,Washington - UW,378
-2nd Varsity 8+,263,2025-05-30,2,Virginia - UVA,380
-2nd Varsity 8+,263,2025-05-30,3,Brown University,382
-2nd Varsity 8+,263,2025-05-30,4,University of Pennsylvania,394
-2nd Varsity 8+,263,2025-05-30,5,Oregon State - OSU,396
-2nd Varsity 8+,264,2025-05-30,1,Princeton University,378
-2nd Varsity 8+,264,2025-05-30,2,Tennessee,381
-2nd Varsity 8+,264,2025-05-30,3,Michigan,385
-2nd Varsity 8+,264,2025-05-30,4,UCF,394
-2nd Varsity 8+,264,2025-05-30,5,Northeastern,397
-2nd Varsity 8+,264,2025-05-30,6,Fairfield,433
-2nd Varsity 8+,265,2025-05-30,1,Texas,377
-2nd Varsity 8+,265,2025-05-30,2,Yale University,379
-2nd Varsity 8+,265,2025-05-30,3,Syracuse,383
-2nd Varsity 8+,265,2025-05-30,4,Dartmouth College,399
-2nd Varsity 8+,265,2025-05-30,5,Boston University - BU,407
-2nd Varsity 8+,265,2025-05-30,6,Rhode Island (RIU),420
-1st Varsity 4+,266,2025-05-30,1,Stanford,418
-1st Varsity 4+,266,2025-05-30,2,Michigan,423
-1st Varsity 4+,266,2025-05-30,3,Tennessee,424
-1st Varsity 4+,266,2025-05-30,4,Virginia - UVA,429
-1st Varsity 4+,266,2025-05-30,5,Indiana,442
-1st Varsity 4+,267,2025-05-30,1,Washington - UW,431
-1st Varsity 4+,267,2025-05-30,2,Princeton University,434
-1st Varsity 4+,267,2025-05-30,3,Brown University,435
-1st Varsity 4+,267,2025-05-30,4,Oregon State - OSU,440
-1st Varsity 4+,267,2025-05-30,5,University of Pennsylvania,440
-1st Varsity 4+,268,2025-05-30,1,Rutgers,428
-1st Varsity 4+,268,2025-05-30,2,Syracuse,428
-1st Varsity 4+,268,2025-05-30,3,California,430
-1st Varsity 4+,268,2025-05-30,4,UCF,438
-1st Varsity 4+,268,2025-05-30,5,Boston University - BU,445
-1st Varsity 4+,268,2025-05-30,6,Fairfield,486
-1st Varsity 4+,269,2025-05-30,1,Texas,423
-1st Varsity 4+,269,2025-05-30,2,Yale University,425
-1st Varsity 4+,269,2025-05-30,3,Harvard University,432
-1st Varsity 4+,269,2025-05-30,4,Dartmouth College,435
-1st Varsity 4+,269,2025-05-30,5,Rhode Island (RIU),477
+1st Varsity 4+,20,2025-04-12,1,Yale University,415
+1st Varsity 4+,20,2025-04-12,2,Dartmouth College,436
+1st Varsity 4+,21,2025-04-12,1,Princeton University,429
+1st Varsity 4+,21,2025-04-12,2,Harvard University,439
+1st Varsity 4+,21,2025-04-12,3,Cornell University,461
+1st Varsity 4+,22,2025-04-12,1,Columbia University,458
+1st Varsity 4+,22,2025-04-12,2,Boston University - BU,464
+1st Varsity 4+,22,2025-04-12,3,Northeastern,465
+1st Varsity 4+,23,2025-04-12,1,Texas,424
+1st Varsity 4+,23,2025-04-12,2,Michigan,432
+1st Varsity 4+,24,2025-04-12,1,Kansas State,446
+1st Varsity 4+,24,2025-04-12,2,Iowa,452
+1st Varsity 4+,25,2025-04-12,1,University of Minnesota,457
+1st Varsity 4+,25,2025-04-12,2,Kansas State,492
+1st Varsity 4+,26,2025-04-18,1,Washington - UW,434
+1st Varsity 4+,26,2025-04-18,2,University of Pennsylvania,443
+1st Varsity 4+,26,2025-04-18,3,Indiana,445
+1st Varsity 4+,26,2025-04-18,4,Clemson,446
+1st Varsity 4+,26,2025-04-18,5,Notre Dame,460
+1st Varsity 4+,26,2025-04-18,6,Iowa,475
+1st Varsity 4+,27,2025-04-18,1,Tennessee,432
+1st Varsity 4+,27,2025-04-18,2,Ohio,437
+1st Varsity 4+,27,2025-04-18,3,SMU,440
+1st Varsity 4+,27,2025-04-18,4,Michigan State,455
+1st Varsity 4+,27,2025-04-18,5,Oregon State - OSU,457
+1st Varsity 4+,28,2025-04-18,1,Michigan,429
+1st Varsity 4+,28,2025-04-18,2,Harvard University,431
+1st Varsity 4+,28,2025-04-18,3,Duke,433
+1st Varsity 4+,28,2025-04-18,4,USC,437
+1st Varsity 4+,28,2025-04-18,5,Miami,442
+1st Varsity 4+,28,2025-04-18,6,Wisconsin,473
+1st Varsity 4+,29,2025-04-18,1,Rutgers,427
+1st Varsity 4+,29,2025-04-18,2,Brown University,429
+1st Varsity 4+,29,2025-04-18,3,University of Minnesota,431
+1st Varsity 4+,29,2025-04-18,4,Oklahoma,444
+1st Varsity 4+,30,2025-04-18,1,Washington - UW,426
+1st Varsity 4+,30,2025-04-18,2,Brown University,434
+1st Varsity 4+,30,2025-04-18,3,Duke,440
+1st Varsity 4+,30,2025-04-18,4,Ohio,444
+1st Varsity 4+,30,2025-04-18,5,Miami,458
+1st Varsity 4+,30,2025-04-18,6,Wisconsin,465
+1st Varsity 4+,31,2025-04-18,1,Tennessee,436
+1st Varsity 4+,31,2025-04-18,2,Michigan,440
+1st Varsity 4+,31,2025-04-18,3,Rutgers,443
+1st Varsity 4+,31,2025-04-18,4,University of Pennsylvania,447
+1st Varsity 4+,31,2025-04-18,5,SMU,448
+1st Varsity 4+,32,2025-04-18,1,Harvard University,436
+1st Varsity 4+,32,2025-04-18,2,UCLA,448
+1st Varsity 4+,32,2025-04-18,3,Indiana,449
+1st Varsity 4+,32,2025-04-18,4,Oklahoma,452
+1st Varsity 4+,32,2025-04-18,5,Iowa,468
+1st Varsity 4+,33,2025-04-18,1,University of Minnesota,440
+1st Varsity 4+,33,2025-04-18,2,USC,445
+1st Varsity 4+,33,2025-04-18,3,Clemson,448
+1st Varsity 4+,33,2025-04-18,4,Oregon State - OSU,451
+1st Varsity 4+,33,2025-04-18,5,Notre Dame,458
+1st Varsity 4+,33,2025-04-18,6,Michigan State,467
+1st Varsity 4+,34,2025-04-19,1,Yale University,417
+1st Varsity 4+,34,2025-04-19,2,Princeton University,428
+1st Varsity 4+,35,2025-04-19,1,Dartmouth College,478
+1st Varsity 4+,35,2025-04-19,2,Rhode Island (RIU),504
+1st Varsity 4+,36,2025-04-19,1,Northeastern,499
+1st Varsity 4+,36,2025-04-19,2,Cornell University,510
+1st Varsity 4+,37,2025-04-19,1,Northeastern,496
+1st Varsity 4+,37,2025-04-19,2,Rhode Island (RIU),510
+1st Varsity 4+,38,2025-04-19,1,Dartmouth College,488
+1st Varsity 4+,38,2025-04-19,2,Cornell University,510
+1st Varsity 4+,39,2025-04-19,1,Gonzaga,455
+1st Varsity 4+,39,2025-04-19,2,Washington State - WSU,462
+1st Varsity 4+,40,2025-04-19,1,Washington - UW,433
+1st Varsity 4+,40,2025-04-19,2,University of Pennsylvania,443
+1st Varsity 4+,40,2025-04-19,3,Indiana,445
+1st Varsity 4+,40,2025-04-19,4,Clemson,446
+1st Varsity 4+,40,2025-04-19,5,Notre Dame,460
+1st Varsity 4+,40,2025-04-19,6,Iowa,475
+1st Varsity 4+,41,2025-04-19,1,Tennessee,432
+1st Varsity 4+,41,2025-04-19,2,Ohio,437
+1st Varsity 4+,41,2025-04-19,3,SMU,440
+1st Varsity 4+,41,2025-04-19,4,UCLA,447
+1st Varsity 4+,41,2025-04-19,5,Michigan State,455
+1st Varsity 4+,41,2025-04-19,6,Oregon State - OSU,457
+1st Varsity 4+,42,2025-04-19,1,Michigan,429
+1st Varsity 4+,42,2025-04-19,2,Harvard University,431
+1st Varsity 4+,42,2025-04-19,3,Duke,433
+1st Varsity 4+,42,2025-04-19,4,USC,437
+1st Varsity 4+,42,2025-04-19,5,Miami,442
+1st Varsity 4+,42,2025-04-19,6,Wisconsin,473
+1st Varsity 4+,43,2025-04-19,1,Rutgers,427
+1st Varsity 4+,43,2025-04-19,2,Brown University,429
+1st Varsity 4+,43,2025-04-19,3,University of Minnesota,431
+1st Varsity 4+,43,2025-04-19,4,Oklahoma,444
+1st Varsity 4+,44,2025-04-19,1,Washington - UW,426
+1st Varsity 4+,44,2025-04-19,2,Brown University,434
+1st Varsity 4+,44,2025-04-19,3,Duke,440
+1st Varsity 4+,44,2025-04-19,4,Ohio,444
+1st Varsity 4+,44,2025-04-19,5,Miami,458
+1st Varsity 4+,44,2025-04-19,6,Wisconsin,465
+1st Varsity 4+,45,2025-04-19,1,Tennessee,436
+1st Varsity 4+,45,2025-04-19,2,Michigan,440
+1st Varsity 4+,45,2025-04-19,3,Rutgers,443
+1st Varsity 4+,45,2025-04-19,4,University of Pennsylvania,447
+1st Varsity 4+,45,2025-04-19,5,SMU,448
+1st Varsity 4+,46,2025-04-19,1,Harvard University,436
+1st Varsity 4+,46,2025-04-19,2,UCLA,448
+1st Varsity 4+,46,2025-04-19,3,Indiana,449
+1st Varsity 4+,46,2025-04-19,4,Oklahoma,452
+1st Varsity 4+,46,2025-04-19,5,Iowa,469
+1st Varsity 4+,47,2025-04-19,1,University of Minnesota,440
+1st Varsity 4+,47,2025-04-19,2,USC,445
+1st Varsity 4+,47,2025-04-19,3,Clemson,448
+1st Varsity 4+,47,2025-04-19,4,Oregon State - OSU,451
+1st Varsity 4+,47,2025-04-19,5,Notre Dame,459
+1st Varsity 4+,47,2025-04-19,6,Michigan State,467
+1st Varsity 4+,48,2025-04-25,1,Brown University,476
+1st Varsity 4+,48,2025-04-25,2,Cornell University,516
+1st Varsity 4+,49,2025-04-26,1,Washington - UW,439
+1st Varsity 4+,49,2025-04-26,2,California,451
+1st Varsity 4+,50,2025-04-26,1,Yale University,458
+1st Varsity 4+,50,2025-04-26,2,Harvard University,474
+1st Varsity 4+,51,2025-04-26,1,Tennessee,422
+1st Varsity 4+,51,2025-04-26,2,Princeton University,424
+1st Varsity 4+,51,2025-04-26,3,Ohio,425
+1st Varsity 4+,51,2025-04-26,4,Syracuse,462
+1st Varsity 4+,52,2025-04-26,1,Indiana,501
+1st Varsity 4+,52,2025-04-26,2,Notre Dame,506
+1st Varsity 4+,52,2025-04-26,3,Michigan State,510
+1st Varsity 4+,53,2025-04-26,1,Texas,442
+1st Varsity 4+,53,2025-04-26,2,SMU,473
+1st Varsity 4+,54,2025-04-26,1,Stanford,450
+1st Varsity 4+,54,2025-04-26,2,UCF,463
+1st Varsity 4+,55,2025-04-26,1,Duke,439
+1st Varsity 4+,55,2025-04-26,2,North Carolina Chapel Hill - UNC,446
+1st Varsity 4+,55,2025-04-26,3,Clemson,449
+1st Varsity 4+,55,2025-04-26,4,Washington State - WSU,455
+1st Varsity 4+,55,2025-04-26,5,Jacksonville,469
+1st Varsity 4+,56,2025-04-26,1,Columbia University,441
+1st Varsity 4+,56,2025-04-26,2,Virginia - UVA,442
+1st Varsity 4+,56,2025-04-26,3,Gonzaga,450
+1st Varsity 4+,56,2025-04-26,4,Miami,456
+1st Varsity 4+,56,2025-04-26,5,Kansas State,465
+1st Varsity 4+,57,2025-04-26,1,Boston University - BU,453
+1st Varsity 4+,57,2025-04-26,2,Boston College,462
+1st Varsity 4+,57,2025-04-26,3,Louisville,463
+1st Varsity 4+,57,2025-04-26,4,Rhode Island (RIU),466
+1st Varsity 4+,58,2025-04-26,1,Clemson,443
+1st Varsity 4+,58,2025-04-26,2,Gonzaga,454
+1st Varsity 4+,58,2025-04-26,3,Louisville,458
+1st Varsity 4+,58,2025-04-26,4,Boston College,463
+1st Varsity 4+,59,2025-04-26,1,Virginia - UVA,443
+1st Varsity 4+,59,2025-04-26,2,North Carolina Chapel Hill - UNC,448
+1st Varsity 4+,59,2025-04-26,3,Boston University - BU,454
+1st Varsity 4+,59,2025-04-26,4,Washington State - WSU,455
+1st Varsity 4+,59,2025-04-26,5,Miami,457
+1st Varsity 4+,59,2025-04-26,6,Kansas State,465
+1st Varsity 4+,60,2025-04-26,1,Duke,444
+1st Varsity 4+,60,2025-04-26,2,Columbia University,448
+1st Varsity 4+,60,2025-04-26,3,Rhode Island (RIU),468
+1st Varsity 4+,61,2025-04-26,1,Columbia University,438
+1st Varsity 4+,61,2025-04-26,2,Washington State - WSU,442
+1st Varsity 4+,61,2025-04-26,3,Clemson,446
+1st Varsity 4+,61,2025-04-26,4,Miami,451
+1st Varsity 4+,62,2025-04-26,1,North Carolina Chapel Hill - UNC,442
+1st Varsity 4+,62,2025-04-26,2,Boston College,463
+1st Varsity 4+,62,2025-04-26,3,Kansas State,465
+1st Varsity 4+,63,2025-04-26,1,Virginia - UVA,440
+1st Varsity 4+,63,2025-04-26,2,Duke,445
+1st Varsity 4+,63,2025-04-26,3,Gonzaga,449
+1st Varsity 4+,63,2025-04-26,4,Boston University - BU,449
+1st Varsity 4+,64,2025-04-26,1,Stanford,454
+1st Varsity 4+,64,2025-04-26,2,Texas,460
+2nd Varsity 4+,65,2025-03-22,1,Yale University,441
+2nd Varsity 4+,65,2025-03-22,2,Rutgers,442
+2nd Varsity 4+,65,2025-03-22,3,Ohio,471
+2nd Varsity 4+,66,2025-03-22,1,Yale University,437
+2nd Varsity 4+,66,2025-03-22,2,Michigan,441
+2nd Varsity 4+,67,2025-03-22,1,Rutgers,436
+2nd Varsity 4+,67,2025-03-22,2,University of Pennsylvania,458
+2nd Varsity 4+,68,2025-03-22,1,Syracuse,450
+2nd Varsity 4+,68,2025-03-22,2,University of Pennsylvania,459
+2nd Varsity 4+,69,2025-03-22,1,Syracuse,438
+2nd Varsity 4+,69,2025-03-22,2,Ohio,441
+2nd Varsity 4+,70,2025-03-29,1,Stanford,438
+2nd Varsity 4+,70,2025-03-29,2,Tennessee,445
+2nd Varsity 4+,71,2025-03-29,1,Gonzaga,464
+2nd Varsity 4+,71,2025-03-29,2,Oregon State - OSU,471
+2nd Varsity 4+,71,2025-03-29,3,Portland,512
+2nd Varsity 4+,72,2025-03-29,1,Boston University - BU,467
+2nd Varsity 4+,72,2025-03-29,2,Cornell University,480
+2nd Varsity 4+,73,2025-03-29,1,Cornell University,516
+2nd Varsity 4+,73,2025-03-29,2,Colgate,582
+2nd Varsity 4+,74,2025-03-29,1,Princeton University,440
+2nd Varsity 4+,74,2025-03-29,2,Brown University,442
+2nd Varsity 4+,75,2025-03-29,1,Virginia - UVA,480
+2nd Varsity 4+,75,2025-03-29,2,Ohio,493
+2nd Varsity 4+,76,2025-03-29,1,Michigan,473
+2nd Varsity 4+,76,2025-03-29,2,Oklahoma,489
+2nd Varsity 4+,77,2025-03-29,1,Ohio,499
+2nd Varsity 4+,77,2025-03-29,2,Oklahoma,512
+2nd Varsity 4+,78,2025-03-29,1,Michigan,482
+2nd Varsity 4+,78,2025-03-29,2,Virginia - UVA,490
+2nd Varsity 4+,79,2025-03-29,1,Boston College,469
+2nd Varsity 4+,79,2025-03-29,2,Louisville,471
+2nd Varsity 4+,79,2025-03-29,3,Michigan State,472
+2nd Varsity 4+,79,2025-03-29,4,Kansas State,476
+2nd Varsity 4+,80,2025-03-29,1,UCF,447
+2nd Varsity 4+,80,2025-03-29,2,Dartmouth College,455
+2nd Varsity 4+,80,2025-03-29,3,Miami,457
+2nd Varsity 4+,80,2025-03-29,4,Kansas State,465
+2nd Varsity 4+,80,2025-03-29,5,Jacksonville,475
+2nd Varsity 4+,81,2025-04-04,1,Ohio,418
+2nd Varsity 4+,81,2025-04-04,2,SMU,433
+2nd Varsity 4+,82,2025-04-04,1,Columbia University,423
+2nd Varsity 4+,82,2025-04-04,2,Indiana,430
+2nd Varsity 4+,83,2025-04-05,1,Yale University,471
+2nd Varsity 4+,83,2025-04-05,2,Syracuse,482
+2nd Varsity 4+,83,2025-04-05,3,Cornell University,529
+2nd Varsity 4+,84,2025-04-05,1,Oregon State - OSU,447
+2nd Varsity 4+,84,2025-04-05,2,Washington State - WSU,452
+2nd Varsity 4+,85,2025-04-05,1,Tennessee,454
+2nd Varsity 4+,85,2025-04-05,2,UCF,459
+2nd Varsity 4+,85,2025-04-05,3,North Carolina Chapel Hill - UNC,460
+2nd Varsity 4+,86,2025-04-05,1,Duke,460
+2nd Varsity 4+,86,2025-04-05,2,University of Minnesota,466
+2nd Varsity 4+,86,2025-04-05,3,Clemson,475
+2nd Varsity 4+,87,2025-04-05,1,Brown University,452
+2nd Varsity 4+,87,2025-04-05,2,University of Pennsylvania,458
+2nd Varsity 4+,88,2025-04-05,1,Boston University - BU,459
+2nd Varsity 4+,88,2025-04-05,2,Dartmouth College,461
+2nd Varsity 4+,88,2025-04-05,3,Northeastern,476
+2nd Varsity 4+,89,2025-04-12,1,Yale University,420
+2nd Varsity 4+,89,2025-04-12,2,Dartmouth College,444
+2nd Varsity 4+,90,2025-04-12,1,Harvard University,439
+2nd Varsity 4+,90,2025-04-12,2,Princeton University,444
+2nd Varsity 4+,90,2025-04-12,3,Cornell University,461
+2nd Varsity 4+,91,2025-04-12,1,Texas,426
+2nd Varsity 4+,91,2025-04-12,2,Michigan,434
+2nd Varsity 4+,92,2025-04-12,1,Kansas State,447
+2nd Varsity 4+,92,2025-04-12,2,Iowa,453
+2nd Varsity 4+,93,2025-04-12,1,University of Minnesota,433
+2nd Varsity 4+,93,2025-04-12,2,UCSD,464
+2nd Varsity 4+,94,2025-04-12,1,University of Minnesota,454
+2nd Varsity 4+,94,2025-04-12,2,Kansas State,478
+2nd Varsity 4+,95,2025-04-12,1,Iowa,468
+2nd Varsity 4+,95,2025-04-12,2,UCSD,491
+2nd Varsity 4+,96,2025-04-12,1,Stanford,468
+2nd Varsity 4+,96,2025-04-12,2,Syracuse,484
+2nd Varsity 4+,97,2025-04-13,1,California,435
+2nd Varsity 4+,97,2025-04-13,2,Syracuse,438
+2nd Varsity 4+,98,2025-04-18,1,Washington - UW,442
+2nd Varsity 4+,98,2025-04-18,2,University of Pennsylvania,452
+2nd Varsity 4+,98,2025-04-18,3,Clemson,454
+2nd Varsity 4+,98,2025-04-18,4,Notre Dame,474
+2nd Varsity 4+,98,2025-04-18,5,Iowa,486
+2nd Varsity 4+,99,2025-04-18,1,Tennessee,438
+2nd Varsity 4+,99,2025-04-18,2,Oregon State - OSU,442
+2nd Varsity 4+,99,2025-04-18,3,Ohio,443
+2nd Varsity 4+,99,2025-04-18,4,UCLA,457
+2nd Varsity 4+,99,2025-04-18,5,Michigan State,462
+2nd Varsity 4+,99,2025-04-18,6,SMU,473
+2nd Varsity 4+,100,2025-04-18,1,Michigan,434
+2nd Varsity 4+,100,2025-04-18,2,Duke,435
+2nd Varsity 4+,100,2025-04-18,3,Harvard University,436
+2nd Varsity 4+,100,2025-04-18,4,USC,448
+2nd Varsity 4+,100,2025-04-18,5,Miami,454
+2nd Varsity 4+,100,2025-04-18,6,Wisconsin,462
+2nd Varsity 4+,101,2025-04-18,1,Rutgers,426
+2nd Varsity 4+,101,2025-04-18,2,Brown University,438
+2nd Varsity 4+,101,2025-04-18,3,University of Minnesota,447
+2nd Varsity 4+,101,2025-04-18,4,Oklahoma,453
+2nd Varsity 4+,102,2025-04-18,1,Washington - UW,435
+2nd Varsity 4+,102,2025-04-18,2,Duke,439
+2nd Varsity 4+,102,2025-04-18,3,Brown University,439
+2nd Varsity 4+,102,2025-04-18,4,Ohio,452
+2nd Varsity 4+,102,2025-04-18,5,Miami,459
+2nd Varsity 4+,102,2025-04-18,6,Wisconsin,462
+2nd Varsity 4+,103,2025-04-18,1,Rutgers,433
+2nd Varsity 4+,103,2025-04-18,2,Tennessee,438
+2nd Varsity 4+,103,2025-04-18,3,University of Pennsylvania,449
+2nd Varsity 4+,103,2025-04-18,4,Michigan,453
+2nd Varsity 4+,103,2025-04-18,5,SMU,479
+2nd Varsity 4+,104,2025-04-18,1,Harvard University,445
+2nd Varsity 4+,104,2025-04-18,2,UCLA,448
+2nd Varsity 4+,104,2025-04-18,3,Oklahoma,450
+2nd Varsity 4+,104,2025-04-18,4,Indiana,465
+2nd Varsity 4+,104,2025-04-18,5,Iowa,490
+2nd Varsity 4+,105,2025-04-18,1,USC,448
+2nd Varsity 4+,105,2025-04-18,2,Clemson,452
+2nd Varsity 4+,105,2025-04-18,3,University of Minnesota,456
+2nd Varsity 4+,105,2025-04-18,4,Oregon State - OSU,458
+2nd Varsity 4+,105,2025-04-18,5,Michigan State,458
+2nd Varsity 4+,105,2025-04-18,6,Notre Dame,469
+2nd Varsity 4+,106,2025-04-25,1,Brown University,501
+2nd Varsity 4+,106,2025-04-25,2,Cornell University,528
+2nd Varsity 4+,107,2025-04-26,1,UCLA,490
+2nd Varsity 4+,107,2025-04-26,2,UCSD,522
+2nd Varsity 4+,108,2025-04-26,1,Yale University,472
+2nd Varsity 4+,108,2025-04-26,2,Harvard University,482
+2nd Varsity 4+,109,2025-04-26,1,Princeton University,430
+2nd Varsity 4+,109,2025-04-26,2,Tennessee,433
+2nd Varsity 4+,109,2025-04-26,3,Syracuse,443
+2nd Varsity 4+,109,2025-04-26,4,Ohio,446
+2nd Varsity 4+,110,2025-04-26,1,Notre Dame,518
+2nd Varsity 4+,110,2025-04-26,2,Indiana,533
+2nd Varsity 4+,110,2025-04-26,3,Michigan State,550
+2nd Varsity 4+,111,2025-04-26,1,Texas,451
+2nd Varsity 4+,111,2025-04-26,2,Stanford,459
+2nd Varsity 4+,111,2025-04-26,3,UCF,482
+2nd Varsity 4+,112,2025-04-26,1,California,444
+2nd Varsity 4+,112,2025-04-26,2,Washington - UW,446
+2nd Varsity 4+,113,2025-04-26,1,North Carolina Chapel Hill - UNC,449
+2nd Varsity 4+,113,2025-04-26,2,Duke,453
+2nd Varsity 4+,113,2025-04-26,3,Clemson,461
+2nd Varsity 4+,113,2025-04-26,4,Washington State - WSU,472
+2nd Varsity 4+,113,2025-04-26,5,Jacksonville,487
+2nd Varsity 4+,114,2025-04-26,1,Virginia - UVA,448
+2nd Varsity 4+,114,2025-04-26,2,Columbia University,452
+2nd Varsity 4+,114,2025-04-26,3,Miami,462
+2nd Varsity 4+,114,2025-04-26,4,Gonzaga,468
+2nd Varsity 4+,114,2025-04-26,5,Kansas State,480
+2nd Varsity 4+,115,2025-04-26,1,Boston University - BU,458
+2nd Varsity 4+,115,2025-04-26,2,Boston College,478
+2nd Varsity 4+,115,2025-04-26,3,Louisville,483
+2nd Varsity 4+,116,2025-04-26,1,Clemson,451
+2nd Varsity 4+,116,2025-04-26,2,Gonzaga,462
+2nd Varsity 4+,116,2025-04-26,3,Boston College,469
+2nd Varsity 4+,116,2025-04-26,4,Louisville,474
+2nd Varsity 4+,117,2025-04-26,1,North Carolina Chapel Hill - UNC,442
+2nd Varsity 4+,117,2025-04-26,2,Virginia - UVA,446
+2nd Varsity 4+,117,2025-04-26,3,Boston University - BU,451
+2nd Varsity 4+,117,2025-04-26,4,Washington State - WSU,460
+2nd Varsity 4+,117,2025-04-26,5,Miami,460
+2nd Varsity 4+,117,2025-04-26,6,Kansas State,477
+2nd Varsity 4+,118,2025-04-26,1,Duke,446
+2nd Varsity 4+,118,2025-04-26,2,Columbia University,453
+2nd Varsity 4+,118,2025-04-26,3,Jacksonville,471
+2nd Varsity 4+,119,2025-04-26,1,Columbia University,450
+2nd Varsity 4+,119,2025-04-26,2,Clemson,454
+2nd Varsity 4+,119,2025-04-26,3,Washington State - WSU,458
+2nd Varsity 4+,119,2025-04-26,4,Miami,460
+2nd Varsity 4+,119,2025-04-26,5,Louisville,471
+2nd Varsity 4+,119,2025-04-26,6,Jacksonville,478
+2nd Varsity 4+,120,2025-04-26,1,North Carolina Chapel Hill - UNC,443
+2nd Varsity 4+,120,2025-04-26,2,Kansas State,460
+2nd Varsity 4+,120,2025-04-26,3,Boston College,474
+2nd Varsity 4+,121,2025-04-26,1,Duke,442
+2nd Varsity 4+,121,2025-04-26,2,Virginia - UVA,446
+2nd Varsity 4+,121,2025-04-26,3,Boston University - BU,447
+2nd Varsity 4+,121,2025-04-26,4,Gonzaga,469
+1st Varsity 8+,122,2025-03-22,1,Yale University,381
+1st Varsity 8+,122,2025-03-22,2,Rutgers,385
+1st Varsity 8+,122,2025-03-22,3,Ohio,402
+1st Varsity 8+,123,2025-03-22,1,Yale University,374
+1st Varsity 8+,123,2025-03-22,2,Michigan,391
+1st Varsity 8+,124,2025-03-22,1,Rutgers,371
+1st Varsity 8+,124,2025-03-22,2,University of Pennsylvania,380
+1st Varsity 8+,125,2025-03-22,1,University of Pennsylvania,385
+1st Varsity 8+,125,2025-03-22,2,Michigan,387
+1st Varsity 8+,125,2025-03-22,3,Syracuse,387
+1st Varsity 8+,126,2025-03-22,1,Syracuse,387
+1st Varsity 8+,126,2025-03-22,2,Ohio,391
+2nd Varsity 8+,127,2025-03-22,1,Yale University,391
+2nd Varsity 8+,127,2025-03-22,2,Rutgers,396
+2nd Varsity 8+,127,2025-03-22,3,Ohio,414
+2nd Varsity 8+,128,2025-03-22,1,Yale University,384
+2nd Varsity 8+,128,2025-03-22,2,Michigan,397
+2nd Varsity 8+,129,2025-03-22,1,Rutgers,386
+2nd Varsity 8+,129,2025-03-22,2,University of Pennsylvania,394
+2nd Varsity 8+,130,2025-03-22,1,Syracuse,397
+2nd Varsity 8+,130,2025-03-22,2,Michigan,403
+2nd Varsity 8+,130,2025-03-22,3,University of Pennsylvania,407
+2nd Varsity 8+,131,2025-03-22,1,Syracuse,388
+2nd Varsity 8+,131,2025-03-22,2,Ohio,394
+1st Varsity 8+,132,2025-03-29,1,Stanford,377
+1st Varsity 8+,132,2025-03-29,2,Tennessee,386
+1st Varsity 8+,133,2025-03-29,1,Oregon State - OSU,388
+1st Varsity 8+,133,2025-03-29,2,Gonzaga,395
+1st Varsity 8+,133,2025-03-29,3,Portland,417
+1st Varsity 8+,134,2025-03-29,1,Boston University - BU,401
+1st Varsity 8+,134,2025-03-29,2,Cornell University,404
+1st Varsity 8+,135,2025-03-29,1,Cornell University,434
+1st Varsity 8+,135,2025-03-29,2,Colgate,450
+1st Varsity 8+,136,2025-03-29,1,Princeton University,372
+1st Varsity 8+,136,2025-03-29,2,Brown University,375
+1st Varsity 8+,137,2025-03-29,1,Ohio,404
+1st Varsity 8+,137,2025-03-29,2,Virginia - UVA,406
+1st Varsity 8+,138,2025-03-29,1,Michigan,406
+1st Varsity 8+,138,2025-03-29,2,Oklahoma,418
+1st Varsity 8+,139,2025-03-29,1,Ohio,437
+1st Varsity 8+,139,2025-03-29,2,Oklahoma,440
+1st Varsity 8+,140,2025-03-29,1,Virginia - UVA,419
+1st Varsity 8+,140,2025-03-29,2,Michigan,424
+1st Varsity 8+,141,2025-03-29,1,UCF,387
+1st Varsity 8+,141,2025-03-29,2,Dartmouth College,389
+1st Varsity 8+,141,2025-03-29,3,North Carolina Chapel Hill - UNC,390
+1st Varsity 8+,141,2025-03-29,4,Michigan State,392
+1st Varsity 8+,141,2025-03-29,5,Iowa,394
+1st Varsity 8+,141,2025-03-29,6,Miami,397
+2nd Varsity 8+,142,2025-03-29,1,Stanford,386
+2nd Varsity 8+,142,2025-03-29,2,Tennessee,390
+2nd Varsity 8+,143,2025-03-29,1,Oregon State - OSU,404
+2nd Varsity 8+,143,2025-03-29,2,Gonzaga,409
+2nd Varsity 8+,143,2025-03-29,3,Portland,431
+2nd Varsity 8+,144,2025-03-29,1,Boston University - BU,421
+2nd Varsity 8+,144,2025-03-29,2,Cornell University,435
+2nd Varsity 8+,145,2025-03-29,1,Cornell University,454
+2nd Varsity 8+,145,2025-03-29,2,Colgate,481
+2nd Varsity 8+,146,2025-03-29,1,Princeton University,381
+2nd Varsity 8+,146,2025-03-29,2,Brown University,391
+2nd Varsity 8+,147,2025-03-29,1,Virginia - UVA,410
+2nd Varsity 8+,147,2025-03-29,2,Ohio,423
+2nd Varsity 8+,148,2025-03-29,1,Oklahoma,415
+2nd Varsity 8+,148,2025-03-29,2,Michigan,416
+2nd Varsity 8+,149,2025-03-29,1,Ohio,439
+2nd Varsity 8+,149,2025-03-29,2,Oklahoma,442
+2nd Varsity 8+,150,2025-03-29,1,Virginia - UVA,426
+2nd Varsity 8+,150,2025-03-29,2,Michigan,434
+2nd Varsity 8+,151,2025-03-29,1,Kansas State,413
+2nd Varsity 8+,151,2025-03-29,2,Iowa,414
+2nd Varsity 8+,151,2025-03-29,3,Louisville,414
+2nd Varsity 8+,151,2025-03-29,4,Boston College,418
+2nd Varsity 8+,152,2025-03-29,1,UCF,394
+2nd Varsity 8+,152,2025-03-29,2,Dartmouth College,402
+2nd Varsity 8+,152,2025-03-29,3,North Carolina Chapel Hill - UNC,403
+2nd Varsity 8+,152,2025-03-29,4,Miami,403
+2nd Varsity 8+,152,2025-03-29,5,Michigan State,408
+1st Varsity 8+,153,2025-04-04,1,Tennessee,398
+1st Varsity 8+,153,2025-04-04,2,University of Minnesota,414
+1st Varsity 8+,153,2025-04-04,3,North Carolina Chapel Hill - UNC,421
+2nd Varsity 8+,154,2025-04-04,1,Tennessee,408
+2nd Varsity 8+,154,2025-04-04,2,University of Minnesota,424
+2nd Varsity 8+,154,2025-04-04,3,North Carolina Chapel Hill - UNC,432
+1st Varsity 8+,155,2025-04-04,1,Ohio,367
+1st Varsity 8+,155,2025-04-04,2,SMU,377
+1st Varsity 8+,156,2025-04-04,1,Columbia University,369
+1st Varsity 8+,156,2025-04-04,2,Indiana,372
+2nd Varsity 8+,157,2025-04-04,1,Ohio,372
+2nd Varsity 8+,157,2025-04-04,2,SMU,376
+2nd Varsity 8+,158,2025-04-04,1,Columbia University,376
+2nd Varsity 8+,158,2025-04-04,2,Indiana,378
+1st Varsity 8+,159,2025-04-05,1,Yale University,404
+1st Varsity 8+,159,2025-04-05,2,Syracuse,416
+1st Varsity 8+,159,2025-04-05,3,Cornell University,436
+1st Varsity 8+,160,2025-04-05,1,Oregon State - OSU,374
+1st Varsity 8+,160,2025-04-05,2,Washington State - WSU,382
+1st Varsity 8+,161,2025-04-05,1,Tennessee,380
+1st Varsity 8+,161,2025-04-05,2,UCF,389
+1st Varsity 8+,161,2025-04-05,3,Duke,403
+1st Varsity 8+,162,2025-04-05,1,Brown University,384
+1st Varsity 8+,162,2025-04-05,2,University of Pennsylvania,389
+1st Varsity 8+,163,2025-04-05,1,Dartmouth College,384
+1st Varsity 8+,163,2025-04-05,2,Boston University - BU,387
+1st Varsity 8+,163,2025-04-05,3,Northeastern,389
+1st Varsity 8+,164,2025-04-05,1,Ohio,359
+1st Varsity 8+,164,2025-04-05,2,Columbia University,363
+1st Varsity 8+,165,2025-04-05,1,North Carolina Chapel Hill - UNC,398
+1st Varsity 8+,165,2025-04-05,2,University of Minnesota,399
+1st Varsity 8+,165,2025-04-05,3,Clemson,406
+2nd Varsity 8+,166,2025-04-05,1,Yale University,416
+2nd Varsity 8+,166,2025-04-05,2,Syracuse,431
+2nd Varsity 8+,166,2025-04-05,3,Cornell University,459
+2nd Varsity 8+,167,2025-04-05,1,Oregon State - OSU,387
+2nd Varsity 8+,167,2025-04-05,2,Washington State - WSU,401
+2nd Varsity 8+,168,2025-04-05,1,Brown University,391
+2nd Varsity 8+,168,2025-04-05,2,University of Pennsylvania,398
+2nd Varsity 8+,169,2025-04-05,1,Dartmouth College,393
+2nd Varsity 8+,169,2025-04-05,2,Northeastern,400
+2nd Varsity 8+,169,2025-04-05,3,Boston University - BU,401
+2nd Varsity 8+,170,2025-04-05,1,Tennessee,394
+2nd Varsity 8+,170,2025-04-05,2,Duke,399
+2nd Varsity 8+,170,2025-04-05,3,UCF,401
+2nd Varsity 8+,171,2025-04-05,1,Clemson,410
+2nd Varsity 8+,171,2025-04-05,2,University of Minnesota,416
+2nd Varsity 8+,171,2025-04-05,3,North Carolina Chapel Hill - UNC,417
+1st Varsity 8+,172,2025-04-12,1,Yale University,368
+1st Varsity 8+,172,2025-04-12,2,Dartmouth College,382
+1st Varsity 8+,173,2025-04-12,1,Princeton University,378
+1st Varsity 8+,173,2025-04-12,2,Harvard University,385
+1st Varsity 8+,173,2025-04-12,3,Cornell University,400
+1st Varsity 8+,174,2025-04-12,1,Columbia University,402
+1st Varsity 8+,174,2025-04-12,2,Northeastern,404
+1st Varsity 8+,174,2025-04-12,3,Boston University - BU,405
+1st Varsity 8+,175,2025-04-12,1,Texas,371
+1st Varsity 8+,175,2025-04-12,2,Michigan,379
+1st Varsity 8+,176,2025-04-12,1,Iowa,380
+1st Varsity 8+,176,2025-04-12,2,Kansas State,388
+1st Varsity 8+,177,2025-04-12,1,University of Minnesota,376
+1st Varsity 8+,177,2025-04-12,2,UCSD,388
+1st Varsity 8+,178,2025-04-12,1,University of Minnesota,397
+1st Varsity 8+,178,2025-04-12,2,Kansas State,407
+1st Varsity 8+,179,2025-04-12,1,Iowa,404
+1st Varsity 8+,179,2025-04-12,2,UCSD,418
+1st Varsity 8+,180,2025-04-12,1,Stanford,401
+1st Varsity 8+,180,2025-04-12,2,Syracuse,413
+1st Varsity 8+,181,2025-04-12,1,California,408
+1st Varsity 8+,181,2025-04-12,2,Virginia - UVA,414
+2nd Varsity 8+,182,2025-04-12,1,Yale University,379
+2nd Varsity 8+,182,2025-04-12,2,Dartmouth College,391
+2nd Varsity 8+,183,2025-04-12,1,Princeton University,391
+2nd Varsity 8+,183,2025-04-12,2,Harvard University,398
+2nd Varsity 8+,183,2025-04-12,3,Cornell University,420
+2nd Varsity 8+,184,2025-04-12,1,Columbia University,408
+2nd Varsity 8+,184,2025-04-12,2,Northeastern,409
+2nd Varsity 8+,184,2025-04-12,3,Boston University - BU,420
+2nd Varsity 8+,185,2025-04-12,1,Texas,380
+2nd Varsity 8+,185,2025-04-12,2,Michigan,392
+2nd Varsity 8+,186,2025-04-12,1,Kansas State,391
+2nd Varsity 8+,186,2025-04-12,2,Iowa,397
+2nd Varsity 8+,187,2025-04-12,1,University of Minnesota,388
+2nd Varsity 8+,187,2025-04-12,2,UCSD,403
+2nd Varsity 8+,188,2025-04-12,1,University of Minnesota,413
+2nd Varsity 8+,188,2025-04-12,2,Kansas State,420
+2nd Varsity 8+,189,2025-04-12,1,Iowa,424
+2nd Varsity 8+,189,2025-04-12,2,UCSD,432
+2nd Varsity 8+,190,2025-04-12,1,Stanford,417
+2nd Varsity 8+,190,2025-04-12,2,Syracuse,434
+2nd Varsity 8+,191,2025-04-12,1,California,429
+2nd Varsity 8+,191,2025-04-12,2,Virginia - UVA,442
+1st Varsity 8+,192,2025-04-13,1,Stanford,372
+1st Varsity 8+,192,2025-04-13,2,Virginia - UVA,388
+1st Varsity 8+,193,2025-04-13,1,California,380
+1st Varsity 8+,193,2025-04-13,2,Syracuse,384
+2nd Varsity 8+,194,2025-04-13,1,Stanford,379
+2nd Varsity 8+,194,2025-04-13,2,Virginia - UVA,397
+2nd Varsity 8+,195,2025-04-13,1,California,389
+2nd Varsity 8+,195,2025-04-13,2,Syracuse,392
+1st Varsity 8+,196,2025-04-18,1,Washington - UW,377
+1st Varsity 8+,196,2025-04-18,2,Indiana,384
+1st Varsity 8+,196,2025-04-18,3,University of Pennsylvania,386
+1st Varsity 8+,196,2025-04-18,4,Clemson,390
+1st Varsity 8+,196,2025-04-18,5,Notre Dame,398
+1st Varsity 8+,196,2025-04-18,6,Iowa,399
+1st Varsity 8+,197,2025-04-18,1,Tennessee,374
+1st Varsity 8+,197,2025-04-18,2,Ohio,383
+1st Varsity 8+,197,2025-04-18,3,Oregon State - OSU,383
+1st Varsity 8+,197,2025-04-18,4,Michigan State,384
+1st Varsity 8+,197,2025-04-18,5,SMU,395
+1st Varsity 8+,197,2025-04-18,6,UCLA,397
+1st Varsity 8+,198,2025-04-18,1,Michigan,379
+1st Varsity 8+,198,2025-04-18,2,Harvard University,381
+1st Varsity 8+,198,2025-04-18,3,Miami,390
+1st Varsity 8+,198,2025-04-18,4,USC,391
+1st Varsity 8+,198,2025-04-18,5,Duke,395
+1st Varsity 8+,198,2025-04-18,6,Wisconsin,401
+1st Varsity 8+,199,2025-04-18,1,Rutgers,378
+1st Varsity 8+,199,2025-04-18,2,Brown University,384
+1st Varsity 8+,199,2025-04-18,3,University of Minnesota,392
+1st Varsity 8+,199,2025-04-18,4,Oklahoma,398
+1st Varsity 8+,200,2025-04-18,1,Washington - UW,373
+1st Varsity 8+,200,2025-04-18,2,Brown University,380
+1st Varsity 8+,200,2025-04-18,3,Ohio,387
+1st Varsity 8+,200,2025-04-18,4,Miami,392
+1st Varsity 8+,200,2025-04-18,5,Duke,393
+1st Varsity 8+,200,2025-04-18,6,Wisconsin,395
+1st Varsity 8+,201,2025-04-18,1,Tennessee,375
+1st Varsity 8+,201,2025-04-18,2,Rutgers,380
+1st Varsity 8+,201,2025-04-18,3,University of Pennsylvania,386
+1st Varsity 8+,201,2025-04-18,4,Michigan,388
+1st Varsity 8+,201,2025-04-18,5,SMU,402
+1st Varsity 8+,202,2025-04-18,1,Harvard University,386
+1st Varsity 8+,202,2025-04-18,2,Indiana,388
+1st Varsity 8+,202,2025-04-18,3,Oklahoma,396
+1st Varsity 8+,202,2025-04-18,4,Iowa,398
+1st Varsity 8+,202,2025-04-18,5,UCLA,402
+1st Varsity 8+,203,2025-04-18,1,Oregon State - OSU,387
+1st Varsity 8+,203,2025-04-18,2,Michigan State,392
+1st Varsity 8+,203,2025-04-18,3,USC,393
+1st Varsity 8+,203,2025-04-18,4,Clemson,393
+1st Varsity 8+,203,2025-04-18,5,Notre Dame,397
+1st Varsity 8+,203,2025-04-18,6,University of Minnesota,397
+2nd Varsity 8+,204,2025-04-18,1,Washington - UW,386
+2nd Varsity 8+,204,2025-04-18,2,University of Pennsylvania,394
+2nd Varsity 8+,204,2025-04-18,3,Indiana,400
+2nd Varsity 8+,204,2025-04-18,4,Clemson,400
+2nd Varsity 8+,204,2025-04-18,5,Notre Dame,411
+2nd Varsity 8+,204,2025-04-18,6,Iowa,416
+2nd Varsity 8+,205,2025-04-18,1,Tennessee,387
+2nd Varsity 8+,205,2025-04-18,2,UCLA,398
+2nd Varsity 8+,205,2025-04-18,3,Oregon State - OSU,398
+2nd Varsity 8+,205,2025-04-18,4,Michigan State,399
+2nd Varsity 8+,205,2025-04-18,5,Ohio,399
+2nd Varsity 8+,205,2025-04-18,6,SMU,401
+2nd Varsity 8+,206,2025-04-18,1,Michigan,387
+2nd Varsity 8+,206,2025-04-18,2,Harvard University,389
+2nd Varsity 8+,206,2025-04-18,3,USC,395
+2nd Varsity 8+,206,2025-04-18,4,Duke,396
+2nd Varsity 8+,206,2025-04-18,5,Miami,402
+2nd Varsity 8+,206,2025-04-18,6,Wisconsin,421
+2nd Varsity 8+,207,2025-04-18,1,Rutgers,381
+2nd Varsity 8+,207,2025-04-18,2,Brown University,382
+2nd Varsity 8+,207,2025-04-18,3,Oklahoma,389
+2nd Varsity 8+,207,2025-04-18,4,University of Minnesota,395
+2nd Varsity 8+,208,2025-04-18,1,Washington - UW,385
+2nd Varsity 8+,208,2025-04-18,2,Brown University,391
+2nd Varsity 8+,208,2025-04-18,3,Duke,401
+2nd Varsity 8+,208,2025-04-18,4,Ohio,407
+2nd Varsity 8+,208,2025-04-18,5,Miami,409
+2nd Varsity 8+,208,2025-04-18,6,Wisconsin,424
+2nd Varsity 8+,209,2025-04-18,1,Tennessee,388
+2nd Varsity 8+,209,2025-04-18,2,Rutgers,394
+2nd Varsity 8+,209,2025-04-18,3,Michigan,397
+2nd Varsity 8+,209,2025-04-18,4,University of Pennsylvania,398
+2nd Varsity 8+,209,2025-04-18,5,SMU,411
+2nd Varsity 8+,210,2025-04-18,1,Oklahoma,393
+2nd Varsity 8+,210,2025-04-18,2,Harvard University,395
+2nd Varsity 8+,210,2025-04-18,3,UCLA,399
+2nd Varsity 8+,210,2025-04-18,4,Indiana,401
+2nd Varsity 8+,210,2025-04-18,5,Iowa,415
+2nd Varsity 8+,211,2025-04-18,1,USC,399
+2nd Varsity 8+,211,2025-04-18,2,Oregon State - OSU,400
+2nd Varsity 8+,211,2025-04-18,3,University of Minnesota,401
+2nd Varsity 8+,211,2025-04-18,4,Notre Dame,403
+2nd Varsity 8+,211,2025-04-18,5,Michigan State,403
+2nd Varsity 8+,211,2025-04-18,6,Clemson,403
+1st Varsity 8+,212,2025-04-19,1,Yale University,363
+1st Varsity 8+,212,2025-04-19,2,Princeton University,367
+1st Varsity 8+,213,2025-04-19,1,Dartmouth College,424
+1st Varsity 8+,213,2025-04-19,2,Rhode Island (RIU),448
+1st Varsity 8+,214,2025-04-19,1,Northeastern,429
+1st Varsity 8+,214,2025-04-19,2,Cornell University,433
+1st Varsity 8+,215,2025-04-19,1,Northeastern,426
+1st Varsity 8+,215,2025-04-19,2,Rhode Island (RIU),434
+1st Varsity 8+,216,2025-04-19,1,Dartmouth College,419
+1st Varsity 8+,216,2025-04-19,2,Cornell University,436
+1st Varsity 8+,217,2025-04-19,1,Gonzaga,395
+1st Varsity 8+,217,2025-04-19,2,Washington State - WSU,401
+2nd Varsity 8+,218,2025-04-19,1,Yale University,376
+2nd Varsity 8+,218,2025-04-19,2,Princeton University,377
+2nd Varsity 8+,219,2025-04-19,1,Dartmouth College,427
+2nd Varsity 8+,219,2025-04-19,2,Rhode Island (RIU),452
+2nd Varsity 8+,220,2025-04-19,1,Northeastern,441
+2nd Varsity 8+,220,2025-04-19,2,Cornell University,443
+2nd Varsity 8+,221,2025-04-19,1,Northeastern,449
+2nd Varsity 8+,221,2025-04-19,2,Rhode Island (RIU),459
+2nd Varsity 8+,222,2025-04-19,1,Dartmouth College,432
+2nd Varsity 8+,222,2025-04-19,2,Cornell University,448
+2nd Varsity 8+,223,2025-04-19,1,Gonzaga,401
+2nd Varsity 8+,223,2025-04-19,2,Washington State - WSU,411
+1st Varsity 8+,224,2025-04-25,1,Brown University,408
+1st Varsity 8+,224,2025-04-25,2,Cornell University,428
+2nd Varsity 8+,225,2025-04-25,1,Brown University,421
+2nd Varsity 8+,225,2025-04-25,2,Cornell University,451
+1st Varsity 8+,226,2025-04-26,1,UCLA,423
+1st Varsity 8+,226,2025-04-26,2,UCSD,443
+1st Varsity 8+,227,2025-04-26,1,Yale University,398
+1st Varsity 8+,227,2025-04-26,2,Harvard University,411
+1st Varsity 8+,228,2025-04-26,1,Tennessee,357
+1st Varsity 8+,228,2025-04-26,2,Princeton University,361
+1st Varsity 8+,228,2025-04-26,3,Syracuse,373
+1st Varsity 8+,228,2025-04-26,4,Ohio,382
+1st Varsity 8+,229,2025-04-26,1,Indiana,446
+1st Varsity 8+,229,2025-04-26,2,Michigan State,451
+1st Varsity 8+,229,2025-04-26,3,Notre Dame,461
+1st Varsity 8+,230,2025-04-26,1,UCF,411
+1st Varsity 8+,230,2025-04-26,2,Oklahoma,420
+1st Varsity 8+,230,2025-04-26,3,SMU,432
+1st Varsity 8+,231,2025-04-26,1,Stanford,392
+1st Varsity 8+,231,2025-04-26,2,Texas,398
+1st Varsity 8+,232,2025-04-26,1,Clemson,392
+1st Varsity 8+,232,2025-04-26,2,Duke,393
+1st Varsity 8+,232,2025-04-26,3,Washington State - WSU,393
+1st Varsity 8+,232,2025-04-26,4,North Carolina Chapel Hill - UNC,394
+1st Varsity 8+,232,2025-04-26,5,Jacksonville,411
+1st Varsity 8+,233,2025-04-26,1,Virginia - UVA,383
+1st Varsity 8+,233,2025-04-26,2,Columbia University,390
+1st Varsity 8+,233,2025-04-26,3,Miami,394
+1st Varsity 8+,233,2025-04-26,4,Gonzaga,394
+1st Varsity 8+,233,2025-04-26,5,Kansas State,408
+1st Varsity 8+,234,2025-04-26,1,Boston University - BU,395
+1st Varsity 8+,234,2025-04-26,2,Louisville,400
+1st Varsity 8+,234,2025-04-26,3,Rhode Island (RIU),405
+1st Varsity 8+,234,2025-04-26,4,Boston College,408
+1st Varsity 8+,235,2025-04-26,1,Clemson,398
+1st Varsity 8+,235,2025-04-26,2,Gonzaga,400
+1st Varsity 8+,235,2025-04-26,3,Louisville,409
+1st Varsity 8+,235,2025-04-26,4,Boston College,413
+1st Varsity 8+,236,2025-04-26,1,Virginia - UVA,387
+1st Varsity 8+,236,2025-04-26,2,Washington State - WSU,396
+1st Varsity 8+,236,2025-04-26,3,Boston University - BU,397
+1st Varsity 8+,236,2025-04-26,4,North Carolina Chapel Hill - UNC,400
+1st Varsity 8+,236,2025-04-26,5,Miami,405
+1st Varsity 8+,236,2025-04-26,6,Kansas State,416
+1st Varsity 8+,237,2025-04-26,1,Duke,391
+1st Varsity 8+,237,2025-04-26,2,Columbia University,394
+1st Varsity 8+,237,2025-04-26,3,Rhode Island (RIU),404
+1st Varsity 8+,237,2025-04-26,4,Jacksonville,419
+1st Varsity 8+,238,2025-04-26,1,Columbia University,386
+1st Varsity 8+,238,2025-04-26,2,Washington State - WSU,388
+1st Varsity 8+,238,2025-04-26,3,Miami,390
+1st Varsity 8+,238,2025-04-26,4,Clemson,390
+1st Varsity 8+,238,2025-04-26,5,Louisville,396
+1st Varsity 8+,238,2025-04-26,6,Jacksonville,410
+1st Varsity 8+,239,2025-04-26,1,North Carolina Chapel Hill - UNC,389
+1st Varsity 8+,239,2025-04-26,2,Kansas State,399
+1st Varsity 8+,239,2025-04-26,3,Boston College,402
+1st Varsity 8+,240,2025-04-26,1,Virginia - UVA,378
+1st Varsity 8+,240,2025-04-26,2,Duke,387
+1st Varsity 8+,240,2025-04-26,3,Boston University - BU,388
+1st Varsity 8+,240,2025-04-26,4,Gonzaga,390
+1st Varsity 8+,240,2025-04-26,5,Rhode Island (RIU),400
+1st Varsity 8+,241,2025-04-26,1,Washington - UW,393
+1st Varsity 8+,241,2025-04-26,2,California,399
+2nd Varsity 8+,242,2025-04-26,1,UCLA,418
+2nd Varsity 8+,242,2025-04-26,2,UCSD,439
+2nd Varsity 8+,243,2025-04-26,1,Yale University,406
+2nd Varsity 8+,243,2025-04-26,2,Harvard University,415
+2nd Varsity 8+,244,2025-04-26,1,Tennessee,371
+2nd Varsity 8+,244,2025-04-26,2,Princeton University,377
+2nd Varsity 8+,244,2025-04-26,3,Syracuse,388
+2nd Varsity 8+,244,2025-04-26,4,Ohio,402
+2nd Varsity 8+,245,2025-04-26,1,Indiana,456
+2nd Varsity 8+,245,2025-04-26,2,Notre Dame,462
+2nd Varsity 8+,245,2025-04-26,3,Michigan State,467
+2nd Varsity 8+,246,2025-04-26,1,UCF,423
+2nd Varsity 8+,246,2025-04-26,2,SMU,427
+2nd Varsity 8+,246,2025-04-26,3,Oklahoma,432
+2nd Varsity 8+,247,2025-04-26,1,Stanford,404
+2nd Varsity 8+,247,2025-04-26,2,Texas,411
+2nd Varsity 8+,248,2025-04-26,1,Duke,401
+2nd Varsity 8+,248,2025-04-26,2,Clemson,404
+2nd Varsity 8+,248,2025-04-26,3,North Carolina Chapel Hill - UNC,406
+2nd Varsity 8+,248,2025-04-26,4,Washington State - WSU,414
+2nd Varsity 8+,248,2025-04-26,5,Jacksonville,429
+2nd Varsity 8+,249,2025-04-26,1,Virginia - UVA,392
+2nd Varsity 8+,249,2025-04-26,2,Columbia University,400
+2nd Varsity 8+,249,2025-04-26,3,Miami,407
+2nd Varsity 8+,249,2025-04-26,4,Gonzaga,410
+2nd Varsity 8+,249,2025-04-26,5,Kansas State,413
+2nd Varsity 8+,250,2025-04-26,1,Boston University - BU,402
+2nd Varsity 8+,250,2025-04-26,2,Louisville,404
+2nd Varsity 8+,250,2025-04-26,3,Boston College,411
+2nd Varsity 8+,250,2025-04-26,4,Rhode Island (RIU),414
+2nd Varsity 8+,251,2025-04-26,1,Clemson,404
+2nd Varsity 8+,251,2025-04-26,2,Gonzaga,407
+2nd Varsity 8+,251,2025-04-26,3,Louisville,411
+2nd Varsity 8+,251,2025-04-26,4,Boston College,416
+2nd Varsity 8+,252,2025-04-26,1,Virginia - UVA,397
+2nd Varsity 8+,252,2025-04-26,2,North Carolina Chapel Hill - UNC,401
+2nd Varsity 8+,252,2025-04-26,3,Boston University - BU,403
+2nd Varsity 8+,252,2025-04-26,4,Washington State - WSU,403
+2nd Varsity 8+,252,2025-04-26,5,Miami,409
+2nd Varsity 8+,252,2025-04-26,6,Kansas State,413
+2nd Varsity 8+,253,2025-04-26,1,Duke,395
+2nd Varsity 8+,253,2025-04-26,2,Columbia University,400
+2nd Varsity 8+,253,2025-04-26,3,Rhode Island (RIU),417
+2nd Varsity 8+,253,2025-04-26,4,Jacksonville,421
+2nd Varsity 8+,254,2025-04-26,1,Columbia University,398
+2nd Varsity 8+,254,2025-04-26,2,Clemson,398
+2nd Varsity 8+,254,2025-04-26,3,Louisville,404
+2nd Varsity 8+,254,2025-04-26,4,Miami,405
+2nd Varsity 8+,254,2025-04-26,5,Washington State - WSU,406
+2nd Varsity 8+,254,2025-04-26,6,Jacksonville,426
+2nd Varsity 8+,255,2025-04-26,1,North Carolina Chapel Hill - UNC,398
+2nd Varsity 8+,255,2025-04-26,2,Boston College,404
+2nd Varsity 8+,255,2025-04-26,3,Kansas State,409
+2nd Varsity 8+,256,2025-04-26,1,Virginia - UVA,390
+2nd Varsity 8+,256,2025-04-26,2,Duke,393
+2nd Varsity 8+,256,2025-04-26,3,Boston University - BU,401
+2nd Varsity 8+,256,2025-04-26,4,Gonzaga,411
+2nd Varsity 8+,256,2025-04-26,5,Rhode Island (RIU),420
+2nd Varsity 8+,257,2025-04-26,1,Washington - UW,397
+2nd Varsity 8+,257,2025-04-26,2,California,413
+1st Varsity 8+,258,2025-05-03,1,Princeton University,361
+1st Varsity 8+,258,2025-05-03,2,University of Pennsylvania,378
+2nd Varsity 8+,259,2025-05-03,1,Princeton University,370
+2nd Varsity 8+,259,2025-05-03,2,University of Pennsylvania,383
+1st Varsity 4+,260,2025-05-03,1,Princeton University,423
+1st Varsity 4+,260,2025-05-03,2,University of Pennsylvania,425
+2nd Varsity 4+,261,2025-05-03,1,Princeton University,430
+2nd Varsity 4+,261,2025-05-03,2,University of Pennsylvania,442
+1st Varsity 8+,262,2025-05-03,1,Stanford,392
+1st Varsity 8+,262,2025-05-03,2,California,407
+2nd Varsity 8+,263,2025-05-03,1,Stanford,410
+2nd Varsity 8+,263,2025-05-03,2,California,428
+1st Varsity 4+,264,2025-05-03,1,Stanford,458
+1st Varsity 4+,264,2025-05-03,2,California,473
+2nd Varsity 4+,265,2025-05-03,1,Stanford,471
+2nd Varsity 4+,265,2025-05-03,2,California,490
+2nd Varsity 4+,266,2025-05-04,1,Rutgers,489
+2nd Varsity 4+,266,2025-05-04,2,Brown University,494
+2nd Varsity 4+,266,2025-05-04,3,Harvard University,503
+2nd Varsity 4+,266,2025-05-04,4,Columbia University,507
+2nd Varsity 4+,266,2025-05-04,5,Boston University - BU,522
+2nd Varsity 4+,266,2025-05-04,6,Dartmouth College,533
+2nd Varsity 4+,267,2025-05-04,1,Northeastern,522
+2nd Varsity 4+,267,2025-05-04,2,Cornell University,528
+2nd Varsity 4+,267,2025-05-04,3,Boston College,549
+2nd Varsity 4+,267,2025-05-04,4,George Washington,575
+1st Varsity 4+,268,2025-05-04,1,Northeastern,504
+1st Varsity 4+,268,2025-05-04,2,Boston College,505
+1st Varsity 4+,268,2025-05-04,3,Michigan State,537
+1st Varsity 4+,269,2025-05-04,1,Rutgers,469
+1st Varsity 4+,269,2025-05-04,2,Harvard University,469
+1st Varsity 4+,269,2025-05-04,3,Brown University,474
+1st Varsity 4+,269,2025-05-04,4,Dartmouth College,480
+1st Varsity 4+,269,2025-05-04,5,Columbia University,487
+1st Varsity 4+,269,2025-05-04,6,Boston University - BU,502
+2nd Varsity 8+,270,2025-05-04,1,Michigan State,436
+2nd Varsity 8+,270,2025-05-04,2,Cornell University,446
+2nd Varsity 8+,270,2025-05-04,3,Boston University - BU,450
+2nd Varsity 8+,270,2025-05-04,4,George Washington,456
+2nd Varsity 8+,270,2025-05-04,5,Boston College,463
+2nd Varsity 8+,271,2025-05-04,1,Brown University,414
+2nd Varsity 8+,271,2025-05-04,2,Harvard University,419
+2nd Varsity 8+,271,2025-05-04,3,Rutgers,421
+2nd Varsity 8+,271,2025-05-04,4,Dartmouth College,425
+2nd Varsity 8+,271,2025-05-04,5,Columbia University,433
+2nd Varsity 8+,271,2025-05-04,6,Northeastern,433
+1st Varsity 8+,272,2025-05-04,1,Boston University - BU,421
+1st Varsity 8+,272,2025-05-04,2,Northeastern,427
+1st Varsity 8+,272,2025-05-04,3,Cornell University,429
+1st Varsity 8+,272,2025-05-04,4,George Washington,429
+1st Varsity 8+,272,2025-05-04,5,Rhode Island (RIU),437
+1st Varsity 8+,272,2025-05-04,6,Boston College,438
+1st Varsity 8+,273,2025-05-04,1,Rutgers,407
+1st Varsity 8+,273,2025-05-04,2,Brown University,413
+1st Varsity 8+,273,2025-05-04,3,Harvard University,417
+1st Varsity 8+,273,2025-05-04,4,Dartmouth College,422
+1st Varsity 8+,273,2025-05-04,5,Columbia University,426
+1st Varsity 8+,273,2025-05-04,6,Michigan State,429
+1st Varsity 8+,274,2025-05-04,1,UCF,412
+1st Varsity 8+,274,2025-05-04,2,Miami,434
+2nd Varsity 8+,275,2025-05-04,1,UCF,428
+2nd Varsity 8+,275,2025-05-04,2,Miami,447
+1st Varsity 4+,276,2025-05-04,1,UCF,479
+1st Varsity 4+,276,2025-05-04,2,Miami,502
+1st Varsity 8+,277,2025-05-11,1,Texas,372
+1st Varsity 8+,277,2025-05-11,2,Tennessee,375
+1st Varsity 8+,277,2025-05-11,3,Oklahoma,391
+2nd Varsity 8+,278,2025-05-11,1,Tennessee,384
+2nd Varsity 8+,278,2025-05-11,2,Texas,386
+2nd Varsity 8+,278,2025-05-11,3,Oklahoma,407
+1st Varsity 4+,279,2025-05-11,1,Texas,427
+1st Varsity 4+,279,2025-05-11,2,Tennessee,438
+1st Varsity 4+,279,2025-05-11,3,Oklahoma,450
+2nd Varsity 4+,280,2025-05-11,1,Texas,432
+2nd Varsity 4+,280,2025-05-11,2,Tennessee,435
+2nd Varsity 4+,280,2025-05-11,3,Oklahoma,457
+1st Varsity 8+,281,2025-05-17,1,Washington - UW,385
+1st Varsity 8+,281,2025-05-17,2,Indiana,393
+1st Varsity 8+,281,2025-05-17,3,Ohio,399
+1st Varsity 8+,281,2025-05-17,4,University of Wisconsin,405
+1st Varsity 8+,281,2025-05-17,5,Iowa,406
+1st Varsity 8+,281,2025-05-17,6,UCLA,413
+1st Varsity 8+,282,2025-05-17,1,Rutgers,385
+1st Varsity 8+,282,2025-05-17,2,Michigan,390
+1st Varsity 8+,282,2025-05-17,3,Michigan State,395
+1st Varsity 8+,282,2025-05-17,4,Minnesota,402
+1st Varsity 8+,282,2025-05-17,5,USC,406
+2nd Varsity 8+,283,2025-05-17,1,Washington - UW,395
+2nd Varsity 8+,283,2025-05-17,2,Minnesota,408
+2nd Varsity 8+,283,2025-05-17,3,Indiana,409
+2nd Varsity 8+,283,2025-05-17,4,Michigan State,409
+2nd Varsity 8+,283,2025-05-17,5,UCLA,411
+2nd Varsity 8+,283,2025-05-17,6,Wisconsin,425
+2nd Varsity 8+,284,2025-05-17,1,Rutgers,395
+2nd Varsity 8+,284,2025-05-17,2,Michigan,399
+2nd Varsity 8+,284,2025-05-17,3,USC,408
+2nd Varsity 8+,284,2025-05-17,4,Ohio,409
+2nd Varsity 8+,284,2025-05-17,5,Iowa,426
+1st Varsity 4+,285,2025-05-17,1,Washington - UW,440
+1st Varsity 4+,285,2025-05-17,2,Ohio,447
+1st Varsity 4+,285,2025-05-17,3,Minnesota,449
+1st Varsity 4+,285,2025-05-17,4,USC,451
+1st Varsity 4+,285,2025-05-17,5,Michigan State,470
+1st Varsity 4+,285,2025-05-17,6,Wisconsin,471
+1st Varsity 4+,286,2025-05-17,1,Rutgers,441
+1st Varsity 4+,286,2025-05-17,2,Michigan,447
+1st Varsity 4+,286,2025-05-17,3,Indiana,455
+1st Varsity 4+,286,2025-05-17,4,UCLA,460
+1st Varsity 4+,286,2025-05-17,5,Iowa,465
+2nd Varsity 4+,287,2025-05-17,1,Washington - UW,447
+2nd Varsity 4+,287,2025-05-17,2,Ohio,454
+2nd Varsity 4+,287,2025-05-17,3,Minnesota,457
+2nd Varsity 4+,287,2025-05-17,4,UCLA,460
+2nd Varsity 4+,287,2025-05-17,5,Michigan State,477
+2nd Varsity 4+,287,2025-05-17,6,Iowa,502
+2nd Varsity 4+,288,2025-05-17,1,Rutgers,448
+2nd Varsity 4+,288,2025-05-17,2,Michigan,451
+2nd Varsity 4+,288,2025-05-17,3,USC,458
+2nd Varsity 4+,288,2025-05-17,4,Indiana,483
+2nd Varsity 4+,288,2025-05-17,5,Wisconsin,503
+1st Varsity 8+,289,2025-05-18,1,Washington - UW,365
+1st Varsity 8+,289,2025-05-18,2,Rutgers,366
+1st Varsity 8+,289,2025-05-18,3,Michigan,370
+1st Varsity 8+,289,2025-05-18,4,Indiana,372
+1st Varsity 8+,289,2025-05-18,5,Michigan State,377
+1st Varsity 8+,289,2025-05-18,6,Ohio,381
+1st Varsity 8+,290,2025-05-18,1,USC,384
+1st Varsity 8+,290,2025-05-18,2,University of Minnesota,388
+1st Varsity 8+,290,2025-05-18,3,University of Wisconsin,388
+1st Varsity 8+,290,2025-05-18,4,Iowa,389
+1st Varsity 8+,290,2025-05-18,5,UCLA,389
+2nd Varsity 8+,291,2025-05-18,1,Washington - UW,371
+2nd Varsity 8+,291,2025-05-18,2,Rutgers,377
+2nd Varsity 8+,291,2025-05-18,3,Indiana,392
+2nd Varsity 8+,291,2025-05-18,4,USC,392
+2nd Varsity 8+,291,2025-05-18,5,University of Minnesota,393
+2nd Varsity 8+,292,2025-05-18,1,Michigan State,393
+2nd Varsity 8+,292,2025-05-18,2,UCLA,394
+2nd Varsity 8+,292,2025-05-18,3,Iowa,400
+2nd Varsity 8+,292,2025-05-18,4,University of Wisconsin,402
+2nd Varsity 8+,292,2025-05-18,5,Ohio,404
+1st Varsity 4+,293,2025-05-18,1,Washington - UW,413
+1st Varsity 4+,293,2025-05-18,2,Rutgers,416
+1st Varsity 4+,293,2025-05-18,3,Michigan,417
+1st Varsity 4+,293,2025-05-18,4,Ohio,422
+1st Varsity 4+,293,2025-05-18,5,University of Minnesota,426
+1st Varsity 4+,293,2025-05-18,6,Indiana,437
+1st Varsity 4+,294,2025-05-18,1,USC,431
+1st Varsity 4+,294,2025-05-18,2,Iowa,440
+1st Varsity 4+,294,2025-05-18,3,UCLA,441
+1st Varsity 4+,294,2025-05-18,4,Michigan State,448
+1st Varsity 4+,294,2025-05-18,5,University of Wisconsin,452
+2nd Varsity 4+,295,2025-05-18,1,Washington - UW,418
+2nd Varsity 4+,295,2025-05-18,2,Rutgers,419
+2nd Varsity 4+,295,2025-05-18,3,Michigan,427
+2nd Varsity 4+,295,2025-05-18,4,USC,434
+2nd Varsity 4+,295,2025-05-18,5,Ohio,435
+2nd Varsity 4+,295,2025-05-18,6,University of Minnesota,440
+2nd Varsity 4+,296,2025-05-18,1,UCLA,438
+2nd Varsity 4+,296,2025-05-18,2,Indiana,448
+2nd Varsity 4+,296,2025-05-18,3,Michigan State,453
+2nd Varsity 4+,296,2025-05-18,4,Iowa,463
+2nd Varsity 4+,296,2025-05-18,5,University of Wisconsin,473
+1st Varsity 8+,297,2025-05-18,1,Jacksonville,400
+1st Varsity 8+,297,2025-05-18,2,Marist,411
+1st Varsity 8+,297,2025-05-18,3,Canisius,413
+1st Varsity 8+,297,2025-05-18,4,Robert Morris,429
+1st Varsity 8+,297,2025-05-18,5,Iona,434
+1st Varsity 8+,298,2025-05-18,1,Fairfield,399
+1st Varsity 8+,298,2025-05-18,2,Sacred Heart,402
+1st Varsity 8+,298,2025-05-18,3,Eastern Michigan,417
+1st Varsity 8+,298,2025-05-18,4,Drake,430
+1st Varsity 8+,299,2025-05-18,1,Robert Morris,423
+1st Varsity 8+,299,2025-05-18,2,Iona,425
+1st Varsity 8+,299,2025-05-18,3,Drake,429
+1st Varsity 8+,300,2025-05-18,1,Fairfield,402
+1st Varsity 8+,300,2025-05-18,2,Stetson,404
+1st Varsity 8+,300,2025-05-18,3,Jacksonville,406
+1st Varsity 8+,300,2025-05-18,4,Marist,408
+1st Varsity 8+,300,2025-05-18,5,Sacred Heart,409
+1st Varsity 8+,300,2025-05-18,6,Canisius,413
+1st Varsity 4+,301,2025-05-18,1,Jacksonville,469
+1st Varsity 4+,301,2025-05-18,2,Fairfield,496
+1st Varsity 4+,301,2025-05-18,3,Canisius,508
+1st Varsity 4+,301,2025-05-18,4,Drake,607
+1st Varsity 4+,301,2025-05-18,5,Iona,635
+1st Varsity 4+,302,2025-05-18,1,Sacred Heart,460
+1st Varsity 4+,302,2025-05-18,2,Marist,464
+1st Varsity 4+,302,2025-05-18,3,Stetson,534
+1st Varsity 4+,302,2025-05-18,4,Robert Morris,553
+1st Varsity 4+,303,2025-05-18,1,Robert Morris,549
+1st Varsity 4+,303,2025-05-18,2,Drake,592
+1st Varsity 4+,303,2025-05-18,3,Iona,704
+1st Varsity 4+,304,2025-05-18,1,Sacred Heart,454
+1st Varsity 4+,304,2025-05-18,2,Jacksonville,457
+1st Varsity 4+,304,2025-05-18,3,Marist,460
+1st Varsity 4+,304,2025-05-18,4,Fairfield,500
+1st Varsity 4+,304,2025-05-18,5,Canisius,515
+1st Varsity 4+,304,2025-05-18,6,Eastern Michigan,528
+2nd Varsity 8+,305,2025-05-18,1,Jacksonville,412
+2nd Varsity 8+,305,2025-05-18,2,Fairfield,435
+2nd Varsity 8+,305,2025-05-18,3,Canisius,438
+2nd Varsity 8+,305,2025-05-18,4,Iona,482
+2nd Varsity 8+,305,2025-05-18,5,Robert Morris,486
+2nd Varsity 8+,306,2025-05-18,1,Sacred Heart,420
+2nd Varsity 8+,306,2025-05-18,2,Marist,433
+2nd Varsity 8+,306,2025-05-18,3,Stetson,441
+2nd Varsity 8+,306,2025-05-18,4,Drake,452
+2nd Varsity 8+,307,2025-05-18,1,Drake,455
+2nd Varsity 8+,307,2025-05-18,2,Iona,472
+2nd Varsity 8+,307,2025-05-18,3,Robert Morris,482
+2nd Varsity 8+,308,2025-05-18,1,Jacksonville,412
+2nd Varsity 8+,308,2025-05-18,2,Marist,416
+2nd Varsity 8+,308,2025-05-18,3,Fairfield,420
+2nd Varsity 8+,308,2025-05-18,4,Sacred Heart,423
+2nd Varsity 8+,308,2025-05-18,5,Stetson,431
+2nd Varsity 8+,308,2025-05-18,6,Canisius,437
+2nd Varsity 4+,309,2025-05-18,1,Sacred Heart,470
+2nd Varsity 4+,309,2025-05-18,2,Jacksonville,475
+2nd Varsity 4+,309,2025-05-18,3,Fairfield,508
+2nd Varsity 4+,309,2025-05-18,4,Marist,519
+2nd Varsity 4+,309,2025-05-18,5,Canisius,528
+2nd Varsity 4+,310,2025-05-18,1,UCF,453
+2nd Varsity 4+,310,2025-05-18,2,Kansas State,467
+2nd Varsity 4+,310,2025-05-18,3,Tulsa,471
+2nd Varsity 4+,310,2025-05-18,4,Kansas,472
+2nd Varsity 4+,310,2025-05-18,5,Old Dominion,491
+2nd Varsity 4+,310,2025-05-18,6,West Virginia,495
+1st Varsity 4+,311,2025-05-18,1,UCF,442
+1st Varsity 4+,311,2025-05-18,2,Kansas State,449
+1st Varsity 4+,311,2025-05-18,3,Tulsa,471
+1st Varsity 4+,311,2025-05-18,4,Old Dominion,477
+1st Varsity 4+,311,2025-05-18,5,Kansas,485
+1st Varsity 4+,311,2025-05-18,6,West Virginia,488
+2nd Varsity 8+,312,2025-05-18,1,UCF,395
+2nd Varsity 8+,312,2025-05-18,2,Tulsa,411
+2nd Varsity 8+,312,2025-05-18,3,Kansas,415
+2nd Varsity 8+,312,2025-05-18,4,Kansas State,417
+2nd Varsity 8+,312,2025-05-18,5,West Virginia,428
+2nd Varsity 8+,312,2025-05-18,6,Old Dominion,442
+1st Varsity 8+,313,2025-05-18,1,UCF,382
+1st Varsity 8+,313,2025-05-18,2,Tulsa,398
+1st Varsity 8+,313,2025-05-18,3,Kansas,407
+1st Varsity 8+,313,2025-05-18,4,Kansas State,412
+1st Varsity 8+,313,2025-05-18,5,Old Dominion,417
+1st Varsity 8+,313,2025-05-18,6,West Virginia,419
+1st Varsity 8+,314,2025-05-17,1,Yale University,368
+1st Varsity 8+,314,2025-05-17,2,University of Pennsylvania,372
+1st Varsity 8+,314,2025-05-17,3,Harvard University,378
+1st Varsity 8+,314,2025-05-17,4,Cornell University,398
+1st Varsity 8+,315,2025-05-17,1,Princeton University,365
+1st Varsity 8+,315,2025-05-17,2,Dartmouth College,369
+1st Varsity 8+,315,2025-05-17,3,Brown University,377
+1st Varsity 8+,315,2025-05-17,4,Columbia University,388
+1st Varsity 8+,316,2025-05-18,1,Princeton University,361
+1st Varsity 8+,316,2025-05-18,2,Yale University,365
+1st Varsity 8+,316,2025-05-18,3,Brown University,367
+1st Varsity 8+,316,2025-05-18,4,Dartmouth College,369
+1st Varsity 8+,316,2025-05-18,5,University of Pennsylvania,372
+1st Varsity 8+,316,2025-05-18,6,Harvard University,374
+1st Varsity 8+,317,2025-05-18,1,Columbia University,384
+1st Varsity 8+,317,2025-05-18,2,Cornell University,389
+2nd Varsity 8+,318,2025-05-17,1,Yale University,375
+2nd Varsity 8+,318,2025-05-17,2,University of Pennsylvania,382
+2nd Varsity 8+,318,2025-05-17,3,Harvard University,385
+2nd Varsity 8+,318,2025-05-17,4,Cornell University,417
+2nd Varsity 8+,319,2025-05-17,1,Princeton University,378
+2nd Varsity 8+,319,2025-05-17,2,Brown University,383
+2nd Varsity 8+,319,2025-05-17,3,Dartmouth College,389
+2nd Varsity 8+,319,2025-05-17,4,Columbia University,395
+2nd Varsity 8+,320,2025-05-18,1,Yale University,366
+2nd Varsity 8+,320,2025-05-18,2,Princeton University,367
+2nd Varsity 8+,320,2025-05-18,3,Brown University,372
+2nd Varsity 8+,320,2025-05-18,4,Harvard University,376
+2nd Varsity 8+,320,2025-05-18,5,Dartmouth College,384
+2nd Varsity 8+,320,2025-05-18,6,University of Pennsylvania,389
+2nd Varsity 8+,321,2025-05-18,1,Columbia University,387
+2nd Varsity 8+,321,2025-05-18,2,Cornell University,407
+1st Varsity 4+,322,2025-05-17,1,Yale University,415
+1st Varsity 4+,322,2025-05-17,2,Brown University,429
+1st Varsity 4+,322,2025-05-17,3,University of Pennsylvania,440
+1st Varsity 4+,322,2025-05-17,4,Cornell University,460
+1st Varsity 4+,323,2025-05-17,1,Princeton University,422
+1st Varsity 4+,323,2025-05-17,2,Dartmouth College,427
+1st Varsity 4+,323,2025-05-17,3,Harvard University,430
+1st Varsity 4+,323,2025-05-17,4,Columbia University,433
+1st Varsity 4+,324,2025-05-18,1,Yale University,412
+1st Varsity 4+,324,2025-05-18,2,Brown University,417
+1st Varsity 4+,324,2025-05-18,3,Princeton University,421
+1st Varsity 4+,324,2025-05-18,4,Harvard University,429
+1st Varsity 4+,324,2025-05-18,5,Dartmouth College,432
+1st Varsity 4+,324,2025-05-18,6,University of Pennsylvania,434
+1st Varsity 4+,325,2025-05-18,1,Columbia University,433
+1st Varsity 4+,325,2025-05-18,2,Cornell University,451
+2nd Varsity 4+,326,2025-05-17,1,Yale University,422
+2nd Varsity 4+,326,2025-05-17,2,Harvard University,436
+2nd Varsity 4+,326,2025-05-17,3,University of Pennsylvania,449
+2nd Varsity 4+,326,2025-05-17,4,Cornell University,466
+2nd Varsity 4+,327,2025-05-17,1,Brown University,434
+2nd Varsity 4+,327,2025-05-17,2,Princeton University,437
+2nd Varsity 4+,327,2025-05-17,3,Columbia University,440
+2nd Varsity 4+,327,2025-05-17,4,Dartmouth College,456
+2nd Varsity 4+,328,2025-05-18,1,Dartmouth College,447
+2nd Varsity 4+,328,2025-05-18,2,Cornell University,454
+2nd Varsity 4+,329,2025-05-18,1,Yale University,415
+2nd Varsity 4+,329,2025-05-18,2,Princeton University,418
+2nd Varsity 4+,329,2025-05-18,3,Brown University,425
+2nd Varsity 4+,329,2025-05-18,4,Harvard University,427
+2nd Varsity 4+,329,2025-05-18,5,Columbia University,438
+2nd Varsity 4+,329,2025-05-18,6,University of Pennsylvania,452
+1st Varsity 8+,330,2025-05-17,1,George Washington,410
+1st Varsity 8+,330,2025-05-17,2,La Salle,413
+1st Varsity 8+,330,2025-05-17,3,Umass,413
+1st Varsity 8+,330,2025-05-17,4,George Mason,432
+1st Varsity 8+,330,2025-05-17,5,Dayton,441
+1st Varsity 8+,331,2025-05-17,1,Rhode Island (RIU),408
+1st Varsity 8+,331,2025-05-17,2,Saint Joseph's,411
+1st Varsity 8+,331,2025-05-17,3,Fordham,423
+1st Varsity 8+,331,2025-05-17,4,Duquesne,431
+1st Varsity 8+,332,2025-05-17,1,Duquesne,414
+1st Varsity 8+,332,2025-05-17,2,George Mason,424
+1st Varsity 8+,332,2025-05-17,3,Dayton,426
+1st Varsity 8+,333,2025-05-17,1,Rhode Island (RIU),400
+1st Varsity 8+,333,2025-05-17,2,George Washington,403
+1st Varsity 8+,333,2025-05-17,3,Saint Joseph's,406
+1st Varsity 8+,333,2025-05-17,4,La Salle,406
+1st Varsity 8+,333,2025-05-17,5,Umass,412
+1st Varsity 8+,333,2025-05-17,6,Fordham,421
+2nd Varsity 8+,334,2025-05-17,1,George Washington,420
+2nd Varsity 8+,334,2025-05-17,2,Fordham,427
+2nd Varsity 8+,334,2025-05-17,3,La Salle,428
+2nd Varsity 8+,334,2025-05-17,4,George Mason,476
+2nd Varsity 8+,334,2025-05-17,5,Dayton,477
+2nd Varsity 8+,335,2025-05-17,1,Rhode Island (RIU),425
+2nd Varsity 8+,335,2025-05-17,2,Umass,435
+2nd Varsity 8+,335,2025-05-17,3,Saint Joseph's,440
+2nd Varsity 8+,335,2025-05-17,4,Duquesne,448
+2nd Varsity 8+,336,2025-05-17,1,Duquesne,455
+2nd Varsity 8+,336,2025-05-17,2,George Mason,485
+2nd Varsity 8+,336,2025-05-17,3,Dayton,492
+2nd Varsity 8+,337,2025-05-17,1,Rhode Island (RIU),406
+2nd Varsity 8+,337,2025-05-17,2,George Washington,409
+2nd Varsity 8+,337,2025-05-17,3,Umass,412
+2nd Varsity 8+,337,2025-05-17,4,Fordham,423
+2nd Varsity 8+,337,2025-05-17,5,La Salle,428
+2nd Varsity 8+,337,2025-05-17,6,Saint Joseph's,436
+1st Varsity 4+,338,2025-05-17,1,Umass,474
+1st Varsity 4+,338,2025-05-17,2,Duquesne,499
+1st Varsity 4+,338,2025-05-17,3,Fordham,507
+1st Varsity 4+,338,2025-05-17,4,George Mason,529
+1st Varsity 4+,339,2025-05-17,1,Rhode Island (RIU),482
+1st Varsity 4+,339,2025-05-17,2,George Washington,484
+1st Varsity 4+,339,2025-05-17,3,Saint Joseph's,492
+1st Varsity 4+,339,2025-05-17,4,La Salle,506
+1st Varsity 4+,340,2025-05-17,1,La Salle,543
+1st Varsity 4+,340,2025-05-17,2,George Mason,550
+1st Varsity 4+,341,2025-05-17,1,Umass,465
+1st Varsity 4+,341,2025-05-17,2,George Washington,482
+1st Varsity 4+,341,2025-05-17,3,Rhode Island (RIU),488
+1st Varsity 4+,341,2025-05-17,4,Saint Joseph's,504
+1st Varsity 4+,341,2025-05-17,5,Duquesne,510
+1st Varsity 4+,341,2025-05-17,6,Fordham,538
+2nd Varsity 4+,342,2025-05-17,1,Umass,496
+2nd Varsity 4+,342,2025-05-17,2,Duquesne,514
+2nd Varsity 4+,342,2025-05-17,3,George Washington,528
+2nd Varsity 4+,342,2025-05-17,4,La Salle,543
+2nd Varsity 4+,342,2025-05-17,5,George Mason,575
+1st Varsity 8+,343,2025-05-16,1,Stanford,368
+1st Varsity 8+,343,2025-05-16,2,Virginia - UVA,375
+1st Varsity 8+,343,2025-05-16,3,Duke,384
+1st Varsity 8+,343,2025-05-16,4,North Carolina Chapel Hill - UNC,389
+1st Varsity 8+,343,2025-05-16,5,Miami,391
+1st Varsity 8+,343,2025-05-16,6,Boston College,401
+1st Varsity 8+,344,2025-05-16,1,California,378
+1st Varsity 8+,344,2025-05-16,2,Syracuse,380
+1st Varsity 8+,344,2025-05-16,3,Clemson,388
+1st Varsity 8+,344,2025-05-16,4,Louisville,388
+1st Varsity 8+,344,2025-05-16,5,SMU,393
+1st Varsity 8+,344,2025-05-16,6,Notre Dame,397
+1st Varsity 8+,345,2025-05-17,1,North Carolina Chapel Hill - UNC,379
+1st Varsity 8+,345,2025-05-17,2,Louisville,381
+1st Varsity 8+,345,2025-05-17,3,Miami,382
+1st Varsity 8+,345,2025-05-17,4,SMU,384
+1st Varsity 8+,345,2025-05-17,5,Notre Dame,387
+1st Varsity 8+,345,2025-05-17,6,Boston College,390
+1st Varsity 8+,346,2025-05-17,1,Stanford,358
+1st Varsity 8+,346,2025-05-17,2,Virginia - UVA,368
+1st Varsity 8+,346,2025-05-17,3,California,369
+1st Varsity 8+,346,2025-05-17,4,Syracuse,373
+1st Varsity 8+,346,2025-05-17,5,Duke,380
+1st Varsity 8+,346,2025-05-17,6,Clemson,383
+2nd Varsity 8+,347,2025-05-16,1,Stanford,376
+2nd Varsity 8+,347,2025-05-16,2,Virginia - UVA,378
+2nd Varsity 8+,347,2025-05-16,3,Duke,393
+2nd Varsity 8+,347,2025-05-16,4,North Carolina Chapel Hill - UNC,401
+2nd Varsity 8+,347,2025-05-16,5,Notre Dame,407
+2nd Varsity 8+,347,2025-05-16,6,Boston College,423
+2nd Varsity 8+,348,2025-05-16,1,Syracuse,390
+2nd Varsity 8+,348,2025-05-16,2,California,393
+2nd Varsity 8+,348,2025-05-16,3,SMU,395
+2nd Varsity 8+,348,2025-05-16,4,Clemson,399
+2nd Varsity 8+,348,2025-05-16,5,Louisville,403
+2nd Varsity 8+,348,2025-05-16,6,Miami,408
+2nd Varsity 8+,349,2025-05-17,1,Notre Dame,390
+2nd Varsity 8+,349,2025-05-17,2,Clemson,391
+2nd Varsity 8+,349,2025-05-17,3,Louisville,391
+2nd Varsity 8+,349,2025-05-17,4,North Carolina Chapel Hill - UNC,392
+2nd Varsity 8+,349,2025-05-17,5,Miami,398
+2nd Varsity 8+,349,2025-05-17,6,Boston College,411
+2nd Varsity 8+,350,2025-05-17,1,Stanford,368
+2nd Varsity 8+,350,2025-05-17,2,Virginia - UVA,374
+2nd Varsity 8+,350,2025-05-17,3,Syracuse,381
+2nd Varsity 8+,350,2025-05-17,4,Duke,383
+2nd Varsity 8+,350,2025-05-17,5,SMU,388
+2nd Varsity 8+,350,2025-05-17,6,California,389
+1st Varsity 4+,351,2025-05-16,1,Stanford,421
+1st Varsity 4+,351,2025-05-16,2,Duke,434
+1st Varsity 4+,351,2025-05-16,3,Clemson,437
+1st Varsity 4+,351,2025-05-16,4,Virginia - UVA,444
+1st Varsity 4+,351,2025-05-16,5,Notre Dame,445
+1st Varsity 4+,351,2025-05-16,6,Boston College,451
+1st Varsity 4+,352,2025-05-16,1,Syracuse,425
+1st Varsity 4+,352,2025-05-16,2,California,429
+1st Varsity 4+,352,2025-05-16,3,North Carolina Chapel Hill - UNC,432
+1st Varsity 4+,352,2025-05-16,4,Miami,450
+1st Varsity 4+,352,2025-05-16,5,SMU,452
+1st Varsity 4+,352,2025-05-16,6,Louisville,457
+1st Varsity 4+,353,2025-05-17,1,Virginia - UVA,433
+1st Varsity 4+,353,2025-05-17,2,Notre Dame,440
+1st Varsity 4+,353,2025-05-17,3,SMU,440
+1st Varsity 4+,353,2025-05-17,4,Boston College,441
+1st Varsity 4+,353,2025-05-17,5,Miami,450
+1st Varsity 4+,353,2025-05-17,6,Louisville,451
+1st Varsity 4+,354,2025-05-17,1,Stanford,413
+1st Varsity 4+,354,2025-05-17,2,Syracuse,419
+1st Varsity 4+,354,2025-05-17,3,California,423
+1st Varsity 4+,354,2025-05-17,4,North Carolina Chapel Hill - UNC,423
+1st Varsity 4+,354,2025-05-17,5,Duke,425
+1st Varsity 4+,354,2025-05-17,6,Clemson,438
+2nd Varsity 4+,355,2025-05-16,1,Stanford,435
+2nd Varsity 4+,355,2025-05-16,2,North Carolina Chapel Hill - UNC,445
+2nd Varsity 4+,355,2025-05-16,3,Duke,454
+2nd Varsity 4+,355,2025-05-16,4,Miami,460
+2nd Varsity 4+,355,2025-05-16,5,North Carolina Chapel Hill - UNC,462
+2nd Varsity 4+,355,2025-05-16,6,Louisville,469
+2nd Varsity 4+,356,2025-05-16,1,California,439
+2nd Varsity 4+,356,2025-05-16,2,Virginia - UVA,446
+2nd Varsity 4+,356,2025-05-16,3,Syracuse,453
+2nd Varsity 4+,356,2025-05-16,4,Clemson,460
+2nd Varsity 4+,356,2025-05-16,5,Boston College,475
+2nd Varsity 4+,356,2025-05-16,6,SMU,488
+2nd Varsity 4+,357,2025-05-17,1,Clemson,445
+2nd Varsity 4+,357,2025-05-17,2,Miami,448
+2nd Varsity 4+,357,2025-05-17,3,Louisville,449
+2nd Varsity 4+,357,2025-05-17,4,Notre Dame,452
+2nd Varsity 4+,357,2025-05-17,5,Boston College,458
+2nd Varsity 4+,357,2025-05-17,6,SMU,477
+2nd Varsity 4+,358,2025-05-17,1,Stanford,418
+2nd Varsity 4+,358,2025-05-17,2,California,425
+2nd Varsity 4+,358,2025-05-17,3,North Carolina Chapel Hill - UNC,427
+2nd Varsity 4+,358,2025-05-17,4,Virginia - UVA,428
+2nd Varsity 4+,358,2025-05-17,5,Duke,433
+2nd Varsity 4+,358,2025-05-17,6,Syracuse,437
+1st Varsity 8+,359,2025-05-17,1,Oregon State - OSU,396
+1st Varsity 8+,359,2025-05-17,2,Gonzaga,405
+1st Varsity 8+,359,2025-05-17,3,Washington State - WSU,407
+1st Varsity 8+,359,2025-05-17,4,Sacramento State University,418
+1st Varsity 8+,359,2025-05-17,5,Saint Mary's,422
+1st Varsity 8+,359,2025-05-17,6,San Diego,424
+1st Varsity 8+,360,2025-05-17,1,Creighton,421
+1st Varsity 8+,360,2025-05-17,2,Portland,424
+1st Varsity 8+,360,2025-05-17,3,Santa Clara,433
+2nd Varsity 8+,361,2025-05-17,1,Oregon State - OSU,406
+2nd Varsity 8+,361,2025-05-17,2,Gonzaga,415
+2nd Varsity 8+,361,2025-05-17,3,Washington State - WSU,418
+2nd Varsity 8+,361,2025-05-17,4,San Diego,423
+2nd Varsity 8+,361,2025-05-17,5,Sacramento State University,433
+2nd Varsity 8+,361,2025-05-17,6,Saint Mary's,437
+2nd Varsity 8+,362,2025-05-17,1,Portland,436
+2nd Varsity 8+,362,2025-05-17,2,Santa Clara,440
+2nd Varsity 8+,362,2025-05-17,3,Creighton,452
+1st Varsity 4+,363,2025-05-17,1,Oregon State - OSU,456
+1st Varsity 4+,363,2025-05-17,2,Washington State - WSU,460
+1st Varsity 4+,363,2025-05-17,3,Gonzaga,463
+1st Varsity 4+,363,2025-05-17,4,San Diego,478
+1st Varsity 4+,363,2025-05-17,5,Sacramento State University,488
+1st Varsity 4+,363,2025-05-17,6,Saint Mary's,496
+1st Varsity 4+,364,2025-05-17,1,Creighton,493
+1st Varsity 4+,364,2025-05-17,2,Portland,496
+1st Varsity 4+,364,2025-05-17,3,Santa Clara,556
+2nd Varsity 4+,365,2025-05-17,1,Oregon State - OSU,471
+2nd Varsity 4+,365,2025-05-17,2,Washington State - WSU,478
+2nd Varsity 4+,365,2025-05-17,3,Gonzaga,488
+2nd Varsity 4+,365,2025-05-17,4,San Diego,499
+2nd Varsity 4+,365,2025-05-17,5,Portland,512
+2nd Varsity 4+,365,2025-05-17,6,Saint Mary's,513
+2nd Varsity 4+,366,2025-05-17,1,Sacramento State University,501
+2nd Varsity 4+,366,2025-05-17,2,Creighton,509
+1st Varsity 8+,367,2025-05-16,1,Northeastern,413
+1st Varsity 8+,367,2025-05-16,2,UCSD,420
+1st Varsity 8+,367,2025-05-16,3,Villanova,426
+1st Varsity 8+,367,2025-05-16,4,Monmouth,444
+1st Varsity 8+,368,2025-05-16,1,Delaware,416
+1st Varsity 8+,368,2025-05-16,2,Eastern Michigan,421
+1st Varsity 8+,368,2025-05-16,3,Drexel,425
+1st Varsity 8+,368,2025-05-16,4,UConn,433
+1st Varsity 8+,369,2025-05-17,1,UConn,430
+1st Varsity 8+,369,2025-05-17,2,Monmouth,444
+1st Varsity 8+,370,2025-05-17,1,Northeastern,405
+1st Varsity 8+,370,2025-05-17,2,Delaware,414
+1st Varsity 8+,370,2025-05-17,3,Drexel,419
+1st Varsity 8+,370,2025-05-17,4,Villanova,419
+1st Varsity 8+,370,2025-05-17,5,UCSD,423
+1st Varsity 8+,370,2025-05-17,6,Eastern Michigan,425
+2nd Varsity 8+,371,2025-05-16,1,Northeastern,419
+2nd Varsity 8+,371,2025-05-16,2,UCSD,435
+2nd Varsity 8+,371,2025-05-16,3,Eastern Michigan,443
+2nd Varsity 8+,371,2025-05-16,4,Monmouth,464
+2nd Varsity 8+,372,2025-05-16,1,Drexel,418
+2nd Varsity 8+,372,2025-05-16,2,Villanova,421
+2nd Varsity 8+,372,2025-05-16,3,UConn,428
+2nd Varsity 8+,372,2025-05-16,4,Delaware,434
+2nd Varsity 8+,373,2025-05-17,1,Delaware,430
+2nd Varsity 8+,373,2025-05-17,2,Monmouth,451
+2nd Varsity 8+,374,2025-05-17,1,North Carolina Chapel Hill - UNC,404
+2nd Varsity 8+,374,2025-05-17,2,Drexel,412
+2nd Varsity 8+,374,2025-05-17,3,Villanova,416
+2nd Varsity 8+,374,2025-05-17,4,UCSD,416
+2nd Varsity 8+,374,2025-05-17,5,UConn,426
+2nd Varsity 8+,374,2025-05-17,6,Eastern Michigan,432
+1st Varsity 4+,375,2025-05-16,1,Northeastern,476
+1st Varsity 4+,375,2025-05-16,2,UCSD,487
+1st Varsity 4+,375,2025-05-16,3,UConn,499
+1st Varsity 4+,375,2025-05-16,4,Monmouth,529
+1st Varsity 4+,376,2025-05-16,1,Drexel,466
+1st Varsity 4+,376,2025-05-16,2,Delaware,470
+1st Varsity 4+,376,2025-05-16,3,Eastern Michigan,504
+1st Varsity 4+,376,2025-05-16,4,Villanova,507
+1st Varsity 4+,377,2025-05-17,1,Villanova,504
+1st Varsity 4+,377,2025-05-17,2,Monmouth,510
+1st Varsity 4+,378,2025-05-17,1,Drexel,453
+1st Varsity 4+,378,2025-05-17,2,Northeastern,456
+1st Varsity 4+,378,2025-05-17,3,Delaware,461
+1st Varsity 4+,378,2025-05-17,4,UConn,464
+1st Varsity 4+,378,2025-05-17,5,UCSD,480
+1st Varsity 4+,378,2025-05-17,6,Eastern Michigan,502
+1st Varsity 8+,379,2025-05-30,1,Stanford,371
+1st Varsity 8+,379,2025-05-30,2,Brown University,374
+1st Varsity 8+,379,2025-05-30,3,Michigan,381
+1st Varsity 8+,379,2025-05-30,4,Harvard University,382
+1st Varsity 8+,379,2025-05-30,5,Syracuse,384
+1st Varsity 8+,380,2025-05-30,1,Yale University,372
+1st Varsity 8+,380,2025-05-30,2,Texas,375
+1st Varsity 8+,380,2025-05-30,3,Indiana,378
+1st Varsity 8+,380,2025-05-30,4,University of Pennsylvania,386
+1st Varsity 8+,380,2025-05-30,5,Oregon State - OSU,390
+1st Varsity 8+,381,2025-05-30,1,Tennessee,372
+1st Varsity 8+,381,2025-05-30,2,Rutgers,374
+1st Varsity 8+,381,2025-05-30,3,California,377
+1st Varsity 8+,381,2025-05-30,4,Dartmouth College,379
+1st Varsity 8+,381,2025-05-30,5,Boston University - BU,396
+1st Varsity 8+,381,2025-05-30,6,Fairfield,416
+1st Varsity 8+,382,2025-05-30,1,Washington - UW,373
+1st Varsity 8+,382,2025-05-30,2,Virginia - UVA,375
+1st Varsity 8+,382,2025-05-30,3,Princeton University,376
+1st Varsity 8+,382,2025-05-30,4,UCF,379
+1st Varsity 8+,382,2025-05-30,5,Northeastern,395
+1st Varsity 8+,382,2025-05-30,6,Rhode Island (RIU),408
+2nd Varsity 8+,383,2025-05-30,1,Stanford,378
+2nd Varsity 8+,383,2025-05-30,2,Harvard University,382
+2nd Varsity 8+,383,2025-05-30,3,California,385
+2nd Varsity 8+,383,2025-05-30,4,Rutgers,385
+2nd Varsity 8+,383,2025-05-30,5,Indiana,405
+2nd Varsity 8+,384,2025-05-30,1,Washington - UW,378
+2nd Varsity 8+,384,2025-05-30,2,Virginia - UVA,380
+2nd Varsity 8+,384,2025-05-30,3,Brown University,382
+2nd Varsity 8+,384,2025-05-30,4,University of Pennsylvania,394
+2nd Varsity 8+,384,2025-05-30,5,Oregon State - OSU,396
+2nd Varsity 8+,385,2025-05-30,1,Princeton University,378
+2nd Varsity 8+,385,2025-05-30,2,Tennessee,381
+2nd Varsity 8+,385,2025-05-30,3,Michigan,385
+2nd Varsity 8+,385,2025-05-30,4,UCF,394
+2nd Varsity 8+,385,2025-05-30,5,Northeastern,397
+2nd Varsity 8+,385,2025-05-30,6,Fairfield,433
+2nd Varsity 8+,386,2025-05-30,1,Texas,377
+2nd Varsity 8+,386,2025-05-30,2,Yale University,379
+2nd Varsity 8+,386,2025-05-30,3,Syracuse,383
+2nd Varsity 8+,386,2025-05-30,4,Dartmouth College,399
+2nd Varsity 8+,386,2025-05-30,5,Boston University - BU,407
+2nd Varsity 8+,386,2025-05-30,6,Rhode Island (RIU),420
+1st Varsity 4+,387,2025-05-30,1,Stanford,418
+1st Varsity 4+,387,2025-05-30,2,Michigan,423
+1st Varsity 4+,387,2025-05-30,3,Tennessee,424
+1st Varsity 4+,387,2025-05-30,4,Virginia - UVA,429
+1st Varsity 4+,387,2025-05-30,5,Indiana,442
+1st Varsity 4+,388,2025-05-30,1,Washington - UW,431
+1st Varsity 4+,388,2025-05-30,2,Princeton University,434
+1st Varsity 4+,388,2025-05-30,3,Brown University,435
+1st Varsity 4+,388,2025-05-30,4,Oregon State - OSU,440
+1st Varsity 4+,388,2025-05-30,5,University of Pennsylvania,440
+1st Varsity 4+,389,2025-05-30,1,Rutgers,428
+1st Varsity 4+,389,2025-05-30,2,Syracuse,428
+1st Varsity 4+,389,2025-05-30,3,California,430
+1st Varsity 4+,389,2025-05-30,4,UCF,438
+1st Varsity 4+,389,2025-05-30,5,Boston University - BU,445
+1st Varsity 4+,389,2025-05-30,6,Fairfield,486
+1st Varsity 4+,390,2025-05-30,1,Texas,423
+1st Varsity 4+,390,2025-05-30,2,Yale University,425
+1st Varsity 4+,390,2025-05-30,3,Harvard University,432
+1st Varsity 4+,390,2025-05-30,4,Dartmouth College,435
+1st Varsity 4+,390,2025-05-30,5,Rhode Island (RIU),477
