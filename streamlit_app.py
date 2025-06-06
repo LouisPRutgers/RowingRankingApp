@@ -379,37 +379,59 @@ def _weight_shapes() -> list[dict]:
 # ── helper to render right-aligned “Export Data” button ───────────────
 def render_export_button(dates, df_filtered, chosen, metric_series, mode):
     """
-    Builds a CSV of the races that are actually visible on the chart
-    (current boat class + chosen schools + current date range) and
-    shows a right-aligned download button under the plot.
+    Exports one row per (Date × School) that is visible on the chart,
+    even if the school did not race that day.  Race-specific columns
+    are left blank when no race occurred.
     """
     export_rows = []
+
+    chosen_set = set(chosen)                     # faster look-ups
+
     for i, d in enumerate(dates):
         date_str = d.strftime("%Y-%m-%d")
-        todays    = df_filtered[df_filtered["date"] == date_str]
+        todays   = df_filtered[df_filtered["date"] == date_str]
 
+        # --- build a quick lookup of races per school for today ----------
+        races_by_school = {}
         for _, row in todays.iterrows():
             team = row["school"]
-            if team not in chosen:            # skip schools not on chart
-                continue
+            if team in chosen_set:
+                races_by_school.setdefault(team, []).append(row)
 
-            export_rows.append({
-                "Date"        : date_str,
-                "School"      : team,
-                "Boat Class"  : row["Boat Class"],
-                "Race ID"     : row["race_id"],
-                "Position"    : row["position"],
-                "Elapsed (s)" : row["time"],
-                mode          : metric_series[team][i],   # Rank / Rating / etc.
-            })
+        # --- iterate over *all* chosen schools ---------------------------
+        for team in chosen:
+            # the metric value exists even if the team was idle
+            val = metric_series[team][i]
 
-    if not export_rows:                       # nothing to export right now
-        return
+            if team in races_by_school:          # one or more races today
+                for row in races_by_school[team]:
+                    export_rows.append({
+                        "Date"        : date_str,
+                        "School"      : team,
+                        "Boat Class"  : row["Boat Class"],
+                        "Race ID"     : row["race_id"],
+                        "Position"    : row["position"],
+                        "Elapsed (s)" : row["time"],
+                        mode          : val,
+                    })
+            else:                               # idle team – blank race cols
+                export_rows.append({
+                    "Date"        : date_str,
+                    "School"      : team,
+                    "Boat Class"  : "",
+                    "Race ID"     : "",
+                    "Position"    : "",
+                    "Elapsed (s)" : "",
+                    mode          : val,
+                })
+
+    if not export_rows:
+        return                                   # nothing to export
 
     export_df  = pd.DataFrame(export_rows)
     csv_bytes  = export_df.to_csv(index=False).encode("utf-8")
 
-    # right-align button just below the chart
+    # right-align button just below the plot
     left, right = st.columns([0.70, 0.30])
     with right:
         st.download_button(
@@ -419,6 +441,7 @@ def render_export_button(dates, df_filtered, chosen, metric_series, mode):
             mime      = "text/csv",
         )
 # ──────────────────────────────────────────────────────────────────────
+
 
 
 # Chart logic
